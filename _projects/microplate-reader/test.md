@@ -1,7 +1,7 @@
 ---
 layout: default
-title: Somethign Cool
-description: awesome
+title: Microplate Reader
+description: awesome description
 ---
 
 PipetteBot
