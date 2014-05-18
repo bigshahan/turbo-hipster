@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: project
 title: Microplate Reader
 description: awesome description
 ---
