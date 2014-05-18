@@ -11,3 +11,5 @@ _site
 .rvmrc
 .DS_Store
 
+# Don't commit in vagrant
+.vagrant
