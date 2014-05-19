@@ -23,3 +23,4 @@ jekyll serve -w
 # References
 - Vagrant / Jekyll: https://coderwall.com/p/xrfadg
 - Jekyll documentation: http://jekyllrb.com/
+- Markdown Syntax: https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet
