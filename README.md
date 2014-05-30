@@ -11,7 +11,7 @@ cd /vagrant
 jekyll serve -w
 
 # Running the site for development (linux and mac)
-Make sure ruby is installed. Then from the git project folder, do:
+Make sure ruby and nodejs is installed. Then from the git project folder, do:
 
 gem install jekyll
 bundle install
@@ -19,6 +19,15 @@ bundle install
 then:
 
 jekyll serve -w
+
+# Adding a New Project
+
+
+# How Project Tabs Work
+
+
+# Setting Up the Production Server
+
 
 # References
 - Vagrant / Jekyll: https://coderwall.com/p/xrfadg
