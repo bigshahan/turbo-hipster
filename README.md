@@ -5,20 +5,20 @@ turbo-hipster
 
 Install VirtualBox and Vagrant. Then from git project foler:
 
-vagrant up
-vagrant ssh
-cd /vagrant
-jekyll serve -w
+	vagrant up
+	vagrant ssh
+	cd /vagrant
+	jekyll serve -w
 
 # Running the site for development (linux and mac)
 Make sure ruby and nodejs is installed. Then from the git project folder, do:
 
-gem install jekyll
-bundle install
+	gem install jekyll
+	bundle install
 
 then:
 
-jekyll serve -w
+	jekyll serve -w
 
 # Adding a New Project
 
