@@ -23,13 +23,14 @@ jekyll serve -w
 # Adding a New Project
 
 
-# How Project Tabs Work
-
-
 # Setting Up the Production Server
 
 
+# Todo
+- Fix Post / Page to bootstrap
+
 # References
+- Boostrap: http://getbootstrap.com/
 - Vagrant / Jekyll: https://coderwall.com/p/xrfadg
 - Jekyll documentation: http://jekyllrb.com/
 - Markdown Syntax: https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet
