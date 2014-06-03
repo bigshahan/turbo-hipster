@@ -1,10 +1,10 @@
 ---
 layout: project
-title: Changelog
+title: Instructions
 project: microplate-reader
 ---
 
-Changelog
+Instructions
 ==========
 
-Changelog page
+Instructions page
