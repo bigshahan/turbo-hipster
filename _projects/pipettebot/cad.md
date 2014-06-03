@@ -9,4 +9,4 @@ CAD and Drawings
 
 | Part  | Description | Download  |
 | ------------- |:-------------:|:-----:|
-| Support      | Component of Stand | [Link](../blob/master/LICENSE) |
+| Support      | Component of Stand | [Link](/downloads/pipettebot/support.SLDPRT) |
