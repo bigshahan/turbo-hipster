@@ -7,4 +7,6 @@ project: pipettebot
 CAD and Drawings
 ==========
 
-CAD and Drawings page
+| Part  | Description | Download  |
+| ------------- |:-------------:|:-----:|
+| Support      | Component of Stand | [Link](../blob/master/LICENSE) |

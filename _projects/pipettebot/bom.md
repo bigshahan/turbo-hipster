@@ -7,4 +7,6 @@ project: pipettebot
 Bill of Materials
 ==========
 
-bill of materials page
+| Item  | Description | Quantity | Price  | Link | 
+| ------------- |:--:|:-------------:| :-----:|:--:|
+| Makerslide 1800mm      | Aluminum v-rail extrusion | 1 | $32.84 | [Inventables](https://www.inventables.com/) |
