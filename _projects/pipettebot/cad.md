@@ -19,7 +19,9 @@ CAD and Drawings
 		<tr>
 			<td>Support</td>
 			<td>Component of Stand</td>
-			<td><a target="_blank" href="/downloads/pipettebot/support.SLDPRT">Solidworks</a></td>
+			<td>
+				<a target="_blank" href="/downloads/pipettebot/support.SLDPRT">Solidworks</a>
+			</td>
 		</tr>
 	</tbody>
 </table>
