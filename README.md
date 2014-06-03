@@ -26,9 +26,6 @@ jekyll serve -w
 # Setting Up the Production Server
 
 
-# Todo
-- Fix Post / Page to bootstrap
-
 # References
 - Boostrap: http://getbootstrap.com/
 - Vagrant / Jekyll: https://coderwall.com/p/xrfadg
