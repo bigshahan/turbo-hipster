@@ -8,32 +8,47 @@
 		{% include header.html %}
 
 		<!-- create tabs -->
-		<div class="page-content">
-			<div class="wrap">
+		<div class="container-fluid">
+			<div class="col-sm-12 page-header">
 				<!-- Project Name -->
 				{% for project in site.projects %}
 					{% if project.home %}
 						{% if project.project == page.project %}
-							<h1>{{ project.title }}</h1>
+							<h1 >{{ project.title }}</h1>
 						{% endif %}
 					{% endif %}
 				{% endfor %}
+			</div>
 
-				<!-- Project Tabs -->
-				<a href="/projects/{{ page.project }}/">Home</a>
-				<a href="/projects/{{ page.project }}/bom.html">Bill of Materials</a>
-				<a href="/projects/{{ page.project }}/cad.html">CAD Files</a>
-				<a href="/projects/{{ page.project }}/instructions.html">Instructions</a>
-				<a href="/projects/{{ page.project }}/changelog.html">Changelog</a>
-				<a href="/projects/{{ page.project }}/faq.html">FAQ</a>
+			<!-- Project Tabs -->
+			<div class="col-sm-12">
+				<ul class="nav nav-tabs">
+					<li class="active">
+						<a href="/projects/{{ page.project }}/">Home</a>
+					</li>
+					<li>
+						<a href="/projects/{{ page.project }}/bom.html">Bill of Materials</a>
+					</li>
+					<li>
+						<a href="/projects/{{ page.project }}/cad.html">CAD Files</a>
+					</li>
+					<li>
+						<a href="/projects/{{ page.project }}/instructions.html">Instructions</a>
+					</li>
+					<li>
+						<a href="/projects/{{ page.project }}/changelog.html">Changelog</a>
+					</li>
+					<li>
+						<a href="/projects/{{ page.project }}/faq.html">FAQ</a>
+					</li>
+				</ul>
+				
 			</div>
 		</div>
 
 		<!-- display page content -->
-		<div class="page-content">
-			<div class="wrap">
+		<div class="container-fluid">
 			{{ content }}
-			</div>
 		</div>
 
 		{% include footer.html %}
