@@ -23,22 +23,22 @@
 			<!-- Project Tabs -->
 			<div class="col-sm-12">
 				<ul class="nav nav-tabs">
-					<li class="active">
+					<li {% if page.home %} class="active" {% endif %}>
 						<a href="/projects/{{ page.project }}/">Home</a>
 					</li>
-					<li>
+					<li {% if page.title == 'Bill of Materials' %} class="active" {% endif %}>
 						<a href="/projects/{{ page.project }}/bom.html">Bill of Materials</a>
 					</li>
-					<li>
+					<li {% if page.title == 'CAD and Drawings' %} class="active" {% endif %}>
 						<a href="/projects/{{ page.project }}/cad.html">CAD Files</a>
 					</li>
-					<li>
+					<li {% if page.title == 'Instructions' %} class="active" {% endif %}>
 						<a href="/projects/{{ page.project }}/instructions.html">Instructions</a>
 					</li>
-					<li>
+					<li {% if page.title == 'Changelog' %} class="active" {% endif %}>
 						<a href="/projects/{{ page.project }}/changelog.html">Changelog</a>
 					</li>
-					<li>
+					<li {% if page.title == 'Frequenty Asked Questions' %} class="active" {% endif %}>
 						<a href="/projects/{{ page.project }}/faq.html">FAQ</a>
 					</li>
 				</ul>
