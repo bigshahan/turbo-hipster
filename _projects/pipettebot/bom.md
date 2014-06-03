@@ -19,11 +19,11 @@ Bill of Materials
 	</thead>
 	<tbody>
 		<tr>
-			<tb> Makerslide 1800mm </tb>
-			<tb> Aluminum v-rail extrusion </tb>
-			<tb> 1 </tb>
-			<tb> $32.84 </tb>
-			<tb> <a href="https://www.inventables.com/">Inventables</a></tb>
+			<td> Makerslide 1800mm </td>
+			<td> Aluminum v-rail extrusion </td>
+			<td> 1 </td>
+			<td> $32.84 </td>
+			<td> <a href="https://www.inventables.com/">Inventables</a></td>
 		</tr>
 	</tbody>
 </table>
