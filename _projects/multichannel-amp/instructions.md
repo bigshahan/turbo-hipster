@@ -7,4 +7,4 @@ project: multichannel-amp
 Instructions
 ==========
 
-cool
+Instructions page
