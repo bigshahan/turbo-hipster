@@ -28,7 +28,7 @@ CAD and Drawings
 
 
 
-CAD and Drawings
+Code
 ==========
 
 <table class="table table-striped table-bordered">
@@ -41,10 +41,10 @@ CAD and Drawings
 	</thead>
 	<tbody>
 		<tr>
-			<td>Support</td>
-			<td>Component of Stand</td>
+			<td>Arduino Code</td>
+			<td>Load this into the Arduino to control the robot</td>
 			<td>
-				<a target="_blank" href="/downloads/pipettebot/support.SLDPRT">Solidworks</a>
+				<a target="_blank" href="/downloads/pipettebot/PipettebotCode.ino">link</a>
 			</td>
 		</tr>
 	</tbody>
