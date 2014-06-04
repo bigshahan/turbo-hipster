@@ -3,14 +3,14 @@ turbo-hipster
 
 # Running the site for devlopment (Windows)
 
-Install VirtualBox and Vagrant. Then from git project foler:
+Install VirtualBox and Vagrant. Then from git project folder:
 
 	vagrant up
 	vagrant ssh
 	cd /vagrant
 	jekyll serve -w
 
-# Running the site for development (linux and mac)
+# Running the site for development (Linux and OS X)
 Make sure ruby and nodejs is installed. Then from the git project folder, do:
 
 	gem install jekyll
