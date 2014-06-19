@@ -41,9 +41,9 @@ Bill of Materials
 	<tbody>
 		<tr>
 			<td> Plastic MXL Pulley </td>
-			<td> Pulley for stepper motor ... </td>
+			<td> Pulley for stepper motor. 5mm, 18 tooth. 25204-02 </td>
 			<td> 3 </td>
-			<td> ... </td>
+			<td> $5.50 </td>
 			<td> <a href="https://www.inventables.com/">Inventables</a></td>
 		</tr>
 	</tbody>
@@ -54,6 +54,16 @@ Bill of Materials
 			<td> 1 foot length 25205-01 </td>
 			<td> ... </td>
 			<td> $1.99/foot </td>
+			<td> <a href="https://www.inventables.com/">Inventables</a></td>
+		</tr>
+	</tbody>
+	
+	<tbody>
+		<tr>
+			<td> Motor Mounting Bracket </td>
+			<td> Mounts motor to rails. Can also be 3D printed or lasercut out of 1/4" acrylic. 30163-01 </td>
+			<td> 3 </td>
+			<td> $5.00 </td>
 			<td> <a href="https://www.inventables.com/">Inventables</a></td>
 		</tr>
 	</tbody>
@@ -94,6 +104,16 @@ Bill of Materials
 			<td> Generic M5 hext nuts. Can be found anywhere 25284-02 </td>
 			<td> A lot </td>
 			<td> $10.00/100 </td>
+			<td> <a href="https://www.inventables.com/">Inventables</a></td>
+		</tr>
+	</tbody>
+	
+	<tbody>
+		<tr>
+			<td> M5 insertion nuts </td>
+			<td> Nuts to attach components to rail 25281-02 </td>
+			<td> 20 </td>
+			<td> $5.00/100 </td>
 			<td> <a href="https://www.inventables.com/">Inventables</a></td>
 		</tr>
 	</tbody>
