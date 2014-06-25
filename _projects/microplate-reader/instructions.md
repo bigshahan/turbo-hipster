@@ -10,7 +10,7 @@ Instructions
 Instructions page
 
 
-<div class="container-fluid well">
+<div class="well">
 	<div class="col-sm-6">
 		<a class="thumbnail">
 			<img src="" style="height:320px" />
@@ -25,4 +25,5 @@ Instructions page
 		<p class="alert alert-warning">...</p>
 		<p class="alert alert-danger">...</p>
 	</div>
+	<div class="clearfix"></div>
 </div>
