@@ -400,42 +400,6 @@ Instructions
 	</div>
 </div>
 
-<div class="container-fluid well">
-	<div class="col-sm-6">
-		<a class="thumbnail">
-			<img src="" style="height:320px" />
-		</a>
-	</div>
-	<div class="col-sm-6">
-		<h4>Step 4: Assemble carriages</h4>
-		<p>text</p>
-			<li> ... </li>
-			
-		<p class="alert alert-success">...</p>
-		<p class="alert alert-info">...</p>
-		<p class="alert alert-warning">...</p>
-		<p class="alert alert-danger">...</p>
-	</div>
-</div>
-
-<div class="container-fluid well">
-	<div class="col-sm-6">
-		<a class="thumbnail">
-			<img src="" style="height:320px" />
-		</a>
-	</div>
-	<div class="col-sm-6">
-		<h4>Step 5: Complete assembly</h4>
-		<p>text</p>
-			<li> ... </li>
-			
-		<p class="alert alert-success">...</p>
-		<p class="alert alert-info">...</p>
-		<p class="alert alert-warning">...</p>
-		<p class="alert alert-danger">...</p>
-	</div>
-</div>
-
 
 <h3>Frame</h3>
 
