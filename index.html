@@ -1,21 +1,22 @@
 ---
 layout: default
 title: Projects
+comments: false
 ---
 
-<div class="home">
+<div class="home container-fluid">
+	<div class="col-xs-12">
+		<h1>Projects</h1>
 
-	<h1>Projects</h1>
-
-	<ul class="posts">
-		{% for project in site.projects %}
-			{% if project.home %}
-				<li>
-					<a class="post-link" href="{{ project.url | prepend: site.baseurl }}">{{ project.title }}</a>
-					<p>{{ project.description }}</p>
-				</li>
-			{% endif %}
-		{% endfor %}
-	</ul>
-
+		<ul class="posts">
+			{% for project in site.projects %}
+				{% if project.home %}
+					<li>
+						<a class="post-link" href="{{ project.url | prepend: site.baseurl }}">{{ project.title }}</a>
+						<p>{{ project.description }}</p>
+					</li>
+				{% endif %}
+			{% endfor %}
+		</ul>
+	</div>
 </div>
