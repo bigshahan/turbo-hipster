@@ -40,16 +40,16 @@ To make changes:
 
 Shortcut for updating old files:
 	Replace above variation // with
-	git commit -a -m
+	git commit -a -m "comment here"
 
 Shortcut for adding all files in a folder:
 	Replace above variation // with
 	git add foldername/*
+	git commit -m "comment here"
 	
 	example:
 	git add images/pipettebot/*
-	
-	Adds all files in local repository in images/pipettebot/ to main branch online
+	git commit -m "Adds all files in local repository in images/pipettebot/ to main branch online"
 
 # References
 - Boostrap: http://getbootstrap.com/
