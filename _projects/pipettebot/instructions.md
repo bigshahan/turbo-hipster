@@ -15,7 +15,8 @@ Instructions
 <li> Hacking Electronic Pipette</li>
 <li> Well Plate Replacement</li>
 <li> Pipette Tip Removal</li>
-<li> Electronics & Coding</li>
+<li> Electronics </li>
+<li> Coding </li>
 <li> Final Assembly</li>
 <li> Calibration</li>
 </ul>
@@ -669,7 +670,27 @@ Instructions
 </div>
 	
 	
-<h3>Electronics & Coding</h3>
+<h3>Electronics </h3>
+
+<div class="container-fluid well">
+	<div class="col-sm-6">
+		<a class="thumbnail">
+			<img src="" style="height:320px" />
+		</a>
+	</div>
+	<div class="col-sm-6">
+		<h4>Step 1</h4>
+		<p>text</p>
+
+		<p class="alert alert-success">...</p>
+		<p class="alert alert-info">...</p>
+		<p class="alert alert-warning">...</p>
+		<p class="alert alert-danger">...</p>
+	</div>
+</div>
+
+
+<h3>Coding </h3>
 
 <div class="container-fluid well">
 	<div class="col-sm-6">
