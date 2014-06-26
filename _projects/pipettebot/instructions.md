@@ -12,6 +12,7 @@ Instructions
 <li> Lasercut and 3D printed parts </li>
 <li> Motion Components: Rail, Belt Drive, Carriage </li>
 <li> Frame </li>
+<li> Sensors </li>
 <li> Hacking Electronic Pipette</li>
 <li> Well Plate Replacement</li>
 <li> Pipette Tip Removal</li>
@@ -445,6 +446,26 @@ Instructions
 	</div>
 	<div class="col-sm-6">
 		<h4>Step 3: Attach fabricated components to rails</h4>
+		<p>List of frame parts.</p>
+
+		<p class="alert alert-success">...</p>
+		<p class="alert alert-info">...</p>
+		<p class="alert alert-warning">...</p>
+		<p class="alert alert-danger">...</p>
+	</div>
+</div>
+
+
+<h3>Sensors</h3>
+
+<div class="container-fluid well">
+	<div class="col-sm-6">
+		<a class="thumbnail">
+			<img src="" style="height:320px" />
+		</a>
+	</div>
+	<div class="col-sm-6">
+		<h4>Step 1: Collect sensor components</h4>
 		<p>List of frame parts.</p>
 
 		<p class="alert alert-success">...</p>
