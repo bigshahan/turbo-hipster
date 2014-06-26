@@ -25,6 +25,31 @@ then:
 
 # Setting Up the Production Server
 
+# Helpful Commands
+To check status in github powershell:
+	git status -s
+
+To update:
+	git pull
+
+To make changes:
+	git status -s
+	git add filename				// Variations for making changes
+	git commit -m "comment here"	//
+	git push
+
+Shortcut for updating old files:
+	Replace above variation // with
+	git commit -a -m
+
+Shortcut for adding all files in a folder:
+	Replace above variation // with
+	git add foldername/*
+	
+	example:
+	git add images/pipettebot/*
+	
+	Adds all files in local repository in images/pipettebot/ to main branch online
 
 # References
 - Boostrap: http://getbootstrap.com/
