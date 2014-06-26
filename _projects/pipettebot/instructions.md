@@ -465,7 +465,7 @@ Instructions
 		</a>
 	</div>
 	<div class="col-sm-6">
-		<h4>Step 1: Collect sensor components</h4>
+		<h4>Step 1: Collect sensor components </h4>
 		<p>List of frame parts.</p>
 
 		<p class="alert alert-success">...</p>
