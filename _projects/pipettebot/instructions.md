@@ -461,7 +461,7 @@ Instructions
 <div class="container-fluid well">
 	<div class="col-sm-6">
 		<a class="thumbnail">
-			<img src="" style="height:320px" />
+			<img src="\images\pipettebot\sensor.jpg" style="height:320px" />
 		</a>
 	</div>
 	<div class="col-sm-6">
@@ -552,17 +552,421 @@ Instructions
 <div class="container-fluid well">
 	<div class="col-sm-6">
 		<a class="thumbnail">
-			<img src="" style="height:320px" />
+			<img src="\images\pipettebot\plate holder lines.jpg" style="height:320px" />
 		</a>
 	</div>
 	<div class="col-sm-6">
-		<h4>Step 1: Collect components of well plate replacement assembly</h4>
-		<p>text</p>
+		<h4>Step 1: Collect parts for acrylic well plate holder</h4>
+		<p>
+			<li> Acrylic (1/4") top well plate holder layer [CAD file name goes here] </li>
+			<li> Acrylic (1/8") middle well plate holder layer [CAD file name goes here] </li>
+			<li> Acrylic (1/4") bottom well plate holder layer [CAD file name goes here] </li>
+		</p>
 
-		<p class="alert alert-success">...</p>
-		<p class="alert alert-info">...</p>
-		<p class="alert alert-warning">...</p>
-		<p class="alert alert-danger">...</p>
+		<p class="alert alert-info"> The image shows the assembled part, with black lines drawn in to highlight the boundaries between the layers.</p>
+		<p class="alert alert-info"> An alternative is to 3D print this part. If 3D printing, use [CAD file name goes here] and skip to STEP 4.</p>
+	</div>
+</div>
+
+<div class="container-fluid well">
+	<div class="col-sm-6">
+		<a class="thumbnail">
+			<img src="\images\pipettebot\plate holder edge.jpg" style="height:320px" />
+		</a>
+	</div>
+	<div class="col-sm-6">
+		<h4>Step 2: Machine and file top layer piece</h4>
+		<p>
+			<li> Using a mill, remove a layer about 2mm deep, leaving 2mm thickness along the sides </li>
+			<li> Using a file, create a pair of angles on one side as shown in the image </li>
+			<li> Reference [CAD file name goes here] </li>
+		</p>
+
+		<p class="alert alert-info"> The image shows the assembled part, with black lines drawn in to highlight the boundaries between the layers.</p>
+		<p class="alert alert-info"> It is important to create the angled edges to allow the well plate to slide in even when slightly misaligned.</p>
+		<p class="alert alert-info"> An alternative is to 3D print this part. If 3D printing, use [CAD file name goes here] and skip to STEP 3.</p>
+	</div>
+</div>
+
+<div class="container-fluid well">
+	<div class="col-sm-6">
+		<a class="thumbnail">
+			<img src="\images\pipettebot\plate holder holes.jpg" style="height:320px" />
+		</a>
+	</div>
+	<div class="col-sm-6">
+		<h4>Step 3: Acrylic glue layers</h4>
+		<p>
+			<li> Using acrylic glue, attach all the layers to one another </li>
+		</p>
+
+		<p class="alert alert-info"> The image shows two boxes. In the red box are the alignment holes. In the blue box are the fastening holes. </p>
+		<p class="alert alert-info"> The fastening hole is larger on the top layer to allow for a recessed bolt and a smooth surface. </p>
+		<p class="alert alert-warning"> If the layers are not properly aligned, the bolts may not fit smoothly! Use a flat surface to help align the parts.</p>
+	</div>
+</div>
+
+<div class="container-fluid well">
+	<div class="col-sm-6">
+		<a class="thumbnail">
+			<img src="\images\pipettebot\plate holder parts.jpg" style="height:320px" />
+		</a>
+	</div>
+	<div class="col-sm-6">
+		<h4>Step 4: Collect components of well plate holder full assembly</h4>
+		<p>
+			<li> Fabricated well plate holder </li>
+			<li> Assembled carriage </li>
+			<li> 14mm M5 bolts 2x </li>
+			<li> M5 nuts 2x </li>
+		</p>	
+
+		<p class="alert alert-info"> The well carriage in this image is a custom piece. If following instructions in this guide, your carriage should look like the other pieces. </p>
+		<p class="alert alert-info"> The red boxes correspond to alignment holes, and blue to fastening holes. The boxes on the carriage and on the plate holder should align. </p>
+		<p class="alert alert-info"> Need to update CAD of acrylic well plate holder tp fit standard carriage!!! </p>
+	</div>
+</div>
+
+<div class="container-fluid well">
+	<div class="col-sm-6">
+		<a class="thumbnail">
+			<img src="\images\pipettebot\plate holder assembly.jpg" style="height:320px" />
+		</a>
+	</div>
+	<div class="col-sm-6">
+		<h4>Step 5: Create full well plate holder assembly</h4>
+		<p>
+			<li> Align plate holder with carriage based on the color coded boxes</li>
+			<li> Slide plate holder onto the bolts on the carriage (these are the bolts that attach to the belt drive) </li>
+			<li> Slide 14mm M5 bolts onto the other holes, with M5 nuts on the bottom of the carriage and tighten </li>
+		</p>
+
+		<p class="alert alert-warning">Make sure everything is well aligned or else the well plates may jam while being loaded and unloaded. </p>
+	</div>
+</div>
+
+<div class="container-fluid well">
+	<div class="col-sm-6">
+		<a class="thumbnail">
+			<img src="\images\pipettebot\plate tower side.jpg" style="height:320px" />
+		</a>
+	</div>
+	<div class="col-sm-6">
+		<h4>Step 6: Collect parts for plate tower</h4>
+		<p>
+			<li> List of parts files for plate tower... </li>
+		</p>
+
+		<p class="alert alert-info">Shown is a fully assembled plate holder lain on its side. </p>
+	</div>
+</div>
+
+<div class="container-fluid well">
+	<div class="col-sm-6">
+		<a class="thumbnail">
+			<img src="\images\pipettebot\plate tower notes.jpg" style="height:320px" />
+		</a>
+	</div>
+	<div class="col-sm-6">
+		<h4>Step 7: Acrylic glue plate tower</h4>
+		<p>
+			<li> Glue together all the parts of the plate tower with acrylic glue </li>
+			<li> Use thin scrap pieces of 1/4" acrylic to buttress the joints of the legs </li>
+			<li> Glue short scrap pieces of 1/4" acrylic to along the sides of the slot as shown in the image. Make sure the pieces do not fully extend to the bottom of the slot </li>
+			<li> Reference [CAD file name here] </li>
+		</p>
+
+		<p class="alert alert-info"> Shown is a view from the rear. </p>
+		<p class="alert alert-info"> Need to modify CAD files to create flattened edge!!! </p>
+	</div>
+</div>
+
+<div class="container-fluid well">
+	<div class="col-sm-6">
+		<a class="thumbnail">
+			<img src="\images\pipettebot\offramp.jpg" style="height:320px" />
+		</a>
+	</div>
+	<div class="col-sm-6">
+		<h4>Step 8: Collect parts for and assemble off ramp </h4>
+		<p>
+			<li> Acrylic (1/4") top ramp surface </li>
+			<li> Acrylic (1/4") ramp sides 2x </li>
+			<li> Glue parts together using acrylic glue </li>
+			<li> Reference [CAD file name here] </li>
+		</p>
+
+		<p class="alert alert-info"> Need to modify CAD file to avoid grinding step!!! </p>
+	</div>
+</div>
+
+<div class="container-fluid well">
+	<div class="col-sm-6">
+		<a class="thumbnail">
+			<img src="\images\pipettebot\plate align.jpg" style="height:320px" />
+		</a>
+	</div>
+	<div class="col-sm-6">
+		<h4>Step 9: Collect parts for plate alignment part </h4>
+		<p>
+			<li> List of parts with CAD names... </li>
+		</p>
+
+		<p class="alert alert-info"> Shown is assembled part. </p>
+	</div>
+</div>
+
+<div class="container-fluid well">
+	<div class="col-sm-6">
+		<a class="thumbnail">
+			<img src="\images\pipettebot\plate align angle.jpg" style="height:320px" />
+		</a>
+	</div>
+	<div class="col-sm-6">
+		<h4>Step 10: Glue together plate alignment part </h4>
+		<p>
+			<li> Using acrylic glue, glue together plate alignment part </li>
+			<li> To determine spacing of vertical side pieces, slide plate holder assembly onto the Makerslide. Then attach bottom supports of alignment part to the rail, and position vertical side pieces off of the plate holder </li>
+			<li> When glueing on angled guides for the well plates, none of the edges interfere with the entrance </li>
+			<li> Use scrap pieces of 1/4" acrylic to buttress the edges of the side </li>
+			<li> Reference [CAD file name] </li>
+		</p>
+
+		<p class="alert alert-info"> Shown is one of the angled guides. </p>
+	</div>
+</div>
+
+<div class="container-fluid well">
+	<div class="col-sm-6">
+		<a class="thumbnail">
+			<img src="\images\pipettebot\plate align parts.jpg" style="height:320px" />
+		</a>
+	</div>
+	<div class="col-sm-6">
+		<h4>Step 11: Collect parts for plate alignment full assembly </h4>
+		<p>
+			<li> Fabricated plate alignment part </li>
+			<li> 12mm M5 bolts 4x </li>
+			<li> M5 insertion nuts 4x </li>
+		</p>
+
+	</div>
+</div>
+
+<div class="container-fluid well">
+	<div class="col-sm-6">
+		<a class="thumbnail">
+			<img src="\images\pipettebot\plate align assembled.jpg" style="height:320px" />
+		</a>
+	</div>
+	<div class="col-sm-6">
+		<h4>Step 12: Fully assemble plate alignment assembly</h4>
+		<p>
+			<li> Insert 12mm M5 bolts into the four holes in the plate alignment part, with the threaded ends pointed up </li>
+			<li> Attach on other end with M5 insertion nuts </li>
+		</p>
+
+	</div>
+</div>
+
+<div class="container-fluid well">
+	<div class="col-sm-6">
+		<a class="thumbnail">
+			<img src="\images\pipettebot\cd drive parts.jpg" style="height:320px" />
+		</a>
+	</div>
+	<div class="col-sm-6">
+		<h4>Step 13: Collect parts for hacked CD-drive</h4>
+		<p>
+			<li> CD-drive 1x </li>
+			<li> Fabricated position sensor assembly 1x </li>
+			<li> Acrylic (1/4") spacers [CAD file name] 2x </li>
+			<li> Acrylic (1/8") push [CAD file name] 1x </li>
+			<li> Extrusion bracket 1x </li>
+			<li> 25mm M5 bolt 2x </li>
+			<li> 16mm M5 bolt 1x </li>
+			<li> 10mm M5 bolt 1x </li>
+			<li> M5 nuts 3x </li>
+			<li> Wire 1.5'(???) 2x </li>
+		</p>
+
+		<p class="alert alert-info"> Image shows wires sensors already attached to CD-drive. This will not be the case. </p>
+		<p class="alert alert-warning"> Any information on hacking CD-drive steps may vary from model to model. </p>
+	</div>
+</div>
+
+<div class="container-fluid well">
+	<div class="col-sm-6">
+		<a class="thumbnail">
+			<img src="\images\pipettebot\cd drive screws.jpg" style="height:320px" />
+		</a>
+	</div>
+	<div class="col-sm-6">
+		<h4>Step 14: Remove bottom plate of CD-drive</h4>
+		<p>
+			<li> Remove 4 screws from bottom of CD-drive </li>
+			<li> Lift off bottom plate </li>
+		</p>
+		
+	</div>
+</div>
+
+<div class="container-fluid well">
+	<div class="col-sm-6">
+		<a class="thumbnail">
+			<img src="\images\pipettebot\cd drive side.jpg" style="height:320px" />
+		</a>
+	</div>
+	<div class="col-sm-6">
+		<h4>Step 14: Remove front face of CD-drive</h4>
+		<p>
+			<li> Push in tabs on side of CD-drive and pull off CD drive face </li>
+		</p>
+		
+		<p class="alert alert-info"> The CD-tray must first be in the open position to remove the face. To do this, look for a small hole on the CD-drive face and insert a paper clip. This should force to tray open. </p>
+	</div>
+</div>
+
+<div class="container-fluid well">
+	<div class="col-sm-6">
+		<a class="thumbnail">
+			<img src="\images\pipettebot\cd drive open button.jpg" style="height:320px" />
+		</a>
+	</div>
+	<div class="col-sm-6">
+		<h4>Step 15: Find pins for open button</h4>
+		<p>
+			<li> Push the little push button behind the open/close button for the CD drive </li>
+			<li> Using a multimeter, look for the pair of pins that close when the button is depressed </li>
+		</p>
+		
+	</div>
+</div>
+
+<div class="container-fluid well">
+	<div class="col-sm-6">
+		<a class="thumbnail">
+			<img src="\images\pipettebot\cd drive solder.jpg" style="height:320px" />
+		</a>
+	</div>
+	<div class="col-sm-6">
+		<h4>Step 16: Solder wires to CD drive</h4>
+		<p>
+			<li> Solder the two wires onto the two leads </li>
+			<li> Thread the wires out through the hole where the open/close button fits in </li>
+			<li> Dispose of the open/close button </li>
+			<li> Solder other ends of wires to the position sensor. Polarity does not matter </li>
+		</p>
+		
+	</div>
+</div>
+
+<div class="container-fluid well">
+	<div class="col-sm-6">
+		<a class="thumbnail">
+			<img src="\images\pipettebot\cd drive drill.jpg" style="height:320px" />
+		</a>
+	</div>
+	<div class="col-sm-6">
+		<h4>Step 17: Drill holes into CD drive</h4>
+		<p>
+			<li> Using the extrusion bracket as a template, mark two holes with a Sharpie </li>
+			<li> Use a drill bit slightly smaller than the diamter of the M5 bolts to drill two holes </li>
+			<li> One of the holes may be slightly larger than the bolts to allow for adjustment </li>
+		</p>
+		
+		<p class="alert alert-danger"> Wear eye protection when operating a hand drill. </p>
+	</div>
+</div>
+
+<div class="container-fluid well">
+	<div class="col-sm-6">
+		<a class="thumbnail">
+			<img src="\images\pipettebot\cd drive more drill.jpg" style="height:320px" />
+		</a>
+	</div>
+	<div class="col-sm-6">
+		<h4>Step 17: Drill more holes into CD drive</h4>
+		<p>
+			<li> Open the CD tray </li>
+			<li> Using a Dremel or drill, drill and clear out space to make room for an M5 nut and the M5 bolt on the side with the larger hole in it </li>
+		</p>
+		
+		<p class="alert alert-danger"> Wear eye protection when operating a hand drill. </p>
+	</div>
+</div>
+
+<div class="container-fluid well">
+	<div class="col-sm-6">
+		<a class="thumbnail">
+			<img src="\images\pipettebot\cd drive bracket.jpg" style="height:320px" />
+		</a>
+	</div>
+	<div class="col-sm-6">
+		<h4>Step 18: Attach bracket to CD-drive</h4>
+		<p>
+			<li> The extrusion bracket is not symmetrical. Align the side with the holes more centered with the holes on the CD-drive </li>
+			<li> Thread in 10mm M5 bolt through the bracket and into the smaller hole in the CD-drive </li>
+			<li> Thread in 16mm M5 bolt through other hole in bracket. Attach with an M5 nut on the other side </li>
+			<li> Adjust bracket position so it is properly aligned and then tighten </li>
+		</p>
+		
+		<p class="alert alert-warning"> Do not overtighten! The plastic is very easily damaged. </p>
+	</div>
+</div>
+
+<div class="container-fluid well">
+	<div class="col-sm-6">
+		<a class="thumbnail">
+			<img src="\images\pipettebot\cd drive stack.jpg" style="height:320px" />
+		</a>
+	</div>
+	<div class="col-sm-6">
+		<h4>Step 19: Attach push bar to CD-drive</h4>
+		<p>
+			<li> Thread 25mm bolt through remaining holes in extrusion bracket </li>
+			<li> Slide on the two 1/4" spacers </li>
+			<li> Slide on the 1/8" push bar </li>
+			<li> Tighten with M5 nuts </li>
+		</p>
+	</div>
+</div>
+
+<div class="container-fluid well">
+	<div class="col-sm-6">
+		<a class="thumbnail">
+			<img src="\images\pipettebot\cd stand.jpg" style="height:320px" />
+		</a>
+	</div>
+	<div class="col-sm-6">
+		<h4>Step 20: Collect parts for and assemble CD-drive stand</h4>
+		<p>
+			<li> Acrylic (1/4") long side stand [CAD file name] 2x </li>
+			<li> Acrylic (1/4") short side stand [CAD file name] 2x </li>
+			<li> Acrylic (1/4") support plates [CAD file name] 2x </li>
+			<li> Use acrylic glue to assemble </li>
+			<li> Use scrap 1/4" acrylic to buttress edges </li>
+			<li> Reference [CAD file name] </li>
+		</p>
+		
+		<p class="alert alert-info"> Image shows completed assembly. </p>
+	</div>
+</div>
+
+<div class="container-fluid well">
+	<div class="col-sm-6">
+		<a class="thumbnail">
+			<img src="\images\pipettebot\cd stand dremel.jpg" style="height:320px" />
+		</a>
+	</div>
+	<div class="col-sm-6">
+		<h4>Step 21: Dremel CD-drive stand</h4>
+		<p>
+			<li> Without any modifications, the CD-drive stand will not fit the CD-drive because the face is larger in dimension than the rest of the body </li>
+			<li> Using a Dremel, remove material on one end of the stand to clear the CD-drive face </li>
+		</p>
+		
+		<p class="alert alert-danger"> Wear eye protection when using a Dremel. </p>
 	</div>
 </div>
 
@@ -573,51 +977,14 @@ Instructions
 		</a>
 	</div>
 	<div class="col-sm-6">
-		<h4>Step 2: Acrylic glue well plate tower</h4>
-		<p>text</p>
-
-		<p class="alert alert-success">...</p>
-		<p class="alert alert-info">...</p>
-		<p class="alert alert-warning">...</p>
-		<p class="alert alert-danger">...</p>
+		<h4>Step 22: Combine hacked CD-drive with stand</h4>
+		<p>
+			<li> Place CD-drive into stand </li>
+		</p>
+		
 	</div>
 </div>
-
-<div class="container-fluid well">
-	<div class="col-sm-6">
-		<a class="thumbnail">
-			<img src="" style="height:320px" />
-		</a>
-	</div>
-	<div class="col-sm-6">
-		<h4>Step 3: Acrylic glue CD drive holder</h4>
-		<p>text</p>
-
-		<p class="alert alert-success">...</p>
-		<p class="alert alert-info">...</p>
-		<p class="alert alert-warning">...</p>
-		<p class="alert alert-danger">...</p>
-	</div>
-</div>
-
-<div class="container-fluid well">
-	<div class="col-sm-6">
-		<a class="thumbnail">
-			<img src="" style="height:320px" />
-		</a>
-	</div>
-	<div class="col-sm-6">
-		<h4>Step 4: Hack CD drive</h4>
-		<p>text</p>
-
-		<p class="alert alert-success">...</p>
-		<p class="alert alert-info">...</p>
-		<p class="alert alert-warning">...</p>
-		<p class="alert alert-danger">...</p>
-	</div>
-</div>
-	
-	
+		
 <h3>Pipette Tip Removal</h3>
 
 <div class="container-fluid well">
