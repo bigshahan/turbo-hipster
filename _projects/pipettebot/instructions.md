@@ -425,7 +425,7 @@ Instructions
 	<div class="container-fluid well">
 		<div class="col-sm-6">
 			<a class="thumbnail">
-				<img src="" style="height:320px" />
+				<img src="\images\pipettebot\frame assembly.jpg" style="height:320px" />
 			</a>
 		</div>
 		<div class="col-sm-6">
@@ -1013,34 +1013,102 @@ Instructions
 	<div class="container-fluid well">
 		<div class="col-sm-6">
 			<a class="thumbnail">
-				<img src="" style="height:320px" />
+				<img src="\images\pipettebot\tip removal parts.jpg" style="height:320px" />
 			</a>
 		</div>
 		<div class="col-sm-6">
-			<h4>Step 1: Collect components of pipette tip removal component</h4>
-			<p>text</p>
+			<h4>Step 1: Collect acrylic parts of pipette tip removal component</h4>
+			<p>
+				<li>Lasercut acrylic wedges(file name) 4x </li>
+				<li>Lasercut acrylic spacer (file name) 4x </li>
+				<li>Lasercut acrylic long arm (file name) 1x </li>
+				<li>Lasercut acrylic short arm (file name) 1x </li>
+				<li>Lasercut( 1/8") wedge surface (file name) 1x </li>
+				<li>Aluminum bracket 4x </li>
+				<li>10mm M5 bolts 6x </li>
+				<li>12mm M5 bolts 2x </li>
+				<li>M5 nuts 6x </li>
+				<li>M5 insertion nuts 2x </li>
+			</p>
 
-			<p class="alert alert-success">...</p>
-			<p class="alert alert-info">...</p>
-			<p class="alert alert-warning">...</p>
-			<p class="alert alert-danger">...</p>
+			<p class="alert alert-info">Pictured is the complete assembly.</p>
 		</div>
 	</div>
 
 	<div class="container-fluid well">
 		<div class="col-sm-6">
 			<a class="thumbnail">
-				<img src="" style="height:320px" />
+				<img src="\images\pipettebot\tip removal stack.jpg" style="height:320px" />
 			</a>
 		</div>
 		<div class="col-sm-6">
-			<h4>Step 2: Acrylic glue assembly</h4>
-			<p>text</p>
-
-			<p class="alert alert-success">...</p>
-			<p class="alert alert-info">...</p>
-			<p class="alert alert-warning">...</p>
-			<p class="alert alert-danger">...</p>
+			<h4>Step 2: Acrylic glue spacers</h4>
+			<p>
+				<li>Stack four acrylic spacers and glue them together</li>
+				<li>Use straight surface to help align parts</li>
+			</p>
+		</div>
+	</div>
+	
+	<div class="container-fluid well">
+		<div class="col-sm-6">
+			<a class="thumbnail">
+				<img src="\images\pipettebot\tip removal wedges.jpg" style="height:320px" />
+			</a>
+		</div>
+		<div class="col-sm-6">
+			<h4>Step 3: Acrylic glue wedge</h4>
+			<p>
+				<li>Stack four acrylic wedges and glue them together</li>
+				<li>Glue notched surface of the wedges to short side of short arm</li>
+				<li>Glue a piece of 1/4" scrap acrylic to buttress edge between wedges and short arm </li>
+			</p>
+		</div>
+	</div>
+	
+	<div class="container-fluid well">
+		<div class="col-sm-6">
+			<a class="thumbnail">
+				<img src="\images\pipettebot\tip removal acrylic parts.jpg" style="height:320px" />
+			</a>
+		</div>
+		<div class="col-sm-6">
+			<h4>Step 4: Acrylic glue arms</h4>
+			<p>
+				<li>Glue short arm onto top of stack as pictured </li>
+				<li>Glue long arm onto bottom of stack at a 90 degree angle to the short arm </li>
+			</p>
+		</div>
+	</div>
+	
+	<div class="container-fluid well">
+		<div class="col-sm-6">
+			<a class="thumbnail">
+				<img src="\images\pipettebot\tip removal brackets.jpg" style="height:320px" />
+			</a>
+		</div>
+		<div class="col-sm-6">
+			<h4>Step 5: Assemble brackets</h4>
+			<p>
+				<li>Assemble the brackets as shown in the image using 10mm M5 bolts </li>
+				<li>Tighten the nuts, but leave the insertion nuts loose </li>
+			</p>
+			
+			<p class="alert alert-info">The brackets are not symmetrical, so be careful to reference the image during assembly.</p>
+		</div>
+	</div>
+	
+	<div class="container-fluid well">
+		<div class="col-sm-6">
+			<a class="thumbnail">
+				<img src="\images\pipettebot\tip removal final.jpg" style="height:320px" />
+			</a>
+		</div>
+		<div class="col-sm-6">
+			<h4>Step 5: Attach brackets to acrylic parts</h4>
+			<p>
+				<li>Attach brackets to acrylic wedge assembly with 12mm M5 bolts and nutes</li>
+			</p>
 		</div>
 	</div>
 </div>
@@ -1055,7 +1123,54 @@ Instructions
 			</a>
 		</div>
 		<div class="col-sm-6">
-			<h4>Step 1</h4>
+			<h4>Step 1: Collect tools and parts</h4>
+			<p>
+				<li>Soldering station </li>
+				<li>Solder </li>
+				<li>Wire cutting/stripping tool </li>
+				<li>Wire (lots) </li>
+				<li>Large breadboard 1x </li>
+				<li>Small breadboard 1x </li>
+				<li>Arduino Uno Rev3 </li>
+				<li>Pololu Stepper Driver DRV8825 3x </li>
+				<li>PNP transistors (specifics????) 5x </li>
+				<li>1kOhm resistors 8x </li>
+				<li>100uF capacitor 3x </li>
+				<li>ATX power supply 1x </li>
+				<li>Small computer fan 1x </li>
+			</p>
+
+			<p class="alert alert-info">Any Arduino will work as long as it has enough input/outputs. This guide is specifically written for the Rev3. If using another model, keep track of the pins and modify the wiring or code as needed.</p>
+			<p class="alert alert-danger">Be careful when working with the ATX power supply. Make sure it is always unplugged before working with it. Do not attempt to disassemble!</p>
+			<p class="alert alert-danger">Soldering irons get hot!</p>
+		</div>
+	</div>
+	
+	<div class="container-fluid well">
+		<div class="col-sm-6">
+			<a class="thumbnail">
+				<img src="\images\pipettebot\electronics breadboard.jpg" style="height:320px" />
+			</a>
+		</div>
+		<div class="col-sm-6">
+			<h4>Step 2: Assemble large bread board</h4>
+			<p>text</p>
+
+			<p class="alert alert-success">...</p>
+			<p class="alert alert-info">...</p>
+			<p class="alert alert-warning">...</p>
+			<p class="alert alert-danger">...</p>
+		</div>
+	</div>
+	
+	<div class="container-fluid well">
+		<div class="col-sm-6">
+			<a class="thumbnail">
+				<img src="\images\pipettebot\electronics breadboard.jpg" style="height:320px" />
+			</a>
+		</div>
+		<div class="col-sm-6">
+			<h4>Step 3: Assemble small bread board</h4>
 			<p>text</p>
 
 			<p class="alert alert-success">...</p>
