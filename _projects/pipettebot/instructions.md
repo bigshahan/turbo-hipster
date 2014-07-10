@@ -52,7 +52,7 @@ Instructions
 
 	<div class="container-fluid well">
 		<div class="col-sm-6">
-			{% thumbnail /pipettebot/.JPG %}
+			{% thumbnail pipettebot/.JPG %}
 		</div>
 		<div class="col-sm-6">
 			<h4>Step 1: Lasercut components</h4>
@@ -69,7 +69,7 @@ Instructions
 
 	<div class="container-fluid well">
 		<div class="col-sm-6">
-			{% thumbnail /pipettebot/.JPG %}
+			{% thumbnail pipettebot/.JPG %}
 		</div>
 		<div class="col-sm-6">
 			<h4>Step 2: 3D printed components</h4>
@@ -91,7 +91,7 @@ Instructions
 
 	<div class="container-fluid well">
 		<div class="col-sm-6">
-			{% thumbnail /pipettebot/cut rails.jpg.JPG %}
+			{% thumbnail pipettebot/cut rails.JPG %}
 		</div>
 		<div class="col-sm-6">
 			<h4>Step 1: Cut Makerslide Rails</h4>
@@ -108,9 +108,7 @@ Instructions
 
 	<div class="container-fluid well">
 		<div class="col-sm-6">
-			<a class="thumbnail">
-				<img src="/images/pipettebot/stepper motor parts.jpg" style="height:320px" />
-			</a>
+			{% thumbnail pipettebot/stepper motor parts.jpg %}
 		</div>
 		<div class="col-sm-6">
 			<h4>Step 2: Collect parts for stepper motors</h4>
@@ -131,9 +129,7 @@ Instructions
 
 	<div class="container-fluid well">
 		<div class="col-sm-6">
-			<a class="thumbnail">
-				<img src="/images/pipettebot/stepper motor headers.jpg" style="height:320px" />
-			</a>
+			{% thumbnail pipettebot/stepper motor headers.jpg %}
 		</div>
 		<div class="col-sm-6">
 			<h4>Step 3: Solder male headers onto stepper motors</h4>
@@ -151,9 +147,7 @@ Instructions
 
 	<div class="container-fluid well">
 		<div class="col-sm-6">
-			<a class="thumbnail">
-				<img src="/images/pipettebot/stepper motor pulley.jpg" style="height:320px" />
-			</a>
+			{% thumbnail pipettebot/stepper motor pulley.jpg %}
 		</div>
 		<div class="col-sm-6">
 			<h4>Step 4: Attach pulley to stepper motor</h4>
@@ -169,9 +163,7 @@ Instructions
 
 	<div class="container-fluid well">
 		<div class="col-sm-6">
-			<a class="thumbnail">
-				<img src="/images/pipettebot/stepper motor mount.jpg" style="height:320px" />
-			</a>
+			{% thumbnail pipettebot/stepper motor mount.jpg %}
 		</div>
 		<div class="col-sm-6">
 			<h4>Step 5: Assemble stepper motor component</h4>
@@ -191,9 +183,7 @@ Instructions
 
 	<div class="container-fluid well">
 		<div class="col-sm-6">
-			<a class="thumbnail">
-				<img src="/images/pipettebot/idler pulley parts.jpg" style="height:320px" />
-			</a>
+			{% thumbnail pipettebot/idler pulley parts.jpg %}
 		</div>
 		<div class="col-sm-6">
 			<h4>Step 6: Collect parts for idler pulleys</h4>
@@ -211,9 +201,7 @@ Instructions
 
 	<div class="container-fluid well">
 		<div class="col-sm-6">
-			<a class="thumbnail">
-				<img src="/images/pipettebot/idler pulley side view.jpg" style="height:320px" />
-			</a>
+			{% thumbnail pipettebot/idler pulley side view.jpg %}
 		</div>
 		<div class="col-sm-6">
 			<h4>Step 7: Attach idler to mount</h4>
@@ -229,9 +217,7 @@ Instructions
 
 	<div class="container-fluid well">
 		<div class="col-sm-6">
-			<a class="thumbnail">
-				<img src="/images/pipettebot/idler pulley top view.jpg" style="height:320px" />
-			</a>
+			{% thumbnail pipettebot/idler pulley top view.jpg %}
 		</div>
 		<div class="col-sm-6">
 			<h4>Step 8: Complete idler assembly</h4>
@@ -248,9 +234,7 @@ Instructions
 
 	<div class="container-fluid well">
 		<div class="col-sm-6">
-			<a class="thumbnail">
-				<img src="/images/pipettebot/carriage parts.jpg" style="height:320px" />
-			</a>
+			{% thumbnail pipettebot/carriage parts.jpg %}
 		</div>
 		<div class="col-sm-6">
 			<h4>Step 9: Collect parts for carriage assembly</h4>
@@ -268,9 +252,7 @@ Instructions
 
 	<div class="container-fluid well">
 		<div class="col-sm-6">
-			<a class="thumbnail">
-				<img src="/images/pipettebot/carriage bolts.jpg" style="height:320px" />
-			</a>
+			{% thumbnail pipettebot/carriage bolts.jpg %}
 		</div>
 		<div class="col-sm-6">
 			<h4>Step 10: Begin V-wheel assembly</h4>
@@ -284,9 +266,7 @@ Instructions
 
 	<div class="container-fluid well">
 		<div class="col-sm-6">
-			<a class="thumbnail">
-				<img src="/images/pipettebot/carriage plate.jpg" style="height:320px" />
-			</a>
+			{% thumbnail pipettebot/carriage plate.jpg %}
 		</div>
 		<div class="col-sm-6">
 			<h4>Step 11: Attach V-wheels to plate</h4>
@@ -300,9 +280,7 @@ Instructions
 
 	<div class="container-fluid well">
 		<div class="col-sm-6">
-			<a class="thumbnail">
-				<img src="/images/pipettebot/carriage tensioner.jpg" style="height:320px" />
-			</a>
+			{% thumbnail pipettebot/carriage tensioner.jpg %}
 		</div>
 		<div class="col-sm-6">
 			<h4>Step 12: Bolt on eccentric spacers</h4>
@@ -318,9 +296,7 @@ Instructions
 
 	<div class="container-fluid well">
 		<div class="col-sm-6">
-			<a class="thumbnail">
-				<img src="/images/pipettebot/carriage beltbolt.jpg" style="height:320px" />
-			</a>
+			{% thumbnail pipettebot/carriage beltbolt.jpg %}
 		</div>
 		<div class="col-sm-6">
 			<h4>Step 13: Complete carriage assembly</h4>
@@ -335,9 +311,7 @@ Instructions
 
 	<div class="container-fluid well">
 		<div class="col-sm-6">
-			<a class="thumbnail">
-				<img src="/images/pipettebot/belt tape.jpg" style="height:320px" />
-			</a>
+			{% thumbnail pipettebot/belt tape.jpg %}
 		</div>
 		<div class="col-sm-6">
 			<h4>Step 14: Prepare MXL belts</h4>
@@ -358,9 +332,7 @@ Instructions
 
 	<div class="container-fluid well">
 		<div class="col-sm-6">
-			<a class="thumbnail">
-				<img src="/images/pipettebot/belt loop.jpg" style="height:320px" />
-			</a>
+			{% thumbnail pipettebot/belt loop.jpg %}
 		</div>
 		<div class="col-sm-6">
 			<h4>Step 15: Attach MXL belt to carriage</h4>
@@ -374,9 +346,7 @@ Instructions
 
 	<div class="container-fluid well">
 		<div class="col-sm-6">
-			<a class="thumbnail">
-				<img src="/images/pipettebot/carriage on rail.jpg" style="height:320px" />
-			</a>
+			{% thumbnail pipettebot/carriage on rail.jpg %}
 		</div>
 		<div class="col-sm-6">
 			<h4>Step 16: Slide carriage onto rail</h4>
@@ -391,9 +361,7 @@ Instructions
 
 	<div class="container-fluid well">
 		<div class="col-sm-6">
-			<a class="thumbnail">
-				<img src="/images/pipettebot/motion assembly.jpg" style="height:320px" />
-			</a>
+			{% thumbnail pipettebot/motion assembly.jpg %}
 		</div>
 		<div class="col-sm-6">
 			<h4>Step 17: Assemble rail and carriage</h4>
@@ -418,9 +386,7 @@ Instructions
 
 	<div class="container-fluid well">
 		<div class="col-sm-6">
-			<a class="thumbnail">
-				<img src="/images/pipettebot/frame assembly.jpg" style="height:320px" />
-			</a>
+			{% thumbnail pipettebot/frame assembly.jpg %}
 		</div>
 		<div class="col-sm-6">
 			<h4>Step 1: Collect frame components</h4>
@@ -435,9 +401,7 @@ Instructions
 
 	<div class="container-fluid well">
 		<div class="col-sm-6">
-			<a class="thumbnail">
-				<img src="" style="height:320px" />
-			</a>
+			{% thumbnail pipettebot/.JPG %}
 		</div>
 		<div class="col-sm-6">
 			<h4>Step 2: Assemble components with acrylic glue</h4>
@@ -452,9 +416,7 @@ Instructions
 
 	<div class="container-fluid well">
 		<div class="col-sm-6">
-			<a class="thumbnail">
-				<img src="" style="height:320px" />
-			</a>
+			{% thumbnail pipettebot/.JPG %}
 		</div>
 		<div class="col-sm-6">
 			<h4>Step 3: Attach fabricated components to rails</h4>
@@ -473,9 +435,7 @@ Instructions
 
 	<div class="container-fluid well">
 		<div class="col-sm-6">
-			<a class="thumbnail">
-				<img src="/images/pipettebot/sensor.jpg" style="height:320px" />
-			</a>
+			{% thumbnail pipettebot/sensor.jpg %}
 		</div>
 		<div class="col-sm-6">
 			<h4>Step 1: Collect sensor components </h4>
@@ -494,9 +454,7 @@ Instructions
 
 	<div class="container-fluid well">
 		<div class="col-sm-6">
-			<a class="thumbnail">
-				<img src="" style="height:320px" />
-			</a>
+			{% thumbnail pipettebot/.JPG %}
 		</div>
 		<div class="col-sm-6">
 			<h4>Step 1: Disassemble electronic pipette</h4>
@@ -511,9 +469,7 @@ Instructions
 
 	<div class="container-fluid well">
 		<div class="col-sm-6">
-			<a class="thumbnail">
-				<img src="" style="height:320px" />
-			</a>
+			{% thumbnail pipettebot/.JPG %}
 		</div>
 		<div class="col-sm-6">
 			<h4>Step 2: Solder wires to circuit board surface</h4>
@@ -528,9 +484,7 @@ Instructions
 
 	<div class="container-fluid well">
 		<div class="col-sm-6">
-			<a class="thumbnail">
-				<img src="" style="height:320px" />
-			</a>
+			{% thumbnail pipettebot/.JPG %}
 		</div>
 		<div class="col-sm-6">
 			<h4>Step 3: Hack power supply</h4>
@@ -545,9 +499,7 @@ Instructions
 
 	<div class="container-fluid well">
 		<div class="col-sm-6">
-			<a class="thumbnail">
-				<img src="" style="height:320px" />
-			</a>
+			{% thumbnail pipettebot/.JPG %}
 		</div>
 		<div class="col-sm-6">
 			<h4>Step 4: Connect pipette to Arduino</h4>
@@ -566,9 +518,7 @@ Instructions
 
 	<div class="container-fluid well">
 		<div class="col-sm-6">
-			<a class="thumbnail">
-				<img src="/images/pipettebot/plate holder lines.jpg" style="height:320px" />
-			</a>
+			{% thumbnail pipettebot/plate holder lines.jpg %}
 		</div>
 		<div class="col-sm-6">
 			<h4>Step 1: Collect parts for acrylic well plate holder</h4>
@@ -585,9 +535,7 @@ Instructions
 
 	<div class="container-fluid well">
 		<div class="col-sm-6">
-			<a class="thumbnail">
-				<img src="/images/pipettebot/plate holder edge.jpg" style="height:320px" />
-			</a>
+			{% thumbnail pipettebot/plate holder edge.jpg %}
 		</div>
 		<div class="col-sm-6">
 			<h4>Step 2: Machine and file top layer piece</h4>
@@ -605,9 +553,7 @@ Instructions
 
 	<div class="container-fluid well">
 		<div class="col-sm-6">
-			<a class="thumbnail">
-				<img src="/images/pipettebot/plate holder holes.jpg" style="height:320px" />
-			</a>
+			{% thumbnail pipettebot/plate holder holes.jpg %}
 		</div>
 		<div class="col-sm-6">
 			<h4>Step 3: Acrylic glue layers</h4>
@@ -623,9 +569,7 @@ Instructions
 
 	<div class="container-fluid well">
 		<div class="col-sm-6">
-			<a class="thumbnail">
-				<img src="/images/pipettebot/plate holder parts.jpg" style="height:320px" />
-			</a>
+			{% thumbnail pipettebot/plate holder parts.jpg %}
 		</div>
 		<div class="col-sm-6">
 			<h4>Step 4: Collect components of well plate holder full assembly</h4>
@@ -644,9 +588,7 @@ Instructions
 
 	<div class="container-fluid well">
 		<div class="col-sm-6">
-			<a class="thumbnail">
-				<img src="/images/pipettebot/plate holder assembly.jpg" style="height:320px" />
-			</a>
+			{% thumbnail pipettebot/plate holder assembly.jpg %}
 		</div>
 		<div class="col-sm-6">
 			<h4>Step 5: Create full well plate holder assembly</h4>
@@ -662,9 +604,7 @@ Instructions
 
 	<div class="container-fluid well">
 		<div class="col-sm-6">
-			<a class="thumbnail">
-				<img src="/images/pipettebot/plate tower side.jpg" style="height:320px" />
-			</a>
+			{% thumbnail pipettebot/plate tower side.jpg %}
 		</div>
 		<div class="col-sm-6">
 			<h4>Step 6: Collect parts for plate tower</h4>
@@ -678,9 +618,7 @@ Instructions
 
 	<div class="container-fluid well">
 		<div class="col-sm-6">
-			<a class="thumbnail">
-				<img src="/images/pipettebot/plate tower notes.jpg" style="height:320px" />
-			</a>
+			{% thumbnail pipettebot/plate tower notes.jpg %}
 		</div>
 		<div class="col-sm-6">
 			<h4>Step 7: Acrylic glue plate tower</h4>
@@ -698,9 +636,7 @@ Instructions
 
 	<div class="container-fluid well">
 		<div class="col-sm-6">
-			<a class="thumbnail">
-				<img src="/images/pipettebot/offramp.jpg" style="height:320px" />
-			</a>
+			{% thumbnail pipettebot/offramp.jpg %}
 		</div>
 		<div class="col-sm-6">
 			<h4>Step 8: Collect parts for and assemble off ramp </h4>
@@ -717,9 +653,7 @@ Instructions
 
 	<div class="container-fluid well">
 		<div class="col-sm-6">
-			<a class="thumbnail">
-				<img src="/images/pipettebot/plate align.jpg" style="height:320px" />
-			</a>
+			{% thumbnail pipettebot/plate align.jpg %}
 		</div>
 		<div class="col-sm-6">
 			<h4>Step 9: Collect parts for plate alignment part </h4>
@@ -733,9 +667,7 @@ Instructions
 
 	<div class="container-fluid well">
 		<div class="col-sm-6">
-			<a class="thumbnail">
-				<img src="/images/pipettebot/plate align angle.jpg" style="height:320px" />
-			</a>
+			{% thumbnail pipettebot/plate align angle.jpg %}
 		</div>
 		<div class="col-sm-6">
 			<h4>Step 10: Glue together plate alignment part </h4>
@@ -753,9 +685,7 @@ Instructions
 
 	<div class="container-fluid well">
 		<div class="col-sm-6">
-			<a class="thumbnail">
-				<img src="/images/pipettebot/plate align parts.jpg" style="height:320px" />
-			</a>
+			{% thumbnail pipettebot/plate align parts.jpg %}
 		</div>
 		<div class="col-sm-6">
 			<h4>Step 11: Collect parts for plate alignment full assembly </h4>
@@ -770,9 +700,7 @@ Instructions
 
 	<div class="container-fluid well">
 		<div class="col-sm-6">
-			<a class="thumbnail">
-				<img src="/images/pipettebot/plate align assembled.jpg" style="height:320px" />
-			</a>
+			{% thumbnail pipettebot/plate align assembled.jpg %}
 		</div>
 		<div class="col-sm-6">
 			<h4>Step 12: Fully assemble plate alignment assembly</h4>
@@ -786,9 +714,7 @@ Instructions
 
 	<div class="container-fluid well">
 		<div class="col-sm-6">
-			<a class="thumbnail">
-				<img src="/images/pipettebot/cd drive parts.jpg" style="height:320px" />
-			</a>
+			{% thumbnail pipettebot/cd drive parts.jpg %}
 		</div>
 		<div class="col-sm-6">
 			<h4>Step 13: Collect parts for hacked CD-drive</h4>
@@ -812,9 +738,7 @@ Instructions
 
 	<div class="container-fluid well">
 		<div class="col-sm-6">
-			<a class="thumbnail">
-				<img src="/images/pipettebot/cd drive screws.jpg" style="height:320px" />
-			</a>
+			{% thumbnail pipettebot/cd drive screws.jpg %}
 		</div>
 		<div class="col-sm-6">
 			<h4>Step 14: Remove bottom plate of CD-drive</h4>
@@ -828,9 +752,7 @@ Instructions
 
 	<div class="container-fluid well">
 		<div class="col-sm-6">
-			<a class="thumbnail">
-				<img src="/images/pipettebot/cd drive side.jpg" style="height:320px" />
-			</a>
+			{% thumbnail pipettebot/cd drive side.jpg %}
 		</div>
 		<div class="col-sm-6">
 			<h4>Step 14: Remove front face of CD-drive</h4>
@@ -844,9 +766,7 @@ Instructions
 
 	<div class="container-fluid well">
 		<div class="col-sm-6">
-			<a class="thumbnail">
-				<img src="/images/pipettebot/cd drive open button.jpg" style="height:320px" />
-			</a>
+			{% thumbnail pipettebot/cd drive open button.jpg %}
 		</div>
 		<div class="col-sm-6">
 			<h4>Step 15: Find pins for open button</h4>
@@ -860,9 +780,7 @@ Instructions
 
 	<div class="container-fluid well">
 		<div class="col-sm-6">
-			<a class="thumbnail">
-				<img src="/images/pipettebot/cd drive solder.jpg" style="height:320px" />
-			</a>
+			{% thumbnail pipettebot/cd drive solder.jpg %}
 		</div>
 		<div class="col-sm-6">
 			<h4>Step 16: Solder wires to CD drive</h4>
@@ -878,9 +796,7 @@ Instructions
 
 	<div class="container-fluid well">
 		<div class="col-sm-6">
-			<a class="thumbnail">
-				<img src="/images/pipettebot/cd drive drill.jpg" style="height:320px" />
-			</a>
+			{% thumbnail pipettebot/cd drive drill.jpg %}
 		</div>
 		<div class="col-sm-6">
 			<h4>Step 17: Drill holes into CD drive</h4>
@@ -896,9 +812,7 @@ Instructions
 
 	<div class="container-fluid well">
 		<div class="col-sm-6">
-			<a class="thumbnail">
-				<img src="/images/pipettebot/cd drive more drill.jpg" style="height:320px" />
-			</a>
+			{% thumbnail pipettebot/cd drive more drill.jpg %}
 		</div>
 		<div class="col-sm-6">
 			<h4>Step 17: Drill more holes into CD drive</h4>
@@ -913,9 +827,7 @@ Instructions
 
 	<div class="container-fluid well">
 		<div class="col-sm-6">
-			<a class="thumbnail">
-				<img src="/images/pipettebot/cd drive bracket.jpg" style="height:320px" />
-			</a>
+			{% thumbnail pipettebot/cd drive bracket.jpg %}
 		</div>
 		<div class="col-sm-6">
 			<h4>Step 18: Attach bracket to CD-drive</h4>
@@ -932,9 +844,7 @@ Instructions
 
 	<div class="container-fluid well">
 		<div class="col-sm-6">
-			<a class="thumbnail">
-				<img src="/images/pipettebot/cd drive stack.jpg" style="height:320px" />
-			</a>
+			{% thumbnail pipettebot/cd drive stack.jpg %}
 		</div>
 		<div class="col-sm-6">
 			<h4>Step 19: Attach push bar to CD-drive</h4>
@@ -949,9 +859,7 @@ Instructions
 
 	<div class="container-fluid well">
 		<div class="col-sm-6">
-			<a class="thumbnail">
-				<img src="/images/pipettebot/cd stand.jpg" style="height:320px" />
-			</a>
+			{% thumbnail pipettebot/cd stand.jpg %}
 		</div>
 		<div class="col-sm-6">
 			<h4>Step 20: Collect parts for and assemble CD-drive stand</h4>
@@ -970,9 +878,7 @@ Instructions
 
 	<div class="container-fluid well">
 		<div class="col-sm-6">
-			<a class="thumbnail">
-				<img src="/images/pipettebot/cd stand dremel.jpg" style="height:320px" />
-			</a>
+			{% thumbnail pipettebot/cd stand dremel.jpg %}
 		</div>
 		<div class="col-sm-6">
 			<h4>Step 21: Dremel CD-drive stand</h4>
@@ -987,9 +893,7 @@ Instructions
 
 	<div class="container-fluid well">
 		<div class="col-sm-6">
-			<a class="thumbnail">
-				<img src="" style="height:320px" />
-			</a>
+			{% thumbnail pipettebot/.JPG %}
 		</div>
 		<div class="col-sm-6">
 			<h4>Step 22: Combine hacked CD-drive with stand</h4>
@@ -1006,9 +910,7 @@ Instructions
 
 	<div class="container-fluid well">
 		<div class="col-sm-6">
-			<a class="thumbnail">
-				<img src="/images/pipettebot/tip removal parts.jpg" style="height:320px" />
-			</a>
+			{% thumbnail pipettebot/tip removal parts.jpg %}
 		</div>
 		<div class="col-sm-6">
 			<h4>Step 1: Collect acrylic parts of pipette tip removal component</h4>
@@ -1031,9 +933,7 @@ Instructions
 
 	<div class="container-fluid well">
 		<div class="col-sm-6">
-			<a class="thumbnail">
-				<img src="/images/pipettebot/tip removal stack.jpg" style="height:320px" />
-			</a>
+			{% thumbnail pipettebot/tip removal stack.jpg %}
 		</div>
 		<div class="col-sm-6">
 			<h4>Step 2: Acrylic glue spacers</h4>
@@ -1046,9 +946,7 @@ Instructions
 	
 	<div class="container-fluid well">
 		<div class="col-sm-6">
-			<a class="thumbnail">
-				<img src="/images/pipettebot/tip removal wedges.jpg" style="height:320px" />
-			</a>
+			{% thumbnail pipettebot/tip removal wedges.jpg %}
 		</div>
 		<div class="col-sm-6">
 			<h4>Step 3: Acrylic glue wedge</h4>
@@ -1062,9 +960,7 @@ Instructions
 	
 	<div class="container-fluid well">
 		<div class="col-sm-6">
-			<a class="thumbnail">
-				<img src="/images/pipettebot/tip removal acrylic parts.jpg" style="height:320px" />
-			</a>
+			{% thumbnail pipettebot/tip removal acrylic parts.jpg %}
 		</div>
 		<div class="col-sm-6">
 			<h4>Step 4: Acrylic glue arms</h4>
@@ -1077,9 +973,7 @@ Instructions
 	
 	<div class="container-fluid well">
 		<div class="col-sm-6">
-			<a class="thumbnail">
-				<img src="/images/pipettebot/tip removal brackets.jpg" style="height:320px" />
-			</a>
+			{% thumbnail pipettebot/tip removal brackets.jpg %}
 		</div>
 		<div class="col-sm-6">
 			<h4>Step 5: Assemble brackets</h4>
@@ -1094,9 +988,7 @@ Instructions
 	
 	<div class="container-fluid well">
 		<div class="col-sm-6">
-			<a class="thumbnail">
-				<img src="/images/pipettebot/tip removal final.jpg" style="height:320px" />
-			</a>
+			{% thumbnail pipettebot/tip removal final.jpg %}
 		</div>
 		<div class="col-sm-6">
 			<h4>Step 5: Attach brackets to acrylic parts</h4>
@@ -1112,9 +1004,7 @@ Instructions
 
 	<div class="container-fluid well">
 		<div class="col-sm-6">
-			<a class="thumbnail">
-				<img src="" style="height:320px" />
-			</a>
+			{% thumbnail pipettebot/.JPG %}
 		</div>
 		<div class="col-sm-6">
 			<h4>Step 1: Collect tools and parts</h4>
@@ -1142,9 +1032,7 @@ Instructions
 	
 	<div class="container-fluid well">
 		<div class="col-sm-6">
-			<a class="thumbnail">
-				<img src="/images/pipettebot/electronics breadboard.jpg" style="height:320px" />
-			</a>
+			{% thumbnail pipettebot/electronics breadboard.jpg %}
 		</div>
 		<div class="col-sm-6">
 			<h4>Step 2: Assemble large bread board</h4>
@@ -1159,9 +1047,7 @@ Instructions
 	
 	<div class="container-fluid well">
 		<div class="col-sm-6">
-			<a class="thumbnail">
-				<img src="/images/pipettebot/electronics breadboard.jpg" style="height:320px" />
-			</a>
+			{% thumbnail pipettebot/electronics breadboard.jpg %}
 		</div>
 		<div class="col-sm-6">
 			<h4>Step 3: Assemble small bread board</h4>
@@ -1180,9 +1066,7 @@ Instructions
 
 	<div class="container-fluid well">
 		<div class="col-sm-6">
-			<a class="thumbnail">
-				<img src="" style="height:320px" />
-			</a>
+			{% thumbnail pipettebot/.JPG %}
 		</div>
 		<div class="col-sm-6">
 			<h4>Initialization</h4>
@@ -1205,9 +1089,7 @@ Instructions
 	
 	<div class="container-fluid well">
 		<div class="col-sm-6">
-			<a class="thumbnail">
-				<img src="" style="height:320px" />
-			</a>
+			{% thumbnail pipettebot/.JPG %}
 		</div>
 		<div class="col-sm-6">
 			<h4>Pipetter Control</h4>
@@ -1218,9 +1100,7 @@ Instructions
 	
 	<div class="container-fluid well">
 		<div class="col-sm-6">
-			<a class="thumbnail">
-				<img src="" style="height:320px" />
-			</a>
+			{% thumbnail pipettebot/.JPG %}
 		</div>
 		<div class="col-sm-6">
 			<h4>Motion Control</h4>
@@ -1232,9 +1112,7 @@ Instructions
 	
 	<div class="container-fluid well">
 		<div class="col-sm-6">
-			<a class="thumbnail">
-				<img src="" style="height:320px" />
-			</a>
+			{% thumbnail pipettebot/.JPG %}
 		</div>
 		<div class="col-sm-6">
 			<h4>Operating Functions</h4>
@@ -1245,9 +1123,7 @@ Instructions
 	
 	<div class="container-fluid well">
 		<div class="col-sm-6">
-			<a class="thumbnail">
-				<img src="" style="height:320px" />
-			</a>
+			{% thumbnail pipettebot/.JPG %}
 		</div>
 		<div class="col-sm-6">
 			<h4>User Command</h4>
@@ -1263,9 +1139,7 @@ Instructions
 		
 	<div class="container-fluid well">
 		<div class="col-sm-6">
-			<a class="thumbnail">
-				<img src="" style="height:320px" />
-			</a>
+			{% thumbnail pipettebot/.JPG %}
 		</div>
 		<div class="col-sm-6">
 			<h4>Step 1</h4>
@@ -1284,9 +1158,7 @@ Instructions
 
 	<div class="container-fluid well">
 		<div class="col-sm-6">
-			<a class="thumbnail">
-				<img src="" style="height:320px" />
-			</a>
+			{% thumbnail pipettebot/.JPG %}
 		</div>
 		<div class="col-sm-6">
 			<h4>Step 1</h4>
