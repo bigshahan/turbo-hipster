@@ -1,9 +1,9 @@
 turbo-hipster
 =============
 
-# Running the site for devlopment (Windows)
+# Running the site for devlopment (Windows) (Works for Linux/OS X too)
 
-Install VirtualBox and Vagrant. Then from git project folder:
+Install git, VirtualBox, Vagrant. Then from git project folder:
 
 	vagrant up
 	vagrant ssh
@@ -11,6 +11,7 @@ Install VirtualBox and Vagrant. Then from git project folder:
 	jekyll serve -w
 
 # Running the site for development (Linux and OS X)
+
 Make sure ruby and nodejs is installed. Then from the git project folder, do:
 	gem install rmagick
 	gem install jekyll
@@ -90,7 +91,6 @@ Shortcut for adding all files in a folder:
 	</div>
 
 # Using Git GUI
-
 Use the folder where the repository is held from github
 
 	Click rescan button to check if any new changes have been made
