@@ -46,7 +46,7 @@ module Jekyll
 			site.collections['projects'].docs.each do |project|
 				if project.data['home']
 					@gallery_dir = "#{@from}/#{project.data['project']}"
-					@gallery_dest = "#{@to}/#{project.data['project']}"
+					@gallery_dest = "#{@from}/#{project.data['project']}"
 					@static_dir = "/images/#{project.data['project']}"
 					thumbify(files_to_resize(site))
 				end
@@ -61,7 +61,7 @@ module Jekyll
 					name = File.basename(file).sub(File.extname(file), "-thumb#{File.extname(file)}")
 					thumbname = File.join(@gallery_dest, name)
 					# Keep the thumb files from being cleaned by Jekyll
-					site.static_files << Jekyll::GalleryFile.new(site, site.dest, @static_dir, name )
+					site.static_files << Jekyll::GalleryFile.new(site, site.source, @static_dir, name )
 					if !File.exists?(thumbname)
 						to_resize.push({ "file" => file, "thumbname" => thumbname })
 					end
