@@ -27,7 +27,7 @@ Instructions
 		
 		{% sidebar "content8", "Electronics" %}
 		
-		{% sidebar "content9", "Coding" %}
+		{% sidebar "content9", "Coding: Initialization, Pipetter Control, Motion Control, Operating Functions, and User Command" %}
 		
 		{% sidebar "content10", "Final Assembly" %}
 		
@@ -1182,7 +1182,7 @@ Instructions
 </div>
 
 <div id="content9" class="sidebar-content col-sm-8">
-	<h3>Coding </h3>
+	<h3>Coding: Initialization, Pipetter Control, Motion Control, Operating Functions, and User Command </h3>
 
 	<div class="container-fluid well">
 		<div class="col-sm-6">
@@ -1191,15 +1191,77 @@ Instructions
 			</a>
 		</div>
 		<div class="col-sm-6">
-			<h4>Step 1</h4>
-			<p>text</p>
-
-			<p class="alert alert-success">...</p>
-			<p class="alert alert-info">...</p>
-			<p class="alert alert-warning">...</p>
-			<p class="alert alert-danger">...</p>
+			<h4>Initialization</h4>
+			<p>
+			<li> Motor Variables </li>
+			<li> int acceleration declares the rate of acceleration of all motors. </li>
+			<li> int m_speed declares the maximum speed of all motors. </li>
+			<li> int s_speed declares the starting speed of all motors. </li>
+			<li> Distance Variables </li>
+			<li> </li>
+			<li> AccelStepper Axis(1, step, direction)</li>
+			<li> Creates an object Axis of class AccelStepper which correlates to a motor. </li>
+			<li> The step variable is the arduino pin leading to the step pin of the motor. </li>
+			<li> The direction variable is the arduino pin leading to the direction pin of the motor.</li>
+			</p>
+			
+			<p class="alert alert-info"> Requires the AccelStepper library.</p>
 		</div>
 	</div>
+	
+	<div class="container-fluid well">
+		<div class="col-sm-6">
+			<a class="thumbnail">
+				<img src="" style="height:320px" />
+			</a>
+		</div>
+		<div class="col-sm-6">
+			<h4>Pipetter Control</h4>
+			<p>text</p>
+
+		</div>
+	</div>
+	
+	<div class="container-fluid well">
+		<div class="col-sm-6">
+			<a class="thumbnail">
+				<img src="" style="height:320px" />
+			</a>
+		</div>
+		<div class="col-sm-6">
+			<h4>Motion Control</h4>
+			<p>text</p>
+
+
+		</div>
+	</div>
+	
+	<div class="container-fluid well">
+		<div class="col-sm-6">
+			<a class="thumbnail">
+				<img src="" style="height:320px" />
+			</a>
+		</div>
+		<div class="col-sm-6">
+			<h4>Operating Functions</h4>
+			<p>text</p>
+
+		</div>
+	</div>
+	
+	<div class="container-fluid well">
+		<div class="col-sm-6">
+			<a class="thumbnail">
+				<img src="" style="height:320px" />
+			</a>
+		</div>
+		<div class="col-sm-6">
+			<h4>User Command</h4>
+			<p>text</p>
+
+		</div>
+	</div>
+	
 </div>
 
 <div id="content10" class="sidebar-content col-sm-8">
