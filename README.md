@@ -12,7 +12,7 @@ Install VirtualBox and Vagrant. Then from git project folder:
 
 # Running the site for development (Linux and OS X)
 Make sure ruby and nodejs is installed. Then from the git project folder, do:
-
+	gem install rmagick
 	gem install jekyll
 	bundle install
 
