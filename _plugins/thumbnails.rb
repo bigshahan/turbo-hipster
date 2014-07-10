@@ -24,6 +24,19 @@ module Jekyll
 		end
 	end
 
+	# This part is copied from https://github.com/kinnetica/jekyll-plugins
+	# Without it, generation does fail. --dmytro
+	# Recover from strange exception when starting server without --auto
+	class GalleryFile < StaticFile
+		def write(dest)
+			begin
+				super(dest)
+			rescue
+			end
+			true
+		end
+	end
+
 	class ThumbGenerator < Generator
 		def generate(site)
 			@from  = File.expand_path("images")
@@ -34,7 +47,7 @@ module Jekyll
 				if project.data['home']
 					@gallery_dir = "#{@from}/#{project.data['project']}"
 					@gallery_dest = "#{@to}/#{project.data['project']}"
-					@static_dir = "images/#{project.data['project']}"
+					@static_dir = "/images/#{project.data['project']}"
 					thumbify(files_to_resize(site))
 				end
 			end
@@ -43,18 +56,21 @@ module Jekyll
 		def files_to_resize(site)
 			to_resize = []
 
-			Dir.glob(File.join(@gallery_dir, "**", "*.{png,jpg,jpeg,gif}")).each do |file|
-				puts file
+			Dir.glob(File.join(@gallery_dir, "**", "*.{png,jpg,jpeg,gif,JPG}")).each do |file|
 				if !File.basename(file).include? "-thumb"
 					name = File.basename(file).sub(File.extname(file), "-thumb#{File.extname(file)}")
 					thumbname = File.join(@gallery_dest, name)
 					# Keep the thumb files from being cleaned by Jekyll
-					# site.static_files << Jekyll::StaticFile.new(site, site.dest, @static_dir, name )
+					site.static_files << Jekyll::GalleryFile.new(site, site.dest, @static_dir, name )
 					if !File.exists?(thumbname)
 						to_resize.push({ "file" => file, "thumbname" => thumbname })
 					end
 				end
 			end
+
+			# site.static_files.each do |tmp|
+			# 	puts tmp.path
+			# end
 
 			return to_resize
 		end
