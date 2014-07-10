@@ -24,16 +24,6 @@ module Jekyll
 		end
 	end
 
-	# class ThumbnailFile < StaticFile
-	# 	def write(dest)
-	# 		begin
-	# 			super(dest)
-	# 		rescue
-	# 		end
-	# 		true
-	# 	end
-	# end
-
 	# class ThumbGenerator < Generator
 		
 	# end
