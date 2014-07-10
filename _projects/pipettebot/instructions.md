@@ -52,9 +52,7 @@ Instructions
 
 	<div class="container-fluid well">
 		<div class="col-sm-6">
-			<a class="thumbnail">
-				<img src="" style="height:320px" />
-			</a>
+			{% thumbnail /pipettebot/.JPG %}
 		</div>
 		<div class="col-sm-6">
 			<h4>Step 1: Lasercut components</h4>
@@ -71,9 +69,7 @@ Instructions
 
 	<div class="container-fluid well">
 		<div class="col-sm-6">
-			<a class="thumbnail">
-				<img src="" style="height:320px" />
-			</a>
+			{% thumbnail /pipettebot/.JPG %}
 		</div>
 		<div class="col-sm-6">
 			<h4>Step 2: 3D printed components</h4>
@@ -95,9 +91,7 @@ Instructions
 
 	<div class="container-fluid well">
 		<div class="col-sm-6">
-			<a class="thumbnail">
-				<img src="\images\pipettebot\cut rails.jpg" style="height:320px" />
-			</a>
+			{% thumbnail /pipettebot/cut rails.jpg.JPG %}
 		</div>
 		<div class="col-sm-6">
 			<h4>Step 1: Cut Makerslide Rails</h4>
@@ -115,7 +109,7 @@ Instructions
 	<div class="container-fluid well">
 		<div class="col-sm-6">
 			<a class="thumbnail">
-				<img src="\images\pipettebot\stepper motor parts.jpg" style="height:320px" />
+				<img src="/images/pipettebot/stepper motor parts.jpg" style="height:320px" />
 			</a>
 		</div>
 		<div class="col-sm-6">
@@ -138,7 +132,7 @@ Instructions
 	<div class="container-fluid well">
 		<div class="col-sm-6">
 			<a class="thumbnail">
-				<img src="\images\pipettebot\stepper motor headers.jpg" style="height:320px" />
+				<img src="/images/pipettebot/stepper motor headers.jpg" style="height:320px" />
 			</a>
 		</div>
 		<div class="col-sm-6">
@@ -158,7 +152,7 @@ Instructions
 	<div class="container-fluid well">
 		<div class="col-sm-6">
 			<a class="thumbnail">
-				<img src="\images\pipettebot\stepper motor pulley.jpg" style="height:320px" />
+				<img src="/images/pipettebot/stepper motor pulley.jpg" style="height:320px" />
 			</a>
 		</div>
 		<div class="col-sm-6">
@@ -176,7 +170,7 @@ Instructions
 	<div class="container-fluid well">
 		<div class="col-sm-6">
 			<a class="thumbnail">
-				<img src="\images\pipettebot\stepper motor mount.jpg" style="height:320px" />
+				<img src="/images/pipettebot/stepper motor mount.jpg" style="height:320px" />
 			</a>
 		</div>
 		<div class="col-sm-6">
@@ -198,7 +192,7 @@ Instructions
 	<div class="container-fluid well">
 		<div class="col-sm-6">
 			<a class="thumbnail">
-				<img src="\images\pipettebot\idler pulley parts.jpg" style="height:320px" />
+				<img src="/images/pipettebot/idler pulley parts.jpg" style="height:320px" />
 			</a>
 		</div>
 		<div class="col-sm-6">
@@ -218,7 +212,7 @@ Instructions
 	<div class="container-fluid well">
 		<div class="col-sm-6">
 			<a class="thumbnail">
-				<img src="\images\pipettebot\idler pulley side view.jpg" style="height:320px" />
+				<img src="/images/pipettebot/idler pulley side view.jpg" style="height:320px" />
 			</a>
 		</div>
 		<div class="col-sm-6">
@@ -236,7 +230,7 @@ Instructions
 	<div class="container-fluid well">
 		<div class="col-sm-6">
 			<a class="thumbnail">
-				<img src="\images\pipettebot\idler pulley top view.jpg" style="height:320px" />
+				<img src="/images/pipettebot/idler pulley top view.jpg" style="height:320px" />
 			</a>
 		</div>
 		<div class="col-sm-6">
@@ -255,7 +249,7 @@ Instructions
 	<div class="container-fluid well">
 		<div class="col-sm-6">
 			<a class="thumbnail">
-				<img src="\images\pipettebot\carriage parts.jpg" style="height:320px" />
+				<img src="/images/pipettebot/carriage parts.jpg" style="height:320px" />
 			</a>
 		</div>
 		<div class="col-sm-6">
@@ -275,7 +269,7 @@ Instructions
 	<div class="container-fluid well">
 		<div class="col-sm-6">
 			<a class="thumbnail">
-				<img src="\images\pipettebot\carriage bolts.jpg" style="height:320px" />
+				<img src="/images/pipettebot/carriage bolts.jpg" style="height:320px" />
 			</a>
 		</div>
 		<div class="col-sm-6">
@@ -291,7 +285,7 @@ Instructions
 	<div class="container-fluid well">
 		<div class="col-sm-6">
 			<a class="thumbnail">
-				<img src="\images\pipettebot\carriage plate.jpg" style="height:320px" />
+				<img src="/images/pipettebot/carriage plate.jpg" style="height:320px" />
 			</a>
 		</div>
 		<div class="col-sm-6">
@@ -307,7 +301,7 @@ Instructions
 	<div class="container-fluid well">
 		<div class="col-sm-6">
 			<a class="thumbnail">
-				<img src="\images\pipettebot\carriage tensioner.jpg" style="height:320px" />
+				<img src="/images/pipettebot/carriage tensioner.jpg" style="height:320px" />
 			</a>
 		</div>
 		<div class="col-sm-6">
@@ -325,7 +319,7 @@ Instructions
 	<div class="container-fluid well">
 		<div class="col-sm-6">
 			<a class="thumbnail">
-				<img src="\images\pipettebot\carriage beltbolt.jpg" style="height:320px" />
+				<img src="/images/pipettebot/carriage beltbolt.jpg" style="height:320px" />
 			</a>
 		</div>
 		<div class="col-sm-6">
@@ -342,7 +336,7 @@ Instructions
 	<div class="container-fluid well">
 		<div class="col-sm-6">
 			<a class="thumbnail">
-				<img src="\images\pipettebot\belt tape.jpg" style="height:320px" />
+				<img src="/images/pipettebot/belt tape.jpg" style="height:320px" />
 			</a>
 		</div>
 		<div class="col-sm-6">
@@ -365,7 +359,7 @@ Instructions
 	<div class="container-fluid well">
 		<div class="col-sm-6">
 			<a class="thumbnail">
-				<img src="\images\pipettebot\belt loop.jpg" style="height:320px" />
+				<img src="/images/pipettebot/belt loop.jpg" style="height:320px" />
 			</a>
 		</div>
 		<div class="col-sm-6">
@@ -381,7 +375,7 @@ Instructions
 	<div class="container-fluid well">
 		<div class="col-sm-6">
 			<a class="thumbnail">
-				<img src="\images\pipettebot\carriage on rail.jpg" style="height:320px" />
+				<img src="/images/pipettebot/carriage on rail.jpg" style="height:320px" />
 			</a>
 		</div>
 		<div class="col-sm-6">
@@ -398,7 +392,7 @@ Instructions
 	<div class="container-fluid well">
 		<div class="col-sm-6">
 			<a class="thumbnail">
-				<img src="\images\pipettebot\motion assembly.jpg" style="height:320px" />
+				<img src="/images/pipettebot/motion assembly.jpg" style="height:320px" />
 			</a>
 		</div>
 		<div class="col-sm-6">
@@ -425,7 +419,7 @@ Instructions
 	<div class="container-fluid well">
 		<div class="col-sm-6">
 			<a class="thumbnail">
-				<img src="\images\pipettebot\frame assembly.jpg" style="height:320px" />
+				<img src="/images/pipettebot/frame assembly.jpg" style="height:320px" />
 			</a>
 		</div>
 		<div class="col-sm-6">
@@ -480,7 +474,7 @@ Instructions
 	<div class="container-fluid well">
 		<div class="col-sm-6">
 			<a class="thumbnail">
-				<img src="\images\pipettebot\sensor.jpg" style="height:320px" />
+				<img src="/images/pipettebot/sensor.jpg" style="height:320px" />
 			</a>
 		</div>
 		<div class="col-sm-6">
@@ -573,7 +567,7 @@ Instructions
 	<div class="container-fluid well">
 		<div class="col-sm-6">
 			<a class="thumbnail">
-				<img src="\images\pipettebot\plate holder lines.jpg" style="height:320px" />
+				<img src="/images/pipettebot/plate holder lines.jpg" style="height:320px" />
 			</a>
 		</div>
 		<div class="col-sm-6">
@@ -592,7 +586,7 @@ Instructions
 	<div class="container-fluid well">
 		<div class="col-sm-6">
 			<a class="thumbnail">
-				<img src="\images\pipettebot\plate holder edge.jpg" style="height:320px" />
+				<img src="/images/pipettebot/plate holder edge.jpg" style="height:320px" />
 			</a>
 		</div>
 		<div class="col-sm-6">
@@ -612,7 +606,7 @@ Instructions
 	<div class="container-fluid well">
 		<div class="col-sm-6">
 			<a class="thumbnail">
-				<img src="\images\pipettebot\plate holder holes.jpg" style="height:320px" />
+				<img src="/images/pipettebot/plate holder holes.jpg" style="height:320px" />
 			</a>
 		</div>
 		<div class="col-sm-6">
@@ -630,7 +624,7 @@ Instructions
 	<div class="container-fluid well">
 		<div class="col-sm-6">
 			<a class="thumbnail">
-				<img src="\images\pipettebot\plate holder parts.jpg" style="height:320px" />
+				<img src="/images/pipettebot/plate holder parts.jpg" style="height:320px" />
 			</a>
 		</div>
 		<div class="col-sm-6">
@@ -651,7 +645,7 @@ Instructions
 	<div class="container-fluid well">
 		<div class="col-sm-6">
 			<a class="thumbnail">
-				<img src="\images\pipettebot\plate holder assembly.jpg" style="height:320px" />
+				<img src="/images/pipettebot/plate holder assembly.jpg" style="height:320px" />
 			</a>
 		</div>
 		<div class="col-sm-6">
@@ -669,7 +663,7 @@ Instructions
 	<div class="container-fluid well">
 		<div class="col-sm-6">
 			<a class="thumbnail">
-				<img src="\images\pipettebot\plate tower side.jpg" style="height:320px" />
+				<img src="/images/pipettebot/plate tower side.jpg" style="height:320px" />
 			</a>
 		</div>
 		<div class="col-sm-6">
@@ -685,7 +679,7 @@ Instructions
 	<div class="container-fluid well">
 		<div class="col-sm-6">
 			<a class="thumbnail">
-				<img src="\images\pipettebot\plate tower notes.jpg" style="height:320px" />
+				<img src="/images/pipettebot/plate tower notes.jpg" style="height:320px" />
 			</a>
 		</div>
 		<div class="col-sm-6">
@@ -705,7 +699,7 @@ Instructions
 	<div class="container-fluid well">
 		<div class="col-sm-6">
 			<a class="thumbnail">
-				<img src="\images\pipettebot\offramp.jpg" style="height:320px" />
+				<img src="/images/pipettebot/offramp.jpg" style="height:320px" />
 			</a>
 		</div>
 		<div class="col-sm-6">
@@ -724,7 +718,7 @@ Instructions
 	<div class="container-fluid well">
 		<div class="col-sm-6">
 			<a class="thumbnail">
-				<img src="\images\pipettebot\plate align.jpg" style="height:320px" />
+				<img src="/images/pipettebot/plate align.jpg" style="height:320px" />
 			</a>
 		</div>
 		<div class="col-sm-6">
@@ -740,7 +734,7 @@ Instructions
 	<div class="container-fluid well">
 		<div class="col-sm-6">
 			<a class="thumbnail">
-				<img src="\images\pipettebot\plate align angle.jpg" style="height:320px" />
+				<img src="/images/pipettebot/plate align angle.jpg" style="height:320px" />
 			</a>
 		</div>
 		<div class="col-sm-6">
@@ -760,7 +754,7 @@ Instructions
 	<div class="container-fluid well">
 		<div class="col-sm-6">
 			<a class="thumbnail">
-				<img src="\images\pipettebot\plate align parts.jpg" style="height:320px" />
+				<img src="/images/pipettebot/plate align parts.jpg" style="height:320px" />
 			</a>
 		</div>
 		<div class="col-sm-6">
@@ -777,7 +771,7 @@ Instructions
 	<div class="container-fluid well">
 		<div class="col-sm-6">
 			<a class="thumbnail">
-				<img src="\images\pipettebot\plate align assembled.jpg" style="height:320px" />
+				<img src="/images/pipettebot/plate align assembled.jpg" style="height:320px" />
 			</a>
 		</div>
 		<div class="col-sm-6">
@@ -793,7 +787,7 @@ Instructions
 	<div class="container-fluid well">
 		<div class="col-sm-6">
 			<a class="thumbnail">
-				<img src="\images\pipettebot\cd drive parts.jpg" style="height:320px" />
+				<img src="/images/pipettebot/cd drive parts.jpg" style="height:320px" />
 			</a>
 		</div>
 		<div class="col-sm-6">
@@ -819,7 +813,7 @@ Instructions
 	<div class="container-fluid well">
 		<div class="col-sm-6">
 			<a class="thumbnail">
-				<img src="\images\pipettebot\cd drive screws.jpg" style="height:320px" />
+				<img src="/images/pipettebot/cd drive screws.jpg" style="height:320px" />
 			</a>
 		</div>
 		<div class="col-sm-6">
@@ -835,7 +829,7 @@ Instructions
 	<div class="container-fluid well">
 		<div class="col-sm-6">
 			<a class="thumbnail">
-				<img src="\images\pipettebot\cd drive side.jpg" style="height:320px" />
+				<img src="/images/pipettebot/cd drive side.jpg" style="height:320px" />
 			</a>
 		</div>
 		<div class="col-sm-6">
@@ -851,7 +845,7 @@ Instructions
 	<div class="container-fluid well">
 		<div class="col-sm-6">
 			<a class="thumbnail">
-				<img src="\images\pipettebot\cd drive open button.jpg" style="height:320px" />
+				<img src="/images/pipettebot/cd drive open button.jpg" style="height:320px" />
 			</a>
 		</div>
 		<div class="col-sm-6">
@@ -867,7 +861,7 @@ Instructions
 	<div class="container-fluid well">
 		<div class="col-sm-6">
 			<a class="thumbnail">
-				<img src="\images\pipettebot\cd drive solder.jpg" style="height:320px" />
+				<img src="/images/pipettebot/cd drive solder.jpg" style="height:320px" />
 			</a>
 		</div>
 		<div class="col-sm-6">
@@ -885,7 +879,7 @@ Instructions
 	<div class="container-fluid well">
 		<div class="col-sm-6">
 			<a class="thumbnail">
-				<img src="\images\pipettebot\cd drive drill.jpg" style="height:320px" />
+				<img src="/images/pipettebot/cd drive drill.jpg" style="height:320px" />
 			</a>
 		</div>
 		<div class="col-sm-6">
@@ -903,7 +897,7 @@ Instructions
 	<div class="container-fluid well">
 		<div class="col-sm-6">
 			<a class="thumbnail">
-				<img src="\images\pipettebot\cd drive more drill.jpg" style="height:320px" />
+				<img src="/images/pipettebot/cd drive more drill.jpg" style="height:320px" />
 			</a>
 		</div>
 		<div class="col-sm-6">
@@ -920,7 +914,7 @@ Instructions
 	<div class="container-fluid well">
 		<div class="col-sm-6">
 			<a class="thumbnail">
-				<img src="\images\pipettebot\cd drive bracket.jpg" style="height:320px" />
+				<img src="/images/pipettebot/cd drive bracket.jpg" style="height:320px" />
 			</a>
 		</div>
 		<div class="col-sm-6">
@@ -939,7 +933,7 @@ Instructions
 	<div class="container-fluid well">
 		<div class="col-sm-6">
 			<a class="thumbnail">
-				<img src="\images\pipettebot\cd drive stack.jpg" style="height:320px" />
+				<img src="/images/pipettebot/cd drive stack.jpg" style="height:320px" />
 			</a>
 		</div>
 		<div class="col-sm-6">
@@ -956,7 +950,7 @@ Instructions
 	<div class="container-fluid well">
 		<div class="col-sm-6">
 			<a class="thumbnail">
-				<img src="\images\pipettebot\cd stand.jpg" style="height:320px" />
+				<img src="/images/pipettebot/cd stand.jpg" style="height:320px" />
 			</a>
 		</div>
 		<div class="col-sm-6">
@@ -977,7 +971,7 @@ Instructions
 	<div class="container-fluid well">
 		<div class="col-sm-6">
 			<a class="thumbnail">
-				<img src="\images\pipettebot\cd stand dremel.jpg" style="height:320px" />
+				<img src="/images/pipettebot/cd stand dremel.jpg" style="height:320px" />
 			</a>
 		</div>
 		<div class="col-sm-6">
@@ -1013,7 +1007,7 @@ Instructions
 	<div class="container-fluid well">
 		<div class="col-sm-6">
 			<a class="thumbnail">
-				<img src="\images\pipettebot\tip removal parts.jpg" style="height:320px" />
+				<img src="/images/pipettebot/tip removal parts.jpg" style="height:320px" />
 			</a>
 		</div>
 		<div class="col-sm-6">
@@ -1038,7 +1032,7 @@ Instructions
 	<div class="container-fluid well">
 		<div class="col-sm-6">
 			<a class="thumbnail">
-				<img src="\images\pipettebot\tip removal stack.jpg" style="height:320px" />
+				<img src="/images/pipettebot/tip removal stack.jpg" style="height:320px" />
 			</a>
 		</div>
 		<div class="col-sm-6">
@@ -1053,7 +1047,7 @@ Instructions
 	<div class="container-fluid well">
 		<div class="col-sm-6">
 			<a class="thumbnail">
-				<img src="\images\pipettebot\tip removal wedges.jpg" style="height:320px" />
+				<img src="/images/pipettebot/tip removal wedges.jpg" style="height:320px" />
 			</a>
 		</div>
 		<div class="col-sm-6">
@@ -1069,7 +1063,7 @@ Instructions
 	<div class="container-fluid well">
 		<div class="col-sm-6">
 			<a class="thumbnail">
-				<img src="\images\pipettebot\tip removal acrylic parts.jpg" style="height:320px" />
+				<img src="/images/pipettebot/tip removal acrylic parts.jpg" style="height:320px" />
 			</a>
 		</div>
 		<div class="col-sm-6">
@@ -1084,7 +1078,7 @@ Instructions
 	<div class="container-fluid well">
 		<div class="col-sm-6">
 			<a class="thumbnail">
-				<img src="\images\pipettebot\tip removal brackets.jpg" style="height:320px" />
+				<img src="/images/pipettebot/tip removal brackets.jpg" style="height:320px" />
 			</a>
 		</div>
 		<div class="col-sm-6">
@@ -1101,7 +1095,7 @@ Instructions
 	<div class="container-fluid well">
 		<div class="col-sm-6">
 			<a class="thumbnail">
-				<img src="\images\pipettebot\tip removal final.jpg" style="height:320px" />
+				<img src="/images/pipettebot/tip removal final.jpg" style="height:320px" />
 			</a>
 		</div>
 		<div class="col-sm-6">
@@ -1149,7 +1143,7 @@ Instructions
 	<div class="container-fluid well">
 		<div class="col-sm-6">
 			<a class="thumbnail">
-				<img src="\images\pipettebot\electronics breadboard.jpg" style="height:320px" />
+				<img src="/images/pipettebot/electronics breadboard.jpg" style="height:320px" />
 			</a>
 		</div>
 		<div class="col-sm-6">
@@ -1166,7 +1160,7 @@ Instructions
 	<div class="container-fluid well">
 		<div class="col-sm-6">
 			<a class="thumbnail">
-				<img src="\images\pipettebot\electronics breadboard.jpg" style="height:320px" />
+				<img src="/images/pipettebot/electronics breadboard.jpg" style="height:320px" />
 			</a>
 		</div>
 		<div class="col-sm-6">
