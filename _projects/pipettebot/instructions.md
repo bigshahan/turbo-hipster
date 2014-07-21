@@ -13,25 +13,27 @@ Instructions
     <ul class="nav nav-pills nav-stacked">
         {% sidebar "content1", "Lasercut and 3D printed parts" %}
 
-        {% sidebar "content2", "Motion Components: Rail, Belt Drive, Carriage" %}
+        {% sidebar "content2", "Motion Components" %}
 
         {% sidebar "content3", "Frame" %}
 		
 		{% sidebar "content4", "Sensors" %}
 		
-		{% sidebar "content5", "Hacking Electronic Pipette" %}
+		{% sidebar "content5", "Electronics" %}
 		
-		{% sidebar "content6", "Well Plate Replacement" %}
+		{% sidebar "content6", "Hacking Electronic Pipette" %}
 		
-		{% sidebar "content7", "Pipette Tip Removal" %}
+		{% sidebar "content7", "Electronic Pipette Mount" %}
 		
-		{% sidebar "content8", "Electronics" %}
+		{% sidebar "content8", "Well Plate Replacement" %}
 		
-		{% sidebar "content9", "Coding: Initialization, Pipetter Control, Motion Control, Operating Functions, and User Command" %}
+		{% sidebar "content9", "Pipette Tip Removal" %}
 		
-		{% sidebar "content10", "Final Assembly" %}
+		{% sidebar "content10", "Code Guide" %}
 		
-		{% sidebar "content11", "Calibration" %}
+		{% sidebar "content11", "Final Assembly" %}
+		
+		{% sidebar "content12", "Calibration" %}
     </ul>
 	
 	<h4> Tools </h4>
@@ -55,7 +57,126 @@ Instructions
 			{% thumbnail pipettebot/.JPG %}
 		</div>
 		<div class="col-sm-6">
-			<h4>Step 1: Lasercut components</h4>
+			<h4>Step 1: Lasercut components: Overview</h4>
+			<p>
+				<li>  </li>
+			</p>
+			
+			<p class="alert alert-success">...</p>
+			<p class="alert alert-info">...</p>
+			<p class="alert alert-warning">...</p>
+			<p class="alert alert-danger">...</p>
+		</div>
+	</div>
+	
+	<div class="container-fluid well">
+		<div class="col-sm-6">
+			{% thumbnail pipettebot/.JPG %}
+		</div>
+		<div class="col-sm-6">
+			<h4>Step 1: Lasercut frame components</h4>
+			<p>
+				<li>  </li>
+			</p>
+			
+			<p class="alert alert-success">...</p>
+			<p class="alert alert-info">...</p>
+			<p class="alert alert-warning">...</p>
+			<p class="alert alert-danger">...</p>
+		</div>
+	</div>
+	
+	<div class="container-fluid well">
+		<div class="col-sm-6">
+			{% thumbnail pipettebot/.JPG %}
+		</div>
+		<div class="col-sm-6">
+			<h4>Step 2: Lasercut sensor components</h4>
+			<p>
+				<li>  </li>
+			</p>
+			
+			<p class="alert alert-success">...</p>
+			<p class="alert alert-info">...</p>
+			<p class="alert alert-warning">...</p>
+			<p class="alert alert-danger">...</p>
+		</div>
+	</div>
+	
+	<div class="container-fluid well">
+		<div class="col-sm-6">
+			{% thumbnail pipettebot/.JPG %}
+		</div>
+		<div class="col-sm-6">
+			<h4>Step 3: Lasercut well plate replacement components</h4>
+			<p>
+				<li>  </li>
+			</p>
+			
+			<p class="alert alert-success">...</p>
+			<p class="alert alert-info">...</p>
+			<p class="alert alert-warning">...</p>
+			<p class="alert alert-danger">...</p>
+		</div>
+	</div>
+
+	<div class="container-fluid well">
+		<div class="col-sm-6">
+			{% thumbnail pipettebot/.JPG %}
+		</div>
+		<div class="col-sm-6">
+			<h4>Step 4: Lasercut pipette tip removal components</h4>
+			<p>
+				<li>  </li>
+			</p>
+			
+			<p class="alert alert-success">...</p>
+			<p class="alert alert-info">...</p>
+			<p class="alert alert-warning">...</p>
+			<p class="alert alert-danger">...</p>
+		</div>
+	</div>
+	
+	<div class="container-fluid well">
+		<div class="col-sm-6">
+			{% thumbnail pipettebot/.JPG %}
+		</div>
+		<div class="col-sm-6">
+			<h4>Step 1: 3D printed parts: Overview</h4>
+			<p>
+				<li>  </li>
+			</p>
+			
+			<p class="alert alert-success">...</p>
+			<p class="alert alert-info">...</p>
+			<p class="alert alert-warning">...</p>
+			<p class="alert alert-danger">...</p>
+		</div>
+	</div>
+	
+	<div class="container-fluid well">
+		<div class="col-sm-6">
+			{% thumbnail pipettebot/.JPG %}
+		</div>
+		<div class="col-sm-6">
+			<h4>Step 5: 3D print frame components</h4>
+			<p>
+				<li> ... </li>
+			</p>
+			
+			<p class="alert alert-success">...</p>
+			<p class="alert alert-info">...</p>
+			<p class="alert alert-warning">...</p>
+			<p class="alert alert-danger">...</p>
+		</div>
+	</div>
+	
+	<div class="container-fluid well">
+		<div class="col-sm-6">
+			{% thumbnail pipettebot/.JPG %}
+		</div>
+		<div class="col-sm-6">
+			<h4>Step 6: 3D print electronic pipette mount components</h4>
 			<p>
 				<li> ... </li>
 			</p>
@@ -72,7 +193,7 @@ Instructions
 			{% thumbnail pipettebot/.JPG %}
 		</div>
 		<div class="col-sm-6">
-			<h4>Step 2: 3D printed components</h4>
+			<h4>Step 7: 3D print well plate replacement components (optional)</h4>
 			<p>
 				<li> ... </li>
 			</p>
@@ -83,6 +204,7 @@ Instructions
 			<p class="alert alert-danger">...</p>
 		</div>
 	</div>
+
 
 </div>
 
@@ -404,8 +526,38 @@ Instructions
 			{% thumbnail pipettebot/.JPG %}
 		</div>
 		<div class="col-sm-6">
-			<h4>Step 2: Assemble components with acrylic glue</h4>
-			<p>List of frame parts.</p>
+			<h4>Step 2: Assemble primary stands: Part 1</h4>
+			<p>Bracket</p>
+
+			<p class="alert alert-success">...</p>
+			<p class="alert alert-info">...</p>
+			<p class="alert alert-warning">...</p>
+			<p class="alert alert-danger">...</p>
+		</div>
+	</div>
+	
+	<div class="container-fluid well">
+		<div class="col-sm-6">
+			{% thumbnail pipettebot/.JPG %}
+		</div>
+		<div class="col-sm-6">
+			<h4>Step 4: Assemble primary stands: Part 2</h4>
+			<p>Stand</p>
+
+			<p class="alert alert-success">...</p>
+			<p class="alert alert-info">...</p>
+			<p class="alert alert-warning">...</p>
+			<p class="alert alert-danger">...</p>
+		</div>
+	</div>
+	
+	<div class="container-fluid well">
+		<div class="col-sm-6">
+			{% thumbnail pipettebot/.JPG %}
+		</div>
+		<div class="col-sm-6">
+			<h4>Step 5: Assemble primary stands: Part 3</h4>
+			<p>Support</p>
 
 			<p class="alert alert-success">...</p>
 			<p class="alert alert-info">...</p>
@@ -419,7 +571,22 @@ Instructions
 			{% thumbnail pipettebot/.JPG %}
 		</div>
 		<div class="col-sm-6">
-			<h4>Step 3: Attach fabricated components to rails</h4>
+			<h4>Step 6: Add hardware to stands</h4>
+			<p>List of frame parts.</p>
+
+			<p class="alert alert-success">...</p>
+			<p class="alert alert-info">...</p>
+			<p class="alert alert-warning">...</p>
+			<p class="alert alert-danger">...</p>
+		</div>
+	</div>
+	
+	<div class="container-fluid well">
+		<div class="col-sm-6">
+			{% thumbnail pipettebot/.JPG %}
+		</div>
+		<div class="col-sm-6">
+			<h4>Step 7: Add hardware to well plate motion stand</h4>
 			<p>List of frame parts.</p>
 
 			<p class="alert alert-success">...</p>
@@ -439,7 +606,99 @@ Instructions
 		</div>
 		<div class="col-sm-6">
 			<h4>Step 1: Collect sensor components </h4>
-			<p>List of frame parts.</p>
+			<p>
+				<li>Limit switches (Mcmaster 7658K14) 4x</li>
+				<li>12mm (?) M5 bolts 4x</li>
+				<li>1/4" acrylic spacers with M5 holes (part?) 4x</li>
+				<li>M5 insertion nuts 4x</li>
+				<li>Thin, bendable sheet metal (gauge?)</li>
+				<li>M5 washers (lots) </li>
+				<li>Wire </li>
+				<li>Hot glue gun </li>
+			</p>
+
+			<p class="alert alert-info">This will make four total sensors.</p>
+
+		</div>
+	</div>
+	
+	<div class="container-fluid well">
+		<div class="col-sm-6">
+			{% thumbnail pipettebot/.jpg %}
+		</div>
+		<div class="col-sm-6">
+			<h4>Step 2: Cut out sheet metal </h4>
+			<p>
+				<li></li>
+			</p>
+
+			<p class="alert alert-success">...</p>
+			<p class="alert alert-info">...</p>
+			<p class="alert alert-warning">...</p>
+			<p class="alert alert-danger">...</p>
+		</div>
+	</div>
+	
+	<div class="container-fluid well">
+		<div class="col-sm-6">
+			{% thumbnail pipettebot/.jpg %}
+		</div>
+		<div class="col-sm-6">
+			<h4>Step 3: Prep sheet metal tabs </h4>
+			<p>
+				<li>Drill and bend</li>
+			</p>
+
+			<p class="alert alert-success">...</p>
+			<p class="alert alert-info">...</p>
+			<p class="alert alert-warning">...</p>
+			<p class="alert alert-danger">...</p>
+		</div>
+	</div>
+	
+	<div class="container-fluid well">
+		<div class="col-sm-6">
+			{% thumbnail pipettebot/.jpg %}
+		</div>
+		<div class="col-sm-6">
+			<h4>Step 4: Glue on sensor </h4>
+			<p>
+				<li></li>
+			</p>
+
+			<p class="alert alert-success">...</p>
+			<p class="alert alert-info">...</p>
+			<p class="alert alert-warning">...</p>
+			<p class="alert alert-danger">...</p>
+		</div>
+	</div>
+	
+	<div class="container-fluid well">
+		<div class="col-sm-6">
+			{% thumbnail pipettebot/.jpg %}
+		</div>
+		<div class="col-sm-6">
+			<h4>Step 5: Assemble bolt and spacers </h4>
+			<p>
+				<li></li>
+			</p>
+
+			<p class="alert alert-success">...</p>
+			<p class="alert alert-info">...</p>
+			<p class="alert alert-warning">...</p>
+			<p class="alert alert-danger">...</p>
+		</div>
+	</div>
+	
+	<div class="container-fluid well">
+		<div class="col-sm-6">
+			{% thumbnail pipettebot/.jpg %}
+		</div>
+		<div class="col-sm-6">
+			<h4>Step 6: Solder on wires </h4>
+			<p>
+				<li></li>
+			</p>
 
 			<p class="alert alert-success">...</p>
 			<p class="alert alert-info">...</p>
@@ -450,6 +709,98 @@ Instructions
 </div>
 
 <div id="content5" class="sidebar-content col-sm-8">
+	<h3>Electronics </h3>
+
+	<div class="container-fluid well">
+		<div class="col-sm-6">
+			{% thumbnail pipettebot/.JPG %}
+		</div>
+		<div class="col-sm-6">
+			<h4>Step 1: Collect tools and parts</h4>
+			<p>
+				<li>Soldering station </li>
+				<li>Solder </li>
+				<li>Wire cutting/stripping tool </li>
+				<li>Wire (lots) </li>
+				<li>Large breadboard 1x </li>
+				<li>Small breadboard 1x </li>
+				<li>Arduino Uno Rev3 </li>
+				<li>Pololu Stepper Driver DRV8825 3x </li>
+				<li>PNP transistors (specifics????) 5x </li>
+				<li>1kOhm resistors 8x </li>
+				<li>100uF capacitor 3x </li>
+				<li>ATX power supply 1x </li>
+				<li>Small computer fan 1x </li>
+			</p>
+
+			<p class="alert alert-info">Any Arduino will work as long as it has enough input/outputs. This guide is specifically written for the Rev3. If using another model, keep track of the pins and modify the wiring or code as needed.</p>
+			<p class="alert alert-danger">Be careful when working with the ATX power supply. Make sure it is always unplugged before working with it. Do not attempt to disassemble!</p>
+			<p class="alert alert-danger">Soldering irons get hot!</p>
+		</div>
+	</div>
+	
+	<div class="container-fluid well">
+		<div class="col-sm-6">
+			{% thumbnail pipettebot/electronics breadboard.jpg %}
+		</div>
+		<div class="col-sm-6">
+			<h4>Step 2: Prepare ATX power supply</h4>
+			<p>text</p>
+
+			<p class="alert alert-success">...</p>
+			<p class="alert alert-info">...</p>
+			<p class="alert alert-warning">...</p>
+			<p class="alert alert-danger">...</p>
+		</div>
+	</div>
+	
+	<div class="container-fluid well">
+		<div class="col-sm-6">
+			{% thumbnail pipettebot/electronics breadboard.jpg %}
+		</div>
+		<div class="col-sm-6">
+			<h4>Step 3: Assemble large bread board</h4>
+			<p>text</p>
+
+			<p class="alert alert-success">...</p>
+			<p class="alert alert-info">...</p>
+			<p class="alert alert-warning">...</p>
+			<p class="alert alert-danger">...</p>
+		</div>
+	</div>
+	
+	<div class="container-fluid well">
+		<div class="col-sm-6">
+			{% thumbnail pipettebot/electronics breadboard.jpg %}
+		</div>
+		<div class="col-sm-6">
+			<h4>Step 4: Assemble small bread board</h4>
+			<p>text</p>
+
+			<p class="alert alert-success">...</p>
+			<p class="alert alert-info">...</p>
+			<p class="alert alert-warning">...</p>
+			<p class="alert alert-danger">...</p>
+		</div>
+	</div>
+	
+	<div class="container-fluid well">
+		<div class="col-sm-6">
+			{% thumbnail pipettebot/electronics breadboard.jpg %}
+		</div>
+		<div class="col-sm-6">
+			<h4>Step 5: Connect bread boards to Arduino</h4>
+			<p>text</p>
+
+			<p class="alert alert-success">...</p>
+			<p class="alert alert-info">...</p>
+			<p class="alert alert-warning">...</p>
+			<p class="alert alert-danger">...</p>
+		</div>
+	</div>	
+</div>
+
+<div id="content6" class="sidebar-content col-sm-8">
 	<h3>Hacking Electronic Pipette</h3>
 
 	<div class="container-fluid well">
@@ -457,7 +808,126 @@ Instructions
 			{% thumbnail pipettebot/.JPG %}
 		</div>
 		<div class="col-sm-6">
-			<h4>Step 1: Disassemble electronic pipette</h4>
+			<h4>Step 1: Collect parts of electronic pipette</h4>
+			<p>
+				<li>Transferpette electronic 8-channel pipette </li>
+				<li>Perfboard </li>
+				<li>Thin gauge wire </li>
+			</p>
+
+			<p class="alert alert-success">...</p>
+			<p class="alert alert-info">...</p>
+			<p class="alert alert-warning">...</p>
+			<p class="alert alert-danger">...</p>
+		</div>
+	</div>
+
+	<div class="container-fluid well">
+		<div class="col-sm-6">
+			{% thumbnail pipettebot/.JPG %}
+		</div>
+		<div class="col-sm-6">
+			<h4>Step 2: Remove battery and battery holder</h4>
+			<p>
+				<li>Make sure pipette is unplugged</li>
+				<li>Remove screws on back</li>
+				<li>Remove finger thing</li>
+			</p>
+
+			<p class="alert alert-success">...</p>
+			<p class="alert alert-info">...</p>
+			<p class="alert alert-warning">...</p>
+			<p class="alert alert-danger">...</p>
+		</div>
+	</div>
+	
+	<div class="container-fluid well">
+		<div class="col-sm-6">
+			{% thumbnail pipettebot/.JPG %}
+		</div>
+		<div class="col-sm-6">
+			<h4>Step 3: Lift off face</h4>
+			<p>
+				<li>Remove buttons</li>
+			</p>
+
+			<p class="alert alert-success">...</p>
+			<p class="alert alert-info">...</p>
+			<p class="alert alert-warning">The face will not come completely off!!</p>
+			<p class="alert alert-danger">...</p>
+		</div>
+	</div>
+
+	<div class="container-fluid well">
+		<div class="col-sm-6">
+			{% thumbnail pipettebot/.JPG %}
+		</div>
+		<div class="col-sm-6">
+			<h4>Step 4: Extract circuit board</h4>
+			<p>
+				<li>Clips hold board in</li>
+			</p>
+
+			<p class="alert alert-success">...</p>
+			<p class="alert alert-info">...</p>
+			<p class="alert alert-warning">...</p>
+			<p class="alert alert-danger">...</p>
+		</div>
+	</div>
+	
+	<div class="container-fluid well">
+		<div class="col-sm-6">
+			{% thumbnail pipettebot/.JPG %}
+		</div>
+		<div class="col-sm-6">
+			<h4>Step 5: Solder wires to circuit board surface</h4>
+			<p>text</p>
+
+			<p class="alert alert-success">...</p>
+			<p class="alert alert-info">...</p>
+			<p class="alert alert-warning">...</p>
+			<p class="alert alert-danger">...</p>
+		</div>
+	</div>
+	
+	<div class="container-fluid well">
+		<div class="col-sm-6">
+			{% thumbnail pipettebot/.JPG %}
+		</div>
+		<div class="col-sm-6">
+			<h4>Step 6: Solder wires to perfboard</h4>
+			<p>text</p>
+
+			<p class="alert alert-success">...</p>
+			<p class="alert alert-info">...</p>
+			<p class="alert alert-warning">...</p>
+			<p class="alert alert-danger">...</p>
+		</div>
+	</div>
+	
+	<div class="container-fluid well">
+		<div class="col-sm-6">
+			{% thumbnail pipettebot/.JPG %}
+		</div>
+		<div class="col-sm-6">
+			<h4>Step 7: Test</h4>
+			<p>
+				<li>Make sure its working with paperclip... </li>
+			</p>
+
+			<p class="alert alert-success">...</p>
+			<p class="alert alert-info">...</p>
+			<p class="alert alert-warning">...</p>
+			<p class="alert alert-danger">...</p>
+		</div>
+	</div>
+
+	<div class="container-fluid well">
+		<div class="col-sm-6">
+			{% thumbnail pipettebot/.JPG %}
+		</div>
+		<div class="col-sm-6">
+			<h4>Step 8: Hack power supply</h4>
 			<p>text</p>
 
 			<p class="alert alert-success">...</p>
@@ -472,7 +942,7 @@ Instructions
 			{% thumbnail pipettebot/.JPG %}
 		</div>
 		<div class="col-sm-6">
-			<h4>Step 2: Solder wires to circuit board surface</h4>
+			<h4>Step 9: Connect pipette to Arduino</h4>
 			<p>text</p>
 
 			<p class="alert alert-success">...</p>
@@ -481,28 +951,13 @@ Instructions
 			<p class="alert alert-danger">...</p>
 		</div>
 	</div>
-
+	
 	<div class="container-fluid well">
 		<div class="col-sm-6">
 			{% thumbnail pipettebot/.JPG %}
 		</div>
 		<div class="col-sm-6">
-			<h4>Step 3: Hack power supply</h4>
-			<p>text</p>
-
-			<p class="alert alert-success">...</p>
-			<p class="alert alert-info">...</p>
-			<p class="alert alert-warning">...</p>
-			<p class="alert alert-danger">...</p>
-		</div>
-	</div>
-
-	<div class="container-fluid well">
-		<div class="col-sm-6">
-			{% thumbnail pipettebot/.JPG %}
-		</div>
-		<div class="col-sm-6">
-			<h4>Step 4: Connect pipette to Arduino</h4>
+			<h4>Step 10: Test again</h4>
 			<p>text</p>
 
 			<p class="alert alert-success">...</p>
@@ -513,7 +968,81 @@ Instructions
 	</div>
 </div>
 
-<div id="content6" class="sidebar-content col-sm-8">
+<div id="content7" class="sidebar-content col-sm-8">
+	<h3>Electronic Pipette Mount</h3>
+
+	<div class="container-fluid well">
+		<div class="col-sm-6">
+			{% thumbnail pipettebot/.JPG %}
+		</div>
+		<div class="col-sm-6">
+			<h4>Step 1: Collect components</h4>
+			<p>
+				<li>3D printed bottom pipette mount</li>
+				<li>3D printed upper pipette mount</li>
+				<li>Hardware</li>
+			</p>
+
+			<p class="alert alert-success">...</p>
+			<p class="alert alert-info">...</p>
+			<p class="alert alert-warning">...</p>
+			<p class="alert alert-danger">...</p>
+		</div>
+	</div>
+	
+	<div class="container-fluid well">
+		<div class="col-sm-6">
+			{% thumbnail pipettebot/.JPG %}
+		</div>
+		<div class="col-sm-6">
+			<h4>Step 2: Attach upper mount to carriage</h4>
+			<p>
+				<li></li>
+			</p>
+
+			<p class="alert alert-success">...</p>
+			<p class="alert alert-info">...</p>
+			<p class="alert alert-warning">...</p>
+			<p class="alert alert-danger">...</p>
+		</div>
+	</div>
+	
+	<div class="container-fluid well">
+		<div class="col-sm-6">
+			{% thumbnail pipettebot/.JPG %}
+		</div>
+		<div class="col-sm-6">
+			<h4>Step 3: Attach lower mount to carriage</h4>
+			<p>
+				<li></li>
+			</p>
+
+			<p class="alert alert-success">...</p>
+			<p class="alert alert-info">...</p>
+			<p class="alert alert-warning">...</p>
+			<p class="alert alert-danger">...</p>
+		</div>
+	</div>
+	
+	<div class="container-fluid well">
+		<div class="col-sm-6">
+			{% thumbnail pipettebot/.JPG %}
+		</div>
+		<div class="col-sm-6">
+			<h4>Step 4: Attach pipette to carriage</h4>
+			<p>
+				<li></li>
+			</p>
+
+			<p class="alert alert-success">...</p>
+			<p class="alert alert-info">...</p>
+			<p class="alert alert-warning">...</p>
+			<p class="alert alert-danger">...</p>
+		</div>
+	</div>
+</div>
+
+<div id="content8" class="sidebar-content col-sm-8">
 	<h3>Well Plate Replacement</h3>
 
 	<div class="container-fluid well">
@@ -905,7 +1434,7 @@ Instructions
 	</div>
 </div>
 
-<div id="content7" class="sidebar-content col-sm-8">
+<div id="content9" class="sidebar-content col-sm-8">
 	<h3>Pipette Tip Removal</h3>
 
 	<div class="container-fluid well">
@@ -991,7 +1520,7 @@ Instructions
 			{% thumbnail pipettebot/tip removal final.jpg %}
 		</div>
 		<div class="col-sm-6">
-			<h4>Step 5: Attach brackets to acrylic parts</h4>
+			<h4>Step 6: Attach brackets to acrylic parts</h4>
 			<p>
 				<li>Attach brackets to acrylic wedge assembly with 12mm M5 bolts and nutes</li>
 			</p>
@@ -999,70 +1528,8 @@ Instructions
 	</div>
 </div>
 
-<div id="content8" class="sidebar-content col-sm-8">
-	<h3>Electronics </h3>
-
-	<div class="container-fluid well">
-		<div class="col-sm-6">
-			{% thumbnail pipettebot/.JPG %}
-		</div>
-		<div class="col-sm-6">
-			<h4>Step 1: Collect tools and parts</h4>
-			<p>
-				<li>Soldering station </li>
-				<li>Solder </li>
-				<li>Wire cutting/stripping tool </li>
-				<li>Wire (lots) </li>
-				<li>Large breadboard 1x </li>
-				<li>Small breadboard 1x </li>
-				<li>Arduino Uno Rev3 </li>
-				<li>Pololu Stepper Driver DRV8825 3x </li>
-				<li>PNP transistors (specifics????) 5x </li>
-				<li>1kOhm resistors 8x </li>
-				<li>100uF capacitor 3x </li>
-				<li>ATX power supply 1x </li>
-				<li>Small computer fan 1x </li>
-			</p>
-
-			<p class="alert alert-info">Any Arduino will work as long as it has enough input/outputs. This guide is specifically written for the Rev3. If using another model, keep track of the pins and modify the wiring or code as needed.</p>
-			<p class="alert alert-danger">Be careful when working with the ATX power supply. Make sure it is always unplugged before working with it. Do not attempt to disassemble!</p>
-			<p class="alert alert-danger">Soldering irons get hot!</p>
-		</div>
-	</div>
-	
-	<div class="container-fluid well">
-		<div class="col-sm-6">
-			{% thumbnail pipettebot/electronics breadboard.jpg %}
-		</div>
-		<div class="col-sm-6">
-			<h4>Step 2: Assemble large bread board</h4>
-			<p>text</p>
-
-			<p class="alert alert-success">...</p>
-			<p class="alert alert-info">...</p>
-			<p class="alert alert-warning">...</p>
-			<p class="alert alert-danger">...</p>
-		</div>
-	</div>
-	
-	<div class="container-fluid well">
-		<div class="col-sm-6">
-			{% thumbnail pipettebot/electronics breadboard.jpg %}
-		</div>
-		<div class="col-sm-6">
-			<h4>Step 3: Assemble small bread board</h4>
-			<p>text</p>
-
-			<p class="alert alert-success">...</p>
-			<p class="alert alert-info">...</p>
-			<p class="alert alert-warning">...</p>
-			<p class="alert alert-danger">...</p>
-		</div>
-	</div>
-</div>
-
-<div id="content9" class="sidebar-content col-sm-8">
-	<h3>Coding: Initialization, Pipetter Control, Motion Control, Operating Functions, and User Command </h3>
+<div id="content10" class="sidebar-content col-sm-8">
+	<h3>Code Guide </h3>
 
 	<div class="container-fluid well">
 		<div class="col-sm-6">
@@ -1134,7 +1601,7 @@ Instructions
 	
 </div>
 
-<div id="content10" class="sidebar-content col-sm-8">
+<div id="content11" class="sidebar-content col-sm-8">
 	<h3>Final Assembly</h3>
 		
 	<div class="container-fluid well">
@@ -1142,7 +1609,142 @@ Instructions
 			{% thumbnail pipettebot/.JPG %}
 		</div>
 		<div class="col-sm-6">
-			<h4>Step 1</h4>
+			<h4>Step 1: Collect all components</h4>
+			<p>text</p>
+
+			<p class="alert alert-success">...</p>
+			<p class="alert alert-info">...</p>
+			<p class="alert alert-warning">...</p>
+			<p class="alert alert-danger">...</p>
+		</div>
+	</div>
+	
+	<div class="container-fluid well">
+		<div class="col-sm-6">
+			{% thumbnail pipettebot/.JPG %}
+		</div>
+		<div class="col-sm-6">
+			<h4>Step 2: Attach carriages to rails</h4>
+			<p>text</p>
+
+			<p class="alert alert-success">...</p>
+			<p class="alert alert-info">...</p>
+			<p class="alert alert-warning">...</p>
+			<p class="alert alert-danger">...</p>
+		</div>
+	</div>
+	
+	<div class="container-fluid well">
+		<div class="col-sm-6">
+			{% thumbnail pipettebot/.JPG %}
+		</div>
+		<div class="col-sm-6">
+			<h4>Step 3: Attach frame to rails</h4>
+			<p>text</p>
+
+			<p class="alert alert-success">...</p>
+			<p class="alert alert-info">...</p>
+			<p class="alert alert-warning">...</p>
+			<p class="alert alert-danger">...</p>
+		</div>
+	</div>
+	
+	<div class="container-fluid well">
+		<div class="col-sm-6">
+			{% thumbnail pipettebot/.JPG %}
+		</div>
+		<div class="col-sm-6">
+			<h4>Step 4: Attach frame to rails</h4>
+			<p>text</p>
+
+			<p class="alert alert-success">...</p>
+			<p class="alert alert-info">...</p>
+			<p class="alert alert-warning">...</p>
+			<p class="alert alert-danger">...</p>
+		</div>
+	</div>
+	
+	<div class="container-fluid well">
+		<div class="col-sm-6">
+			{% thumbnail pipettebot/.JPG %}
+		</div>
+		<div class="col-sm-6">
+			<h4>Step 4: Attach sensors to rails</h4>
+			<p>text</p>
+
+			<p class="alert alert-success">...</p>
+			<p class="alert alert-info">...</p>
+			<p class="alert alert-warning">...</p>
+			<p class="alert alert-danger">...</p>
+		</div>
+	</div>
+	
+	<div class="container-fluid well">
+		<div class="col-sm-6">
+			{% thumbnail pipettebot/.JPG %}
+		</div>
+		<div class="col-sm-6">
+			<h4>Step 4: Attach tip replacement assembly to rails</h4>
+			<p>text</p>
+
+			<p class="alert alert-success">...</p>
+			<p class="alert alert-info">...</p>
+			<p class="alert alert-warning">...</p>
+			<p class="alert alert-danger">...</p>
+		</div>
+	</div>
+	
+	<div class="container-fluid well">
+		<div class="col-sm-6">
+			{% thumbnail pipettebot/.JPG %}
+		</div>
+		<div class="col-sm-6">
+			<h4>Step 5: Position rails perpendicular to one another</h4>
+			<p>text</p>
+
+			<p class="alert alert-success">...</p>
+			<p class="alert alert-info">...</p>
+			<p class="alert alert-warning">...</p>
+			<p class="alert alert-danger">...</p>
+		</div>
+	</div>
+	
+	<div class="container-fluid well">
+		<div class="col-sm-6">
+			{% thumbnail pipettebot/.JPG %}
+		</div>
+		<div class="col-sm-6">
+			<h4>Step 6: Connect motors to breadboard</h4>
+			<p>text</p>
+
+			<p class="alert alert-success">...</p>
+			<p class="alert alert-info">...</p>
+			<p class="alert alert-warning">...</p>
+			<p class="alert alert-danger">...</p>
+		</div>
+	</div>
+	
+	<div class="container-fluid well">
+		<div class="col-sm-6">
+			{% thumbnail pipettebot/.JPG %}
+		</div>
+		<div class="col-sm-6">
+			<h4>Step 7: Connect pipette to breadboard</h4>
+			<p>text</p>
+
+			<p class="alert alert-success">...</p>
+			<p class="alert alert-info">...</p>
+			<p class="alert alert-warning">...</p>
+			<p class="alert alert-danger">...</p>
+		</div>
+	</div>
+	
+	<div class="container-fluid well">
+		<div class="col-sm-6">
+			{% thumbnail pipettebot/.JPG %}
+		</div>
+		<div class="col-sm-6">
+			<h4>Step 8: Position well plate replacement components</h4>
 			<p>text</p>
 
 			<p class="alert alert-success">...</p>
@@ -1153,7 +1755,7 @@ Instructions
 	</div>
 </div>
 
-<div id="content11" class="sidebar-content col-sm-8">
+<div id="content12" class="sidebar-content col-sm-8">
 	<h3>Calibration</h3>
 
 	<div class="container-fluid well">
