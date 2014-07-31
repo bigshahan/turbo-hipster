@@ -53,79 +53,107 @@ Instructions
 	<h3> Lasercut and 3D printed parts </h3>
 
 	<div class="container-fluid well">
-		<div class="col-sm-6">
-			{% thumbnail pipettebot/.JPG %}
-		</div>
-		<div class="col-sm-6">
+		<div class="col-sm-12">
 			<h4>Step 1: Lasercut components: Overview</h4>
 			<p>
-				<li>  </li>
+				<li>Unless otherwise noted, all of these pieces are to be cut from 1/4" acrylic</li>
+				<li>The lasercutting section will be organized according to major component, similar to the way the instructions are sectioned </li>
+				<li>PDF files and Solidworks drawings of the 2D pattern to cut are provided</li>
+				<li>You can either laser cut all the components at once, or do them right before working on that particular assembly</li>
+				<li>Any thin, flat pieces of scrap acrylic are useful for use as buttressing to provide additional structural support</li>
 			</p>
 			
-			<p class="alert alert-success">...</p>
-			<p class="alert alert-info">...</p>
-			<p class="alert alert-warning">...</p>
-			<p class="alert alert-danger">...</p>
+			<p class="alert alert-danger">Always take precautions when working with lasers!</p>
+			<p class="alert alert-danger">Lasercutters can be a fire hazard: do not leave unattended! </p>
 		</div>
 	</div>
 	
 	<div class="container-fluid well">
 		<div class="col-sm-6">
-			{% thumbnail pipettebot/.JPG %}
+			{% thumbnail pipettebot/lasercutMotionComp.JPG %}
 		</div>
 		<div class="col-sm-6">
-			<h4>Step 1: Lasercut frame components</h4>
+			<h4>Step 2: Lasercut motion components</h4>
 			<p>
-				<li>  </li>
+				<li>Cut three copies </li>
 			</p>
-			
-			<p class="alert alert-success">...</p>
-			<p class="alert alert-info">...</p>
-			<p class="alert alert-warning">...</p>
-			<p class="alert alert-danger">...</p>
 		</div>
 	</div>
 	
 	<div class="container-fluid well">
 		<div class="col-sm-6">
-			{% thumbnail pipettebot/.JPG %}
+			{% thumbnail pipettebot/lasercutFrameComp.JPG %}
 		</div>
 		<div class="col-sm-6">
-			<h4>Step 2: Lasercut sensor components</h4>
+			<h4>Step 3: Lasercut frame components</h4>
 			<p>
-				<li>  </li>
+				<li>Cut two copies </li>
 			</p>
-			
-			<p class="alert alert-success">...</p>
-			<p class="alert alert-info">...</p>
-			<p class="alert alert-warning">...</p>
-			<p class="alert alert-danger">...</p>
 		</div>
 	</div>
 	
 	<div class="container-fluid well">
 		<div class="col-sm-6">
-			{% thumbnail pipettebot/.JPG %}
+			{% thumbnail pipettebot/lasercutSensor.JPG %}
 		</div>
 		<div class="col-sm-6">
-			<h4>Step 3: Lasercut well plate replacement components</h4>
+			<h4>Step 4: Lasercut sensor components</h4>
 			<p>
-				<li>  </li>
+				<li>Cut four copies </li>
 			</p>
-			
-			<p class="alert alert-success">...</p>
-			<p class="alert alert-info">...</p>
-			<p class="alert alert-warning">...</p>
-			<p class="alert alert-danger">...</p>
+		</div>
+	</div>
+	
+	<div class="container-fluid well">
+		<div class="col-sm-6">
+			{% thumbnail pipettebot/lasercutWellPlateRep1.JPG %}
+		</div>
+		<div class="col-sm-3">
+			{% thumbnail pipettebot/lasercutWellPlateRep2.JPG %}
+		</div>
+		<div class="col-sm-3">
+			{% thumbnail pipettebot/LasercutWellPlateRep3.JPG %}
+		</div>
+		<div class="col-sm-6">
+			<h4>Step 5: Lasercut well plate replacement components</h4>
+			<p>
+				<li>Cut one copy of each</li>
+				<li>The first contains patterns for the CD drive holder, and the CD drive push rod </li>
+				<li>The second contains patterns for the well plate guide and the off ramp </li>
+				<li>The last contains patterns for the well plate tower </li>
+			</p>
 		</div>
 	</div>
 
 	<div class="container-fluid well">
 		<div class="col-sm-6">
+			{% thumbnail pipettebot/lasercutTipRemoval.JPG %}
+		</div>
+		<div class="col-sm-6">
+			<h4>Step 6: Lasercut pipette tip removal components</h4>
+			<p>
+				<li>Cut one copy</li>
+			</p>
+			
+			</div>
+	</div>
+	
+	<div class="container-fluid well">
+		<div class="col-sm-6">
 			{% thumbnail pipettebot/.JPG %}
 		</div>
 		<div class="col-sm-6">
-			<h4>Step 4: Lasercut pipette tip removal components</h4>
+			<h4>Step 7: Lasercut pipette mount components</h4>
+			<p>
+				<li>Cut one copy</li>
+			</p>
+			
+			</div>
+	</div>
+	
+	<div class="container-fluid well">
+		<div class="col-sm-12">
+			<h4>Step 7: 3D printed parts: Overview</h4>
 			<p>
 				<li>  </li>
 			</p>
@@ -139,27 +167,10 @@ Instructions
 	
 	<div class="container-fluid well">
 		<div class="col-sm-6">
-			{% thumbnail pipettebot/.JPG %}
+			{% thumbnail pipettebot/3DPStand.JPG %}
 		</div>
 		<div class="col-sm-6">
-			<h4>Step 1: 3D printed parts: Overview</h4>
-			<p>
-				<li>  </li>
-			</p>
-			
-			<p class="alert alert-success">...</p>
-			<p class="alert alert-info">...</p>
-			<p class="alert alert-warning">...</p>
-			<p class="alert alert-danger">...</p>
-		</div>
-	</div>
-	
-	<div class="container-fluid well">
-		<div class="col-sm-6">
-			{% thumbnail pipettebot/.JPG %}
-		</div>
-		<div class="col-sm-6">
-			<h4>Step 5: 3D print frame components</h4>
+			<h4>Step 8: 3D print frame components</h4>
 			<p>
 				<li> ... </li>
 			</p>
@@ -176,7 +187,7 @@ Instructions
 			{% thumbnail pipettebot/.JPG %}
 		</div>
 		<div class="col-sm-6">
-			<h4>Step 6: 3D print electronic pipette mount components</h4>
+			<h4>Step 9: 3D print electronic pipette mount components</h4>
 			<p>
 				<li> ... </li>
 			</p>
@@ -193,7 +204,7 @@ Instructions
 			{% thumbnail pipettebot/.JPG %}
 		</div>
 		<div class="col-sm-6">
-			<h4>Step 7: 3D print well plate replacement components (optional)</h4>
+			<h4>Step 10: 3D print well plate replacement components (optional)</h4>
 			<p>
 				<li> ... </li>
 			</p>
@@ -508,16 +519,96 @@ Instructions
 
 	<div class="container-fluid well">
 		<div class="col-sm-6">
-			{% thumbnail pipettebot/frame assembly.jpg %}
+			{% thumbnail pipettebot/lasercutFrameComp.jpg %}
 		</div>
 		<div class="col-sm-6">
 			<h4>Step 1: Collect frame components</h4>
-			<p>List of frame parts.</p>
+			<p>
+				<li> Acrylic tall leg [file name] 2x </li>
+				<li> Acrylic short leg [file name] 2x </li>
+				<li> Acrylic slide support bottom [file name] 2x </li>
+				<li> Acrylic slide support top [file name] 2x </li>
+				<li> Acrylic leg buttress [file name] 2x </li>
+				<li> Acrylic edge buttress [file name] 6x </li>
+				<li> 3D printed well plate motion stands [file name] 2x </li>
+				<li> M5 insertion nut 8x </li>
+				<li> M5 bolts SIZES???? </li>
+			</p>
 
-			<p class="alert alert-success">...</p>
-			<p class="alert alert-info">...</p>
-			<p class="alert alert-warning">...</p>
-			<p class="alert alert-danger">...</p>
+			<p class="alert alert-info">See "Lasercut and 3D printed parts" section for further details on fabrication of these parts.</p>
+			<p class="alert alert-info">The "edge buttress" parts can be replaced with whatever comparable scrap acrylic parts are available.</p>
+		</div>
+	</div>
+
+	<div class="container-fluid well">
+		<div class="col-sm-6">
+			{% thumbnail pipettebot/frameLBrackets.JPG %}
+		</div>
+		<div class="col-sm-6">
+			<h4>Step 2: Assemble L brackets</h4>
+			<p>
+				<li> Collect lasercut acrylic slide supports (top and bottom) </li>
+				<li> Using acrylic glue, glue the parts together as shown in the image </li>
+				<li> Make sure the parts are properly aligned with a 90 degree angle, and allow to dry </li>
+			</p>
+			
+			<p class="alert alert-info">The two brackets should be mirror images of one another.</p>
+			<p class="alert alert-danger">Acrylic glue can be hazardous to health. Use in well ventilated area!</p>
+		</div>
+	</div>
+	
+	<div class="container-fluid well">
+		<div class="col-sm-6">
+			{% thumbnail pipettebot/frameRightLegs.JPG %}
+		</div>
+		<div class="col-sm-6">
+			<h4>Step 3: Assemble legs</h4>
+			<p>
+				<li> Collect lasercut acrylic legs and leg buttress </li>
+				<li> Assemble the parts as shown in the image. Note, the image is only for the right leg (your right when facing the robot) </li>
+				<li> Align parts as shown in image, making sure the bottom is flat, and the legs are perfectly vertical. The edges of the legs should be touching </li>
+				<li> Add acrylic glue to where the buttress meets the legs </li>
+				<li> Add acrylic glue along seam where the edges of the legs meet </li>
+				<li> Repeat, but mirrored for the left </li>
+				<li> Do not allow to fully dry. Move on to next step to make sure of proper alignment! </li>
+			</p>
+			
+			<p class="alert alert-info">This subassembly is very fragile. Be careful when handling.</p>
+			<p class="alert alert-danger">Acrylic glue can be hazardous to health. Use in well ventilated area!</p>
+		</div>
+	</div>
+	
+	<div class="container-fluid well">
+		<div class="col-sm-6">
+			{% thumbnail pipettebot/frameRightStand1.JPG %}
+		</div>
+		<div class="col-sm-3">
+			{% thumbnail pipettebot/frameRightStand2.JPG %}
+		</div>
+		<div class="col-sm-3">
+			{% thumbnail pipettebot/frameRightStand3.JPG %}
+		</div>
+		<div class="col-sm-6">
+			<h4>Step 3: Assemble legs</h4>
+			<p>
+				<li>Collect dried L-bracket assembly</li>
+				<li>Collect drying leg assembly</li>
+				<li>Collect laser cut edge buttresses</li>
+				<li>Glue the L-bracket onto the legs as shown in this image</li>
+				<li>Make the following checks:
+					<ul>
+					<li>The top of the long leg should align with the top of the L-bracket</li>
+					<li>The edge of the short leg should align with the edge of the bottom of the L-bracket</li>
+					<li>The adhesion surface between the bracket and the legs should be flat</li>
+					<li>None of the holes on the bracket should be obstructed</li>
+					</ul>
+				</li>
+				<li>If the parts seem misaligned, disassemble the leg subassembly and try again</li>
+				<li>If everything checks out, add the edge buttresses as shown in images for reinforcement</li>
+				<li>Repeat for left side with mirror image</li>
+			</p>
+
+			<p class="alert alert-danger">Acrylic glue can be hazardous to health. Use in well ventilated area!</p>
 		</div>
 	</div>
 
@@ -526,13 +617,12 @@ Instructions
 			{% thumbnail pipettebot/.JPG %}
 		</div>
 		<div class="col-sm-6">
-			<h4>Step 2: Assemble primary stands: Part 1</h4>
-			<p>Bracket</p>
+			<h4>Step 4: Add hardware to stands</h4>
+			<p>
+				<li>Collect 4x M5 bolts (SIZE???) and 4x M5 insertion nuts</li>
+				<li>Assemble as shown in image</li>
+			</p>
 
-			<p class="alert alert-success">...</p>
-			<p class="alert alert-info">...</p>
-			<p class="alert alert-warning">...</p>
-			<p class="alert alert-danger">...</p>
 		</div>
 	</div>
 	
@@ -541,58 +631,12 @@ Instructions
 			{% thumbnail pipettebot/.JPG %}
 		</div>
 		<div class="col-sm-6">
-			<h4>Step 4: Assemble primary stands: Part 2</h4>
-			<p>Stand</p>
-
-			<p class="alert alert-success">...</p>
-			<p class="alert alert-info">...</p>
-			<p class="alert alert-warning">...</p>
-			<p class="alert alert-danger">...</p>
-		</div>
-	</div>
-	
-	<div class="container-fluid well">
-		<div class="col-sm-6">
-			{% thumbnail pipettebot/.JPG %}
-		</div>
-		<div class="col-sm-6">
-			<h4>Step 5: Assemble primary stands: Part 3</h4>
-			<p>Support</p>
-
-			<p class="alert alert-success">...</p>
-			<p class="alert alert-info">...</p>
-			<p class="alert alert-warning">...</p>
-			<p class="alert alert-danger">...</p>
-		</div>
-	</div>
-
-	<div class="container-fluid well">
-		<div class="col-sm-6">
-			{% thumbnail pipettebot/.JPG %}
-		</div>
-		<div class="col-sm-6">
-			<h4>Step 6: Add hardware to stands</h4>
-			<p>List of frame parts.</p>
-
-			<p class="alert alert-success">...</p>
-			<p class="alert alert-info">...</p>
-			<p class="alert alert-warning">...</p>
-			<p class="alert alert-danger">...</p>
-		</div>
-	</div>
-	
-	<div class="container-fluid well">
-		<div class="col-sm-6">
-			{% thumbnail pipettebot/.JPG %}
-		</div>
-		<div class="col-sm-6">
-			<h4>Step 7: Add hardware to well plate motion stand</h4>
-			<p>List of frame parts.</p>
-
-			<p class="alert alert-success">...</p>
-			<p class="alert alert-info">...</p>
-			<p class="alert alert-warning">...</p>
-			<p class="alert alert-danger">...</p>
+			<h4>Step 5: Add hardware to well plate motion stand</h4>
+			<p>
+				<li>Collect 3D printed stands</li>
+				<li>Collect 4x M5 bolts (SIZE???) and 4x M5 insertion nuts</li>
+				<li>Assemble as shown in image</li>
+			</p>
 		</div>
 	</div>
 </div>
