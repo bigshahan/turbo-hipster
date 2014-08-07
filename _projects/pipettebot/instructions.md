@@ -671,15 +671,15 @@ Instructions
 			{% thumbnail pipettebot/.jpg %}
 		</div>
 		<div class="col-sm-6">
-			<h4>Step 2: Cut out sheet metal </h4>
+			<h4>Step 2: Prep sheet metal tabs </h4>
 			<p>
-				<li></li>
+				<li>Cut out rectangle as shown with shears</li>
+				<li>Drill hole using (SIZE???) drill</li>
+				<li>Bend 90 degrees along dotted lines</li>
+				<li>Repeat 4x</li>
 			</p>
-
-			<p class="alert alert-success">...</p>
-			<p class="alert alert-info">...</p>
-			<p class="alert alert-warning">...</p>
-			<p class="alert alert-danger">...</p>
+			
+			<p class="alert alert-danger">Wear eye protection and watch out for sharp edges when drilling and cutting!</p>
 		</div>
 	</div>
 	
@@ -688,15 +688,12 @@ Instructions
 			{% thumbnail pipettebot/.jpg %}
 		</div>
 		<div class="col-sm-6">
-			<h4>Step 3: Prep sheet metal tabs </h4>
+			<h4>Step 3: Glue on sensor </h4>
 			<p>
-				<li>Drill and bend</li>
+				<li>Using hot glue, attach the limit switches on the bent lip in the orientation shown</li>
 			</p>
+			<p class="alert alert-info">Actually, the limit switches can be attached in any orientation and still work.</p>
 
-			<p class="alert alert-success">...</p>
-			<p class="alert alert-info">...</p>
-			<p class="alert alert-warning">...</p>
-			<p class="alert alert-danger">...</p>
 		</div>
 	</div>
 	
@@ -705,15 +702,13 @@ Instructions
 			{% thumbnail pipettebot/.jpg %}
 		</div>
 		<div class="col-sm-6">
-			<h4>Step 4: Glue on sensor </h4>
+			<h4>Step 4: Assemble bolt and spacers </h4>
 			<p>
-				<li></li>
+				<li>Thread the 12mm(?) M5 bolts through washers, the metal tab, and then the acrylic spacer as shown</li>
+				<li>Use as many washers as needed to allow the attachment of the switch to the rails without interference</li>
 			</p>
 
-			<p class="alert alert-success">...</p>
-			<p class="alert alert-info">...</p>
-			<p class="alert alert-warning">...</p>
-			<p class="alert alert-danger">...</p>
+			<p class="alert alert-info">If using a smaller size M5 bolt, less washers will be needed. However, try to use at least one washer to avoid damaging the sheet metal.</p>
 		</div>
 	</div>
 	
@@ -722,26 +717,11 @@ Instructions
 			{% thumbnail pipettebot/.jpg %}
 		</div>
 		<div class="col-sm-6">
-			<h4>Step 5: Assemble bolt and spacers </h4>
+			<h4>Step 5: Solder on wires </h4>
 			<p>
-				<li></li>
-			</p>
-
-			<p class="alert alert-success">...</p>
-			<p class="alert alert-info">...</p>
-			<p class="alert alert-warning">...</p>
-			<p class="alert alert-danger">...</p>
-		</div>
-	</div>
-	
-	<div class="container-fluid well">
-		<div class="col-sm-6">
-			{% thumbnail pipettebot/.jpg %}
-		</div>
-		<div class="col-sm-6">
-			<h4>Step 6: Solder on wires </h4>
-			<p>
-				<li></li>
+				<li>Cut and strip 6 wires in 1 foot lengths</li>
+				<li>Solder onto the terminals of the limit switches as shown</li>
+				<li>Cut and strip a pair of 2 feet long wires, and solder onto last limit switch</li> 
 			</p>
 
 			<p class="alert alert-success">...</p>
