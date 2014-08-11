@@ -603,7 +603,7 @@ Instructions
 
 	<div class="container-fluid well">
 		<div class="col-sm-6">
-			{% thumbnail pipettebot/.JPG %}
+			{% thumbnail pipettebot/frameWithHardware.JPG %}
 		</div>
 		<div class="col-sm-6">
 			<h4>Step 4: Add hardware to stands</h4>
@@ -1435,7 +1435,7 @@ Instructions
 
 	<div class="container-fluid well">
 		<div class="col-sm-6">
-			{% thumbnail pipettebot/.JPG %}
+			{% thumbnail pipettebot/cd drive with stand.JPG %}
 		</div>
 		<div class="col-sm-6">
 			<h4>Step 22: Combine hacked CD-drive with stand</h4>
