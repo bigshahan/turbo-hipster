@@ -4,7 +4,7 @@ title: CAD and Drawings
 project: multichannel-amp
 ---
 
-CAD and Drawings
+Circuit schematic and layout
 ==========
 
 <table class="table table-striped table-bordered">
@@ -17,10 +17,17 @@ CAD and Drawings
 	</thead>
 	<tbody>
 		<tr>
-			<td>Support</td>
-			<td>Component of Stand</td>
+			<td>Circuit Schematic</td>
+			<td>Eagle file</td>
 			<td>
-				<a target="_blank" href="/downloads/pipettebot/support.SLDPRT">Solidworks</a>
+				<a target="_blank" href="/downloads/multichannel-amp/MC_amp.sch">Circuit schematic</a>
+			</td>
+		</tr>
+		<tr>
+			<td>Circuit Layout</td>
+			<td>Eagle file</td>
+			<td>
+				<a target="_blank" href="/downloads/multichannel-amp/MC_amp.brd">Circuit layout</a>
 			</td>
 		</tr>
 	</tbody>
@@ -28,24 +35,3 @@ CAD and Drawings
 
 
 
-Code
-==========
-
-<table class="table table-striped table-bordered">
-	<thead>
-		<tr>
-			<th>Part</th>
-			<th>Description</th>
-			<th>Download</th>	
-		</tr>
-	</thead>
-	<tbody>
-		<tr>
-			<td>Arduino Code</td>
-			<td>Load this into the Arduino to control the robot</td>
-			<td>
-				<a target="_blank" href="/downloads/pipettebot/PipettebotCode.ino">link</a>
-			</td>
-		</tr>
-	</tbody>
-</table>
