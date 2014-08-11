@@ -57,7 +57,7 @@ Instructions
 			<h4>Step 1: Lasercut components: Overview</h4>
 			<p>
 				<li>Unless otherwise noted, all of these pieces are to be cut from 1/4" acrylic</li>
-				<li>The lasercutting section will be organized according to major component, similar to the way the instructions are sectioned </li>
+				<li>The lasercutting section will be organized according to major components, similar to the way the instructions are sectioned </li>
 				<li>PDF files and Solidworks drawings of the 2D pattern to cut are provided</li>
 				<li>You can either laser cut all the components at once, or do them right before working on that particular assembly</li>
 				<li>Any thin, flat pieces of scrap acrylic are useful for use as buttressing to provide additional structural support</li>
@@ -140,7 +140,7 @@ Instructions
 	
 	<div class="container-fluid well">
 		<div class="col-sm-6">
-			{% thumbnail pipettebot/.JPG %}
+			{% thumbnail pipettebot/lasercutPipetteGuide.JPG %}
 		</div>
 		<div class="col-sm-6">
 			<h4>Step 7: Lasercut pipette mount components</h4>
@@ -155,13 +155,11 @@ Instructions
 		<div class="col-sm-12">
 			<h4>Step 7: 3D printed parts: Overview</h4>
 			<p>
-				<li>  </li>
+				<li>Like the lasercutter section, the 3D printer section is organized according to subcomponents </li>
+				<li>The 3D printed parts are provided as both DXF and STL files </li>
+				<li>The 3D printed parts can be printed from any ABS or PLA. It is recommended to use ABS for the pipette mount components as they take larger loads </li>
 			</p>
 			
-			<p class="alert alert-success">...</p>
-			<p class="alert alert-info">...</p>
-			<p class="alert alert-warning">...</p>
-			<p class="alert alert-danger">...</p>
 		</div>
 	</div>
 	
@@ -172,47 +170,38 @@ Instructions
 		<div class="col-sm-6">
 			<h4>Step 8: 3D print frame components</h4>
 			<p>
-				<li> ... </li>
+				<li> Print 2 copies </li>
 			</p>
 			
-			<p class="alert alert-success">...</p>
-			<p class="alert alert-info">...</p>
-			<p class="alert alert-warning">...</p>
-			<p class="alert alert-danger">...</p>
 		</div>
 	</div>
 	
 	<div class="container-fluid well">
 		<div class="col-sm-6">
-			{% thumbnail pipettebot/.JPG %}
+			{% thumbnail pipettebot/3DPPipetteMounts.JPG %}
 		</div>
 		<div class="col-sm-6">
 			<h4>Step 9: 3D print electronic pipette mount components</h4>
 			<p>
-				<li> ... </li>
+				<li> Print one copy </li>
 			</p>
 			
-			<p class="alert alert-success">...</p>
-			<p class="alert alert-info">...</p>
-			<p class="alert alert-warning">...</p>
-			<p class="alert alert-danger">...</p>
+			<p class="alert alert-info">Print out of ABS if possible</p>
+			<p class="alert alert-info">These CADs are not exact, and will need hand modification for better fit after printing</p>
 		</div>
 	</div>
 
 	<div class="container-fluid well">
 		<div class="col-sm-6">
-			{% thumbnail pipettebot/.JPG %}
+			{% thumbnail pipettebot/3DPWellPlateHolder.JPG %}
 		</div>
 		<div class="col-sm-6">
-			<h4>Step 10: 3D print well plate replacement components (optional)</h4>
+			<h4>Step 10: 3D print well plate replacement components</h4>
 			<p>
-				<li> ... </li>
+				<li> Print one component </li>
 			</p>
 			
-			<p class="alert alert-success">...</p>
-			<p class="alert alert-info">...</p>
-			<p class="alert alert-warning">...</p>
-			<p class="alert alert-danger">...</p>
+			<p class="alert alert-info">Large flat pieces are prone to warping. A heated bed may be required</p>
 		</div>
 	</div>
 
