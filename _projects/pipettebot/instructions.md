@@ -635,7 +635,7 @@ Instructions
 
 	<div class="container-fluid well">
 		<div class="col-sm-6">
-			{% thumbnail pipettebot/sensor.jpg %}
+			{% thumbnail pipettebot/sensorParts.jpg %}
 		</div>
 		<div class="col-sm-6">
 			<h4>Step 1: Collect sensor components </h4>
@@ -657,7 +657,7 @@ Instructions
 	
 	<div class="container-fluid well">
 		<div class="col-sm-6">
-			{% thumbnail pipettebot/.jpg %}
+			{% thumbnail pipettebot/sensorTab.jpg %}
 		</div>
 		<div class="col-sm-6">
 			<h4>Step 2: Prep sheet metal tabs </h4>
@@ -674,10 +674,25 @@ Instructions
 	
 	<div class="container-fluid well">
 		<div class="col-sm-6">
-			{% thumbnail pipettebot/.jpg %}
+			{% thumbnail pipettebot/sensorWires.jpg %}
 		</div>
 		<div class="col-sm-6">
-			<h4>Step 3: Glue on sensor </h4>
+			<h4>Step 3: Solder on wires </h4>
+			<p>
+				<li>Cut and strip a pair of wires in 1 1/2 foot lengths</li>
+				<li>Solder onto the terminals of the limit switches as shown</li>
+				<li>Cut and strip three pairs of 2 1/2 feet long wires, and solder onto last limit switch</li> 
+			</p>
+
+		</div>
+	</div>
+	
+	<div class="container-fluid well">
+		<div class="col-sm-6">
+			{% thumbnail pipettebot/sensorGlue.jpg %}
+		</div>
+		<div class="col-sm-6">
+			<h4>Step 4: Glue on sensor </h4>
 			<p>
 				<li>Using hot glue, attach the limit switches on the bent lip in the orientation shown</li>
 			</p>
@@ -688,10 +703,10 @@ Instructions
 	
 	<div class="container-fluid well">
 		<div class="col-sm-6">
-			{% thumbnail pipettebot/.jpg %}
+			{% thumbnail pipettebot/sensorHardware.jpg %}
 		</div>
 		<div class="col-sm-6">
-			<h4>Step 4: Assemble bolt and spacers </h4>
+			<h4>Step 5: Assemble bolt and spacers </h4>
 			<p>
 				<li>Thread the 12mm(?) M5 bolts through washers, the metal tab, and then the acrylic spacer as shown</li>
 				<li>Use as many washers as needed to allow the attachment of the switch to the rails without interference</li>
@@ -703,22 +718,19 @@ Instructions
 	
 	<div class="container-fluid well">
 		<div class="col-sm-6">
-			{% thumbnail pipettebot/.jpg %}
+			{% thumbnail pipettebot/sensorTape.jpg %}
 		</div>
 		<div class="col-sm-6">
-			<h4>Step 5: Solder on wires </h4>
+			<h4>Step 6: Assemble bolt and spacers </h4>
 			<p>
-				<li>Cut and strip 6 wires in 1 foot lengths</li>
-				<li>Solder onto the terminals of the limit switches as shown</li>
-				<li>Cut and strip a pair of 2 feet long wires, and solder onto last limit switch</li> 
+				<li>Add a little bit of tape to the sensor pivot as shown in image</li>
 			</p>
 
-			<p class="alert alert-success">...</p>
-			<p class="alert alert-info">...</p>
-			<p class="alert alert-warning">...</p>
-			<p class="alert alert-danger">...</p>
+			<p class="alert alert-info">The purpose of this step is to minimize slop in the sensor.</p>
 		</div>
 	</div>
+	
+	
 </div>
 
 <div id="content5" class="sidebar-content col-sm-8">
