@@ -617,7 +617,7 @@ Instructions
 	
 	<div class="container-fluid well">
 		<div class="col-sm-6">
-			{% thumbnail pipettebot/.JPG %}
+			{% thumbnail pipettebot/frameBaseWithHardware.JPG %}
 		</div>
 		<div class="col-sm-6">
 			<h4>Step 5: Add hardware to well plate motion stand</h4>
@@ -641,11 +641,11 @@ Instructions
 			<h4>Step 1: Collect sensor components </h4>
 			<p>
 				<li>Limit switches (Mcmaster 7658K14) 4x</li>
-				<li>12mm (?) M5 bolts 4x</li>
+				<li>12mm (longer sizes can be used, but will require washers for spacers) M5 bolts 4x</li>
 				<li>1/4" acrylic spacers with M5 holes (part?) 4x</li>
 				<li>M5 insertion nuts 4x</li>
 				<li>Thin, bendable sheet metal (gauge?)</li>
-				<li>M5 washers (lots) </li>
+				<li>M5 washers (if using longer bolts) </li>
 				<li>Wire </li>
 				<li>Hot glue gun </li>
 			</p>
@@ -830,7 +830,7 @@ Instructions
 
 	<div class="container-fluid well">
 		<div class="col-sm-6">
-			{% thumbnail pipettebot/.JPG %}
+			{% thumbnail pipettebot/hackPipette.JPG %}
 		</div>
 		<div class="col-sm-6">
 			<h4>Step 1: Collect parts of electronic pipette</h4>
@@ -840,110 +840,147 @@ Instructions
 				<li>Thin gauge wire </li>
 			</p>
 
-			<p class="alert alert-success">...</p>
-			<p class="alert alert-info">...</p>
-			<p class="alert alert-warning">...</p>
-			<p class="alert alert-danger">...</p>
+			<p class="alert alert-info">Shown is Transferpette, with thin gauge wire coming out of its interface into a perfboard.</p>
 		</div>
 	</div>
 
 	<div class="container-fluid well">
 		<div class="col-sm-6">
-			{% thumbnail pipettebot/.JPG %}
+			{% thumbnail pipettebot/hackPipetteBackScrew.JPG %}
 		</div>
 		<div class="col-sm-6">
-			<h4>Step 2: Remove battery and battery holder</h4>
+			{% thumbnail pipettebot/hackPipettePlasticPiece.JPG %}
+		</div>
+		<div class="col-sm-6">
+			<h4>Step 2: Remove battery cover</h4>
 			<p>
 				<li>Make sure pipette is unplugged</li>
 				<li>Remove screws on back</li>
-				<li>Remove finger thing</li>
+				<li>Remove finger support. Save the small screw</li>
+				<li>Push down on tab to release battery cover</li>
+				<li>Hold onto plastic piece with the nut pictured</li>
 			</p>
 
-			<p class="alert alert-success">...</p>
-			<p class="alert alert-info">...</p>
-			<p class="alert alert-warning">...</p>
-			<p class="alert alert-danger">...</p>
 		</div>
 	</div>
 	
 	<div class="container-fluid well">
 		<div class="col-sm-6">
-			{% thumbnail pipettebot/.JPG %}
+			{% thumbnail pipettebot/hackPipetteRemoveBatt.JPG %}
+		</div>
+		<div class="col-sm-6">
+			<h4>Step 3: Remove battery</h4>
+			<p>
+				<li>Remove the battery and unplug the wires connecting the battery to the pipette</li>
+				<li>Remove pair of screws on back</li>
+			</p>
+
+		</div>
+	</div>
+	
+	<div class="container-fluid well">
+		<div class="col-sm-6">
+			{% thumbnail pipettebot/hackPipetteTabs.JPG %}
+		</div>
+		<div class="col-sm-6">
+			{% thumbnail pipettebot/hackPipetteSplit.JPG %}
 		</div>
 		<div class="col-sm-6">
 			<h4>Step 3: Lift off face</h4>
 			<p>
-				<li>Remove buttons</li>
+				<li>Push down the two tabs indicated</li>
+				<li>While pushing down, separate the pipette along the seam</li>
+				<li>Remove rubber and plastic buttons. These are not needed</li>
 			</p>
 
-			<p class="alert alert-success">...</p>
-			<p class="alert alert-info">...</p>
-			<p class="alert alert-warning">The face will not come completely off!!</p>
-			<p class="alert alert-danger">...</p>
+
+			<p class="alert alert-warning">The face will not come completely off!! Do not try to force it.</p>
 		</div>
 	</div>
 
 	<div class="container-fluid well">
 		<div class="col-sm-6">
-			{% thumbnail pipettebot/.JPG %}
+			{% thumbnail pipettebot/hackPipetteSolder.JPG %}
 		</div>
 		<div class="col-sm-6">
-			<h4>Step 4: Extract circuit board</h4>
+			{% thumbnail pipettebot/hackPipetteThreadWires.JPG %}
+		</div>
+		<div class="col-sm-6">
+			<h4>Step 4: Solder on wires to circuit</h4>
 			<p>
-				<li>Clips hold board in</li>
+				<li>Clips hold board in. Pull back these clips to extract circuit board</li>
+				<li>Pull out circuit board as far as it will go</li>
+				<li>Cut and strip 10 thin wires in 4 inch lengths</li>
+				<li>Solder ends of wire onto contacts as shown</li>
+				<li>Thread the wire pairs through the corresponding button holes to help keep track of them</li>
+				<li>Put circuit board back into pipette, and close the pipette</li>
 			</p>
 
-			<p class="alert alert-success">...</p>
-			<p class="alert alert-info">...</p>
-			<p class="alert alert-warning">...</p>
-			<p class="alert alert-danger">...</p>
 		</div>
 	</div>
 	
 	<div class="container-fluid well">
 		<div class="col-sm-6">
-			{% thumbnail pipettebot/.JPG %}
+			{% thumbnail pipettebot/hackPipettePerfboard.JPG %}
 		</div>
 		<div class="col-sm-6">
-			<h4>Step 5: Solder wires to circuit board surface</h4>
-			<p>text</p>
-
-			<p class="alert alert-success">...</p>
-			<p class="alert alert-info">...</p>
-			<p class="alert alert-warning">...</p>
-			<p class="alert alert-danger">...</p>
-		</div>
-	</div>
-	
-	<div class="container-fluid well">
-		<div class="col-sm-6">
-			{% thumbnail pipettebot/.JPG %}
-		</div>
-		<div class="col-sm-6">
-			<h4>Step 6: Solder wires to perfboard</h4>
-			<p>text</p>
-
-			<p class="alert alert-success">...</p>
-			<p class="alert alert-info">...</p>
-			<p class="alert alert-warning">...</p>
-			<p class="alert alert-danger">...</p>
-		</div>
-	</div>
-	
-	<div class="container-fluid well">
-		<div class="col-sm-6">
-			{% thumbnail pipettebot/.JPG %}
-		</div>
-		<div class="col-sm-6">
-			<h4>Step 7: Test</h4>
+			<h4>Step 5: Solder wires to perfboard</h4>
 			<p>
-				<li>Make sure its working with paperclip... </li>
+				<li>Break up male headers into threes, and remove center pin. Repeat until you have five of these</li>
+				<li>Repeat with female headers</li>
+				<li>Solder corresponding pairs of wires onto each male header</li>
+				<li>Solder other end of header into the perfboard</li>
+				<li>Cut and strip 10 normal gauge wire in 2 foot lengths</li>
+				<li>Solder onto the female headers in pairs</li>
+				<li>Connect to the pins on perfboard</li>
 			</p>
 
-			<p class="alert alert-success">...</p>
-			<p class="alert alert-info">...</p>
-			<p class="alert alert-warning">...</p>
-			<p class="alert alert-danger">...</p>
+			<p class="alert alert-info">The purpose of the male female pins is to allow the pipette to be disconnected if needed from the circuitry. In the prototype this was not done so the images do not properly correspond.</p>
+		</div>
+	</div>
+	
+	<div class="container-fluid well">
+		<div class="col-sm-6">
+			{% thumbnail pipettebot/hackPipetteDrill.JPG %}
+		</div>
+		<div class="col-sm-6">
+			<h4>Step 6: Drill hole into battery cover</h4>
+			<p>
+				<li>Use a drill to make a small hole on the left side of the battery cover. This hole should be large enough to let through some wires</li>
+			</p>
+
+		</div>
+	</div>
+	
+	<div class="container-fluid well">
+		<div class="col-sm-6">
+			{% thumbnail pipettebot/hackPipetteGround.JPG %}
+		</div>
+		<div class="col-sm-6">
+			<h4>Step 7: Connect wire to battery ground</h4>
+			<p>
+				<li>Cut the black wire coming out of the battery pack</li>
+				<li>Cut and prep a 2 feet length normal gauge wire</li>
+				<li>Splice prepped wire into the black line of the battery pack</li>
+				<li>Wrap up and reconnect battery </li>
+				<li>Put little plastic piece into the battery cover, and close up the battery pack</li>
+			</p>
+
+		</div>
+	</div>
+
+
+	<div class="container-fluid well">
+		<div class="col-sm-6">
+			{% thumbnail pipettebot/hackPipetteTape.JPG %}
+		</div>
+		<div class="col-sm-6">
+			<h4>Step 8: Wrap pipette with tape</h4>
+			<p>
+				<li>Wrap the pipette body with tape as shown in the image</li>
+			</p>
+
+			<p class="alert alert-info">The purpose of the tape is to help the pipette clamp grip the pipette.</p>
 		</div>
 	</div>
 
@@ -961,7 +998,7 @@ Instructions
 			<p class="alert alert-danger">...</p>
 		</div>
 	</div>
-
+	
 	<div class="container-fluid well">
 		<div class="col-sm-6">
 			{% thumbnail pipettebot/.JPG %}
@@ -995,57 +1032,103 @@ Instructions
 
 <div id="content7" class="sidebar-content col-sm-8">
 	<h3>Electronic Pipette Mount</h3>
-
+	
 	<div class="container-fluid well">
 		<div class="col-sm-6">
-			{% thumbnail pipettebot/.JPG %}
+			{% thumbnail pipettebot/pipetteMountCarriage.JPG %}
 		</div>
 		<div class="col-sm-6">
-			<h4>Step 1: Collect components</h4>
+			<h4>Step 1: Prep carriage</h4>
 			<p>
-				<li>3D printed bottom pipette mount</li>
-				<li>3D printed upper pipette mount</li>
-				<li>Hardware</li>
+				<li>Grab one of the prepared carriages, and move the bolt where the belt mounts to match the image</li>
 			</p>
-
-			<p class="alert alert-success">...</p>
-			<p class="alert alert-info">...</p>
-			<p class="alert alert-warning">...</p>
-			<p class="alert alert-danger">...</p>
 		</div>
 	</div>
 	
 	<div class="container-fluid well">
 		<div class="col-sm-6">
-			{% thumbnail pipettebot/.JPG %}
+			{% thumbnail pipettebot/pipetteMountParts.JPG %}
 		</div>
 		<div class="col-sm-6">
-			<h4>Step 2: Attach upper mount to carriage</h4>
+			<h4>Step 2: Collect parts for bottom mount and guide</h4>
 			<p>
-				<li></li>
+				<li>3D printed bottom pipette mount base (CAD PRT?)</li>
+				<li>3D printed bottom pipette mount clamp (CAD PRT?)</li>
+				<li>Lasercut pipette guide (PART?)</li>
+				<li>Lasercut pipette guide spacer 2x (PART???)</li>
+				<li>30mm M5 bolts 4x</li>
+				<li>25mm M5 bolts 2x</li>
+				<li>15mm M5 bolt 1x</li>
+				<li>M5 washers 4x</li>
+				<li>M5 nut 5x</li>
+				<li>M5 insertion nut 3x</li>
 			</p>
 
-			<p class="alert alert-success">...</p>
-			<p class="alert alert-info">...</p>
-			<p class="alert alert-warning">...</p>
-			<p class="alert alert-danger">...</p>
+		</div>
+	</div>
+
+	<div class="container-fluid well">
+		<div class="col-sm-6">
+			{% thumbnail pipettebot/pipetteMountNuts.JPG %}
+		</div>
+		<div class="col-sm-6">
+			<h4>Step 3: Prepare bottom mount base</h4>
+			<p>
+				<li>Push a pair of M5 nuts into the two hex holes shown</li>
+			</p>
+
+			<p class="alert alert-info">Make sure the nuts get pushed all the way down.</p>
+		</div>
+	</div>	
+	
+	<div class="container-fluid well">
+		<div class="col-sm-6">
+			{% thumbnail pipettebot/pipetteMountPosition.JPG %}
+		</div>
+		<div class="col-sm-6">
+			{% thumbnail pipettebot/pipetteMountTopBolt.JPG %}
+		</div>
+		<div class="col-sm-6">
+			<h4>Step 4: Position mount on carriage</h4>
+			<p>
+				<li>Position mount as shown</li>
+				<li>Thread 15mm M5 bolt through hole on top of mount</li>
+				<li>Secure with an insertion nut on other side</li>				
+			</p>
+
+			<p class="alert alert-info">Do not fully tighten nut because the positioning will need to be adjusted.</p>
+		</div>
+	</div>	
+	
+	<div class="container-fluid well">
+		<div class="col-sm-6">
+			{% thumbnail pipettebot/pipetteMountCenterBolts.JPG %}
+		</div>
+		<div class="col-sm-6">
+			<h4>Step 5: Thread bolts through center holes</h4>
+			<p>
+				<li>Thread 30mm M5 bolts through center two holes shown in image</li>
+				<li>The bolts should fit through corresponding holes in the carriage, but do not tighten anything</li>
+			</p>
+			
 		</div>
 	</div>
 	
 	<div class="container-fluid well">
 		<div class="col-sm-6">
-			{% thumbnail pipettebot/.JPG %}
+			{% thumbnail pipettebot/pipetteMountBracketBack.JPG %}
 		</div>
 		<div class="col-sm-6">
-			<h4>Step 3: Attach lower mount to carriage</h4>
+			{% thumbnail pipettebot/pipetteMountBracketFront.JPG %}
+		</div>
+		<div class="col-sm-6">
+			<h4>Step 6: Position bracket below mount</h4>
 			<p>
-				<li></li>
+				<li>Position bracket below the pipette mount as shown in the image</li>
+				<li>Before tightening, slide in a pair of M5 insertion nuts underneath the mount</li>
+				<li>Thread on a pair of M5 nuts onto the bolts attaching the bracket to the carriage</li>
 			</p>
 
-			<p class="alert alert-success">...</p>
-			<p class="alert alert-info">...</p>
-			<p class="alert alert-warning">...</p>
-			<p class="alert alert-danger">...</p>
 		</div>
 	</div>
 	
