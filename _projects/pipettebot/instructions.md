@@ -1116,13 +1116,28 @@ Instructions
 	
 	<div class="container-fluid well">
 		<div class="col-sm-6">
+			{% thumbnail pipettebot/pipetteMountClamp.JPG %}
+		</div>
+		<div class="col-sm-6">
+			<h4>Step 6: Attach clamp to pipette mount</h4>
+			<p>
+				<li>Position clamp portion of the bottom pipette mount as shown in image</li>
+				<li>Loosely tighten with a pair of 30mm M5 bolts, making sure the bolts thread onto the nuts</li>
+			</p>
+
+			<p class="alert alert-info">The purpose of this step is to make sure the nuts have been inserted properly into the pipette mount before proceeding, and to make sure these nuts do not back out.</p>
+		</div>
+	</div>
+	
+	<div class="container-fluid well">
+		<div class="col-sm-6">
 			{% thumbnail pipettebot/pipetteMountBracketBack.JPG %}
 		</div>
 		<div class="col-sm-6">
 			{% thumbnail pipettebot/pipetteMountBracketFront.JPG %}
 		</div>
 		<div class="col-sm-6">
-			<h4>Step 6: Position bracket below mount</h4>
+			<h4>Step 7: Position bracket below mount</h4>
 			<p>
 				<li>Position bracket below the pipette mount as shown in the image</li>
 				<li>Before tightening, slide in a pair of M5 insertion nuts underneath the mount</li>
@@ -1134,20 +1149,159 @@ Instructions
 	
 	<div class="container-fluid well">
 		<div class="col-sm-6">
+			{% thumbnail pipettebot/pipetteMountGuideBolts.JPG %}
+		</div>
+		<div class="col-sm-6">
+			{% thumbnail pipettebot/pipetteMountGuideAssm.JPG %}
+		</div>
+		<div class="col-sm-6">
+			<h4>Step 8: Assemble pipette guide</h4>
+			<p>
+				<li>Put a pair of washers on both 25mm M5 bolts</li>
+				<li>Thread these bolts through the acrylic cutouts for the pipette guide as shown in the image</li>
+			</p>
+
+		</div>
+	</div>
+	
+	<div class="container-fluid well">
+		<div class="col-sm-6">
+			{% thumbnail pipettebot/pipetteMountAttachGuide.JPG %}
+		</div>
+		<div class="col-sm-6">
+			<h4>Step 9: Attach pipette guide to mount</h4>
+			<p>
+				<li>Thread bolts in the guide assembly into the insertion nuts between the bracket and mount</li>
+			</p>
+
+		</div>
+	</div>
+	
+	<div class="container-fluid well">
+		<div class="col-sm-6">
 			{% thumbnail pipettebot/.JPG %}
 		</div>
 		<div class="col-sm-6">
-			<h4>Step 4: Attach pipette to carriage</h4>
+			<h4>Step 10: Collect parts for pipette mounting arm</h4>
 			<p>
-				<li></li>
+				<li>3D printed pipette mounting arm (CAD PART)</li>
+				<li>30mm M5 bolts 2x</li>
+				<li>M5 nut 2x</li>
 			</p>
-
-			<p class="alert alert-success">...</p>
-			<p class="alert alert-info">...</p>
-			<p class="alert alert-warning">...</p>
-			<p class="alert alert-danger">...</p>
+		
+			<p class="alert alert-info">The following images show the arm with an acrylic spacer. The 3D printed part has been updated to no longer require this.</p>
+		
 		</div>
 	</div>
+	
+	<div class="container-fluid well">
+		<div class="col-sm-6">
+			{% thumbnail pipettebot/pipetteMountArmNut.JPG %}
+		</div>
+		<div class="col-sm-6">
+			<h4>Step 11: Insert nut into pipette mount arm</h4>
+			<p>
+				<li>Insert M5 nut into the slot on the pipette mount arm</li>
+			</p>
+		
+			<p class="alert alert-info">This should be a tight fit. Make sure the nut is flat and that the holes are relatively aligned.</p>
+		
+		</div>
+	</div>
+	
+	<div class="container-fluid well">
+		<div class="col-sm-6">
+			{% thumbnail pipettebot/pipetteMountArmPos1.JPG %}
+		</div>
+		<div class="col-sm-6">
+			{% thumbnail pipettebot/pipetteMountArmPos2.JPG %}
+		</div>
+		<div class="col-sm-6">
+			<h4>Step 12: Position pipette mount arm</h4>
+			<p>
+				<li>Grab the carriage with the lower portion of the pipette mount installed</li>
+				<li>In the position that the carriage will be installed on the robot, the arm should be positioned on the top right corner</li>
+				<li>The flat side of the arm should be pointing down, and the angled side pointing up</li>
+				<li>Thread a 30mm M5 bolt from bottom of the carriage, through the pipette mount arm, and into the nut inserted earlier</li>
+				<li>Do not fully tighten the bolt in order to allow positioning of the arm</li>
+				
+			</p>
+		
+		</div>
+	</div>
+
+	<div class="container-fluid well">
+		<div class="col-sm-6">
+			{% thumbnail pipettebot/pipetteMountArmSecondBolt.JPG %}
+		</div>
+		<div class="col-sm-6">
+			<h4>Step 13: Insert second bolt into arm</h4>
+			<p>
+				<li>Insert 30mm M5 bolt into the other slot in arm, going in the opposite direction of the first bolt</li>
+				<li>Tighten on carriage side with M5 nut</li>
+			</p>
+				
+		</div>
+	</div>
+
+	<div class="container-fluid well">
+		<div class="col-sm-6">
+			{% thumbnail pipettebot/pipetteMountOverview.JPG %}
+		</div>
+		<div class="col-sm-6">
+			<h4>Step 14: Check final positioning</h4>
+			<p>
+				<li>Make sure everything is positioned as shown in image</li>
+				<li>Tighten all nuts, being careful to not damage the 3D printed parts</li>
+			</p>
+			
+		</div>
+	</div>
+
+	<div class="container-fluid well">
+		<div class="col-sm-6">
+			{% thumbnail pipettebot/pipetteMountPipettePosition.JPG %}
+		</div>
+		<div class="col-sm-6">
+			<h4>Step 15: Position pipette</h4>
+			<p>
+				<li>Place pipette into the mount as shown in image</li>
+				<li>The bottom portion of the pipette can spin. Spin it around until it is perpendicular to the carriage and fits into the acrylic guide</li>
+			</p>
+		
+		</div>
+	</div>
+
+	<div class="container-fluid well">
+		<div class="col-sm-6">
+			{% thumbnail pipettebot/pipetteMountUpperAttach.JPG %}
+		</div>
+		<div class="col-sm-6">
+			<h4>Step 16: Attach upper mount to pipette</h4>
+			<p>
+				<li>Use the small screw that you removed from finger support of the pipette to attach the upper mount to the pipette</li>
+				<li>If the pipette does not properly align when the top mount secured, modify the top mount surface with a dremel</li>
+			</p>
+		
+		</div>
+	</div>	
+	
+	<div class="container-fluid well">
+		<div class="col-sm-6">
+			{% thumbnail pipettebot/pipetteMountBottomAttach.JPG %}
+		</div>
+		<div class="col-sm-6">
+			{% thumbnail pipettebot/pipetteMountFinal.JPG %}
+		</div>
+		<div class="col-sm-6">
+			<h4>Step 17: Attach bottom mount to pipette</h4>
+			<p>
+				<li>Place clamp back on the pipette, and tighten</li>
+				<li>At this point the pipette should be fully mounted and aligned as shown in the picture</li>
+			</p>
+		
+		</div>
+	</div>	
 </div>
 
 <div id="content8" class="sidebar-content col-sm-8">
