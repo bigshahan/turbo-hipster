@@ -737,10 +737,8 @@ Instructions
 	<h3>Electronics </h3>
 
 	<div class="container-fluid well">
-		<div class="col-sm-6">
-			{% thumbnail pipettebot/.JPG %}
-		</div>
-		<div class="col-sm-6">
+
+		<div class="col-sm-12">
 			<h4>Step 1: Collect tools and parts</h4>
 			<p>
 				<li>Soldering station </li>
@@ -749,13 +747,16 @@ Instructions
 				<li>Wire (lots) </li>
 				<li>Large breadboard 1x </li>
 				<li>Small breadboard 1x </li>
+				<li>Small perfboard 1x</li>
 				<li>Arduino Uno Rev3 </li>
 				<li>Pololu Stepper Driver DRV8825 3x </li>
 				<li>PNP transistors (specifics????) 5x </li>
 				<li>1kOhm resistors 8x </li>
 				<li>100uF capacitor 3x </li>
 				<li>ATX power supply 1x </li>
+				<li>On/off switch 1x</li>
 				<li>Small computer fan 1x </li>
+				<li>Male headers with three pins 5x</li>
 			</p>
 
 			<p class="alert alert-info">Any Arduino will work as long as it has enough input/outputs. This guide is specifically written for the Rev3. If using another model, keep track of the pins and modify the wiring or code as needed.</p>
@@ -766,63 +767,100 @@ Instructions
 	
 	<div class="container-fluid well">
 		<div class="col-sm-6">
-			{% thumbnail pipettebot/electronics breadboard.jpg %}
+			{% thumbnail pipettebot/.jpg %}
 		</div>
 		<div class="col-sm-6">
 			<h4>Step 2: Prepare ATX power supply</h4>
-			<p>text</p>
+			<p>
+				<li>Unplug ATX power supply and make sure it is fully discharged before working with it</li>
+				<li>Locate the pins to turn on and off the ATX power supply(GUIDE???)</li>
+				<li>Insert a short piece of wire into each pin, folding the ends if needed to ensure tight fit</li>
+				<li>Solder ends of wires onto on/off switch</li>
+				<li>Plug in ATX power supply</li>
+				<li>The on/off switch should now be able to turn the power supply on/off</li>
+			</p>
 
-			<p class="alert alert-success">...</p>
-			<p class="alert alert-info">...</p>
-			<p class="alert alert-warning">...</p>
-			<p class="alert alert-danger">...</p>
+			<p class="alert alert-danger">ATX power supplies can be very dangerous!</p>
 		</div>
 	</div>
 	
 	<div class="container-fluid well">
 		<div class="col-sm-6">
-			{% thumbnail pipettebot/electronics breadboard.jpg %}
+			{% thumbnail pipettebot/largebreadboard.jpg %}
 		</div>
 		<div class="col-sm-6">
-			<h4>Step 3: Assemble large bread board</h4>
-			<p>text</p>
+			<h4>Step 3: Assemble large breadboard</h4>
+			<p>
+				<li>The BLUE lines correspond to X-AXIS components</li>	
+				<li>The GREEN lines correspond to Y-AXIS components</li>
+				<li>The YELLOW lines correspond to Z-AXIS components</li>
+				<li>RED/BLACK correspond to POSITIVE/NEGATIVE, with the exception of the connections for the stepper motors</li>
+				<li>The component with the lightning bolt corresponds to the ATX power supply. Use the 5V (????)pins</li>
+				<li>Install the stepper driver in the orientation shown with the current adjustment facing up</li>
+				<li>Although this step cannot be completed now, if the steppers are overheating, turn down the current by turning screw counter-clockwise. If the steppers seem underpowered, turn up the current by turning screw clockwise</li>
+				<li>The wires just need to be long enough to connect the Arduino to the breadboard</li>
+				<li>The wires connecting the breadboard to the power supply should be a little longer to allow flexible positioning of the power supply</li>
+				<li>The wires connecting the breadboard to the stepper motors should be left at their default lengths. After final assembly, determine if the wires need to be lengthened</li>
+			</p>
 
-			<p class="alert alert-success">...</p>
-			<p class="alert alert-info">...</p>
-			<p class="alert alert-warning">...</p>
-			<p class="alert alert-danger">...</p>
 		</div>
 	</div>
 	
 	<div class="container-fluid well">
 		<div class="col-sm-6">
-			{% thumbnail pipettebot/electronics breadboard.jpg %}
+			{% thumbnail pipettebot/smallbreadboard.jpg %}
 		</div>
 		<div class="col-sm-6">
-			<h4>Step 4: Assemble small bread board</h4>
-			<p>text</p>
+			<h4>Step 4: Assemble small breadboard</h4>
+			<p>
+				<li>The GREY lines correspond to the DISPENSE button</li>
+				<li>The BROWN lines correspond to the MENU button</li>
+				<li>The PURPLE lines correspond to the UP button</li>
+				<li>The PINK lines correspond to the DOWN button</li>
+				<li>The ORANGE lines correspond to the SELECT button</li>
+				<li>The BLACK line corresponds to the ground of the pipette</li>
+				<li>Although the previously made connections are not shown, use the same Arduino that is connected to the large breadboard</li>
+				<li>The wires from the Arduino to the small breadboard just need to be long enough to reach between the two</li>
+				<li>The wires connecting the breadboard to the perfboard should be about two feet long. The perfboard will be positioned near the pipette</li>
+				<li>Preparing perfboard
+					<ul>
+					<li>Remove the center pin from the five male header triplets</li>
+					<li>Hot glue the headers into the perfboard in the positions corresponding to the connections of the circuit diagram</li>
+					<li>Solder the wire ends coming from the small breadboard onto the headers on the side going through the perfboard</li>
+					<li>This should leave pins exposed on one side for quickly connecting/disconnecting from the pipette</li>
+					</ul>
+				</li>
+				<li>Be careful to keep track of the positive/negative wires connected to the transistors. Its a good idea to somehow mark the positive wires</li>
+				
+			</p>
 
-			<p class="alert alert-success">...</p>
-			<p class="alert alert-info">...</p>
-			<p class="alert alert-warning">...</p>
-			<p class="alert alert-danger">...</p>
 		</div>
 	</div>
 	
 	<div class="container-fluid well">
 		<div class="col-sm-6">
-			{% thumbnail pipettebot/electronics breadboard.jpg %}
+			{% thumbnail pipettebot/.jpg %}
 		</div>
 		<div class="col-sm-6">
-			<h4>Step 5: Connect bread boards to Arduino</h4>
-			<p>text</p>
-
-			<p class="alert alert-success">...</p>
-			<p class="alert alert-info">...</p>
-			<p class="alert alert-warning">...</p>
-			<p class="alert alert-danger">...</p>
+			<h4>Step 5: Prepare fan</h4>
+			<p>
+				<li>Connect to power supply(???)</li>
+			</p>
 		</div>
-	</div>	
+	</div>
+	
+	<div class="container-fluid well">
+		<div class="col-sm-6">
+			{% thumbnail pipettebot/.jpg %}
+		</div>
+		<div class="col-sm-6">
+			<h4>Step 6: Power to CD drive</h4>
+			<p>
+				<li>There should be a wire coming out of the power supply that connects directly into the power supply</li>
+			</p>
+		</div>
+	</div>
+	
 </div>
 
 <div id="content6" class="sidebar-content col-sm-8">
