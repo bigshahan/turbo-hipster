@@ -4,7 +4,7 @@ Vagrant::Config.run do |config|
   config.vm.box_url = "http://files.vagrantup.com/precise32.box"
   config.vm.forward_port 4000, 4000
   config.vm.provision :shell,
-    :inline => "sudo apt-get update && sudo apt-get -y install build-essential git ruby1.9.3 imagemagick libmagickwand-dev lftp && sudo gem install jekyll --no-ri --no-rdoc && sudo gem install therubyracer && sudo gem install rmagick"
+    :inline => "sudo apt-get update && sudo apt-get -y install build-essential git ruby1.9.3 imagemagick libmagickwand-dev lftp bash && sudo gem install jekyll --no-ri --no-rdoc && sudo gem install therubyracer && sudo gem install rmagick"
 
   config.ssh.forward_agent = true
 end
