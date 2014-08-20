@@ -107,11 +107,7 @@ Instructions
 	<div class="container-fluid well">
 		<div class="col-sm-6">
 			{% thumbnail pipettebot/lasercutWellPlateRep1.JPG %}
-		</div>
-		<div class="col-sm-3">
 			{% thumbnail pipettebot/lasercutWellPlateRep2.JPG %}
-		</div>
-		<div class="col-sm-3">
 			{% thumbnail pipettebot/LasercutWellPlateRep3.JPG %}
 		</div>
 		<div class="col-sm-6">
@@ -570,11 +566,7 @@ Instructions
 	<div class="container-fluid well">
 		<div class="col-sm-6">
 			{% thumbnail pipettebot/frameRightStand1.JPG %}
-		</div>
-		<div class="col-sm-3">
 			{% thumbnail pipettebot/frameRightStand2.JPG %}
-		</div>
-		<div class="col-sm-3">
 			{% thumbnail pipettebot/frameRightStand3.JPG %}
 		</div>
 		<div class="col-sm-6">
@@ -885,8 +877,6 @@ Instructions
 	<div class="container-fluid well">
 		<div class="col-sm-6">
 			{% thumbnail pipettebot/hackPipetteBackScrew.JPG %}
-		</div>
-		<div class="col-sm-6">
 			{% thumbnail pipettebot/hackPipettePlasticPiece.JPG %}
 		</div>
 		<div class="col-sm-6">
@@ -919,8 +909,6 @@ Instructions
 	<div class="container-fluid well">
 		<div class="col-sm-6">
 			{% thumbnail pipettebot/hackPipetteTabs.JPG %}
-		</div>
-		<div class="col-sm-6">
 			{% thumbnail pipettebot/hackPipetteSplit.JPG %}
 		</div>
 		<div class="col-sm-6">
@@ -939,8 +927,6 @@ Instructions
 	<div class="container-fluid well">
 		<div class="col-sm-6">
 			{% thumbnail pipettebot/hackPipetteSolder.JPG %}
-		</div>
-		<div class="col-sm-6">
 			{% thumbnail pipettebot/hackPipetteThreadWires.JPG %}
 		</div>
 		<div class="col-sm-6">
@@ -998,7 +984,7 @@ Instructions
 			<h4>Step 7: Connect wire to battery ground</h4>
 			<p>
 				<li>Cut the black wire coming out of the battery pack</li>
-				<li>Cut and prep a 2 feet length normal gauge wire</li>
+				<li>Cut and prep a 6 inch length normal gauge wire</li>
 				<li>Splice prepped wire into the black line of the battery pack</li>
 				<li>Wrap up and reconnect battery </li>
 				<li>Put little plastic piece into the battery cover, and close up the battery pack</li>
@@ -1021,21 +1007,6 @@ Instructions
 			<p class="alert alert-info">The purpose of the tape is to help the pipette clamp grip the pipette.</p>
 		</div>
 	</div>
-
-	<div class="container-fluid well">
-		<div class="col-sm-6">
-			{% thumbnail pipettebot/.JPG %}
-		</div>
-		<div class="col-sm-6">
-			<h4>Step 8: Hack power supply</h4>
-			<p>text</p>
-
-			<p class="alert alert-success">...</p>
-			<p class="alert alert-info">...</p>
-			<p class="alert alert-warning">...</p>
-			<p class="alert alert-danger">...</p>
-		</div>
-	</div>
 	
 	<div class="container-fluid well">
 		<div class="col-sm-6">
@@ -1043,7 +1014,9 @@ Instructions
 		</div>
 		<div class="col-sm-6">
 			<h4>Step 9: Connect pipette to Arduino</h4>
-			<p>text</p>
+			<p>
+				<li></li>
+			</p>
 
 			<p class="alert alert-success">...</p>
 			<p class="alert alert-info">...</p>
@@ -1122,8 +1095,6 @@ Instructions
 	<div class="container-fluid well">
 		<div class="col-sm-6">
 			{% thumbnail pipettebot/pipetteMountPosition.JPG %}
-		</div>
-		<div class="col-sm-6">
 			{% thumbnail pipettebot/pipetteMountTopBolt.JPG %}
 		</div>
 		<div class="col-sm-6">
@@ -1170,8 +1141,6 @@ Instructions
 	<div class="container-fluid well">
 		<div class="col-sm-6">
 			{% thumbnail pipettebot/pipetteMountBracketBack.JPG %}
-		</div>
-		<div class="col-sm-6">
 			{% thumbnail pipettebot/pipetteMountBracketFront.JPG %}
 		</div>
 		<div class="col-sm-6">
@@ -1188,8 +1157,6 @@ Instructions
 	<div class="container-fluid well">
 		<div class="col-sm-6">
 			{% thumbnail pipettebot/pipetteMountGuideBolts.JPG %}
-		</div>
-		<div class="col-sm-6">
 			{% thumbnail pipettebot/pipetteMountGuideAssm.JPG %}
 		</div>
 		<div class="col-sm-6">
@@ -1217,7 +1184,7 @@ Instructions
 	
 	<div class="container-fluid well">
 		<div class="col-sm-6">
-			{% thumbnail pipettebot/.JPG %}
+			{% thumbnail pipettebot/pipetteMountArmParts.JPG %}
 		</div>
 		<div class="col-sm-6">
 			<h4>Step 10: Collect parts for pipette mounting arm</h4>
@@ -1250,8 +1217,6 @@ Instructions
 	<div class="container-fluid well">
 		<div class="col-sm-6">
 			{% thumbnail pipettebot/pipetteMountArmPos1.JPG %}
-		</div>
-		<div class="col-sm-6">
 			{% thumbnail pipettebot/pipetteMountArmPos2.JPG %}
 		</div>
 		<div class="col-sm-6">
@@ -1327,8 +1292,6 @@ Instructions
 	<div class="container-fluid well">
 		<div class="col-sm-6">
 			{% thumbnail pipettebot/pipetteMountBottomAttach.JPG %}
-		</div>
-		<div class="col-sm-6">
 			{% thumbnail pipettebot/pipetteMountFinal.JPG %}
 		</div>
 		<div class="col-sm-6">
@@ -1906,11 +1869,23 @@ Instructions
 		
 	<div class="container-fluid well">
 		<div class="col-sm-6">
-			{% thumbnail pipettebot/.JPG %}
+			{% thumbnail pipettebot/assemblyXSensor1.JPG %}
+			{% thumbnail pipettebot/assemblyXStand1.JPG %}
+			{% thumbnail pipettebot/assemblyXSensor2.JPG %}
+			{% thumbnail pipettebot/assemblyXFinal.JPG %}
 		</div>
 		<div class="col-sm-6">
-			<h4>Step 1: Collect all components</h4>
-			<p>text</p>
+			<h4>Step 1: Add stands to x-axis rails</h4>
+			<p>
+				<li>Attach sensor assembly with short wires to x-axis rail in orientation shown. Do not tighten </li>
+				<li>Attach one of the 3D printed stands to the x-axis rail 45mm from the end on the side where the stepper motor is mounted</li>
+				<li>Slide the sensor so it touches the stand and tighten all bolts</li>
+				<li>Attach the acrylic well plate guide with the ramped opening facing the idler pulley side of the rail. Slide up against the stand and tighten bolts</li>
+				<li>Attach sensor assembly from the CD-drive. Do not tighten</li>
+				<li>Attach other 3D printed stand to the rail at the very end of the idler pulley side. Push the sensor flush against this stand and tighten bolts</li>
+				<li>You now have a fully assembled x-axis rail!</li>
+				<li>Reattach any wiring to the breadboard that you may have disconnected</li>
+			</p>
 
 			<p class="alert alert-success">...</p>
 			<p class="alert alert-info">...</p>
@@ -1921,11 +1896,29 @@ Instructions
 	
 	<div class="container-fluid well">
 		<div class="col-sm-6">
-			{% thumbnail pipettebot/.JPG %}
+			{% thumbnail pipettebot/assemblyYCarriage.JPG %}
+			{% thumbnail pipettebot/assemblyZRail.JPG %}
+			{% thumbnail pipettebot/assemblyYSensor.JPG %}
+			{% thumbnail pipettebot/assemblyYTipRemoval.JPG %}
+			{% thumbnail pipettebot/assemblyYFinal.JPG %}
+			{% thumbnail pipettebot/assemblyZSensor.JPG %}
+			{% thumbnail pipettebot/assemblyFinal.JPG %}
 		</div>
 		<div class="col-sm-6">
 			<h4>Step 2: Attach carriages to rails</h4>
-			<p>text</p>
+			<p>
+				<li>NEEDED: 4 8mm M5 and 4 M5 insertion</li>
+				<li>Assemble the 4 8mm M5 bolts and insertion nuts as shown on the carriage of the y-axis rail</li>
+				<li>Disassemble the z-axis rail</li>
+				<li>Attach the z-axis rail as shown in the image. The rail should be approximately centered and the slot in z-axis the rail should be nearest the stepper motor of the y-axis rail</li>
+				<li>Slide the left acrylic stand stand onto the y-axis rail. Bring it close to the edge of the stepper motor side. Tighten</li>
+				<li>Slide a sensor onto the rail about 60mm away from the end with the stepper motor. Tighten</li>
+				<li>Slide acrylic wedge onto y-axis rail as shown about 60mm from the edge of the idler pulley side. Tighten</li>
+				<li>Slide right acrylic stand onto y-axis rail and make the edge flush with the idler pulley end. Tighten</li>
+				<li>Reassemble z-axis</li>
+				<li>Reconnect any disconnected wires</li>
+				<li>Attach sensor 40mm from top of z-axis rail, then reassemble z-axis motion components</li>
+			</p>
 
 			<p class="alert alert-success">...</p>
 			<p class="alert alert-info">...</p>
