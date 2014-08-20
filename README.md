@@ -90,6 +90,14 @@ Shortcut for adding all files in a folder:
 		<p>text3</p>
 	</div>
 
+# Pushing to the FTP server
+(only works on Mac/Linux & must have lftp installed. The vagrant image has this installed) 
+
+cd into the project folder
+./upload.sh 
+
+Username & FTP server is set in the deploy.x file
+
 # Using Git GUI
 Use the folder where the repository is held from github
 
