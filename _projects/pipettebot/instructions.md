@@ -783,9 +783,9 @@ Instructions
 		<div class="col-sm-6">
 			<h4>Step 3: Assemble large breadboard</h4>
 			<p>
-				<li>The BLUE lines correspond to X-AXIS components</li>	
+				<li>The BLUE lines correspond to Z-AXIS components</li>	
 				<li>The GREEN lines correspond to Y-AXIS components</li>
-				<li>The YELLOW lines correspond to Z-AXIS components</li>
+				<li>The YELLOW lines correspond to X-AXIS components</li>
 				<li>RED/BLACK correspond to POSITIVE/NEGATIVE, with the exception of the connections for the stepper motors</li>
 				<li>The component with the lightning bolt corresponds to the ATX power supply. Use the 5V (????)pins</li>
 				<li>Install the stepper driver in the orientation shown with the current adjustment facing up</li>
@@ -1869,181 +1869,51 @@ Instructions
 		
 	<div class="container-fluid well">
 		<div class="col-sm-6">
-			{% thumbnail pipettebot/assemblyXSensor1.JPG %}
-			{% thumbnail pipettebot/assemblyXStand1.JPG %}
-			{% thumbnail pipettebot/assemblyXSensor2.JPG %}
-			{% thumbnail pipettebot/assemblyXFinal.JPG %}
+			{% thumbnail pipettebot/assemblyZSensor1.JPG %}
+			{% thumbnail pipettebot/assemblyZStand1.JPG %}
+			{% thumbnail pipettebot/assemblyZSensor2.JPG %}
+			{% thumbnail pipettebot/assemblyZFinal.JPG %}
 		</div>
 		<div class="col-sm-6">
-			<h4>Step 1: Add stands to x-axis rails</h4>
+			<h4>Step 1: Add stands to Z-axis rails</h4>
 			<p>
-				<li>Attach sensor assembly with short wires to x-axis rail in orientation shown. Do not tighten </li>
-				<li>Attach one of the 3D printed stands to the x-axis rail 45mm from the end on the side where the stepper motor is mounted</li>
+				<li>Attach sensor assembly with short wires to Z-axis rail in orientation shown. Do not tighten </li>
+				<li>Attach one of the 3D printed stands to the Z-axis rail 45mm from the end on the side where the stepper motor is mounted</li>
 				<li>Slide the sensor so it touches the stand and tighten all bolts</li>
 				<li>Attach the acrylic well plate guide with the ramped opening facing the idler pulley side of the rail. Slide up against the stand and tighten bolts</li>
 				<li>Attach sensor assembly from the CD-drive. Do not tighten</li>
 				<li>Attach other 3D printed stand to the rail at the very end of the idler pulley side. Push the sensor flush against this stand and tighten bolts</li>
-				<li>You now have a fully assembled x-axis rail!</li>
+				<li>You now have a fully assembled Z-axis rail!</li>
 				<li>Reattach any wiring to the breadboard that you may have disconnected</li>
 			</p>
-
-			<p class="alert alert-success">...</p>
-			<p class="alert alert-info">...</p>
-			<p class="alert alert-warning">...</p>
-			<p class="alert alert-danger">...</p>
 		</div>
 	</div>
 	
 	<div class="container-fluid well">
 		<div class="col-sm-6">
 			{% thumbnail pipettebot/assemblyYCarriage.JPG %}
-			{% thumbnail pipettebot/assemblyZRail.JPG %}
+			{% thumbnail pipettebot/assemblyXRail.JPG %}
 			{% thumbnail pipettebot/assemblyYSensor.JPG %}
 			{% thumbnail pipettebot/assemblyYTipRemoval.JPG %}
 			{% thumbnail pipettebot/assemblyYFinal.JPG %}
-			{% thumbnail pipettebot/assemblyZSensor.JPG %}
+			{% thumbnail pipettebot/assemblyXSensor.JPG %}
 			{% thumbnail pipettebot/assemblyFinal.JPG %}
 		</div>
 		<div class="col-sm-6">
 			<h4>Step 2: Attach carriages to rails</h4>
 			<p>
 				<li>NEEDED: 4 8mm M5 and 4 M5 insertion</li>
-				<li>Assemble the 4 8mm M5 bolts and insertion nuts as shown on the carriage of the y-axis rail</li>
-				<li>Disassemble the z-axis rail</li>
-				<li>Attach the z-axis rail as shown in the image. The rail should be approximately centered and the slot in z-axis the rail should be nearest the stepper motor of the y-axis rail</li>
-				<li>Slide the left acrylic stand stand onto the y-axis rail. Bring it close to the edge of the stepper motor side. Tighten</li>
+				<li>Assemble the 4 8mm M5 bolts and insertion nuts as shown on the carriage of the Y-axis rail</li>
+				<li>Disassemble the X-axis rail</li>
+				<li>Attach the X-axis rail as shown in the image. The rail should be approximately centered and the slot in X-axis the rail should be nearest the stepper motor of the Y-axis rail</li>
+				<li>Slide the left acrylic stand stand onto the Y-axis rail. Bring it close to the edge of the stepper motor side. Tighten</li>
 				<li>Slide a sensor onto the rail about 60mm away from the end with the stepper motor. Tighten</li>
-				<li>Slide acrylic wedge onto y-axis rail as shown about 60mm from the edge of the idler pulley side. Tighten</li>
+				<li>Slide acrylic wedge onto Y-axis rail as shown about 60mm from the edge of the idler pulley side. Tighten</li>
 				<li>Slide right acrylic stand onto y-axis rail and make the edge flush with the idler pulley end. Tighten</li>
-				<li>Reassemble z-axis</li>
+				<li>Reassemble X-axis</li>
 				<li>Reconnect any disconnected wires</li>
-				<li>Attach sensor 40mm from top of z-axis rail, then reassemble z-axis motion components</li>
+				<li>Attach sensor 40mm from top of z-axis rail, then reassemble X-axis motion components</li>
 			</p>
-
-			<p class="alert alert-success">...</p>
-			<p class="alert alert-info">...</p>
-			<p class="alert alert-warning">...</p>
-			<p class="alert alert-danger">...</p>
-		</div>
-	</div>
-	
-	<div class="container-fluid well">
-		<div class="col-sm-6">
-			{% thumbnail pipettebot/.JPG %}
-		</div>
-		<div class="col-sm-6">
-			<h4>Step 3: Attach frame to rails</h4>
-			<p>text</p>
-
-			<p class="alert alert-success">...</p>
-			<p class="alert alert-info">...</p>
-			<p class="alert alert-warning">...</p>
-			<p class="alert alert-danger">...</p>
-		</div>
-	</div>
-	
-	<div class="container-fluid well">
-		<div class="col-sm-6">
-			{% thumbnail pipettebot/.JPG %}
-		</div>
-		<div class="col-sm-6">
-			<h4>Step 4: Attach frame to rails</h4>
-			<p>text</p>
-
-			<p class="alert alert-success">...</p>
-			<p class="alert alert-info">...</p>
-			<p class="alert alert-warning">...</p>
-			<p class="alert alert-danger">...</p>
-		</div>
-	</div>
-	
-	<div class="container-fluid well">
-		<div class="col-sm-6">
-			{% thumbnail pipettebot/.JPG %}
-		</div>
-		<div class="col-sm-6">
-			<h4>Step 4: Attach sensors to rails</h4>
-			<p>text</p>
-
-			<p class="alert alert-success">...</p>
-			<p class="alert alert-info">...</p>
-			<p class="alert alert-warning">...</p>
-			<p class="alert alert-danger">...</p>
-		</div>
-	</div>
-	
-	<div class="container-fluid well">
-		<div class="col-sm-6">
-			{% thumbnail pipettebot/.JPG %}
-		</div>
-		<div class="col-sm-6">
-			<h4>Step 4: Attach tip replacement assembly to rails</h4>
-			<p>text</p>
-
-			<p class="alert alert-success">...</p>
-			<p class="alert alert-info">...</p>
-			<p class="alert alert-warning">...</p>
-			<p class="alert alert-danger">...</p>
-		</div>
-	</div>
-	
-	<div class="container-fluid well">
-		<div class="col-sm-6">
-			{% thumbnail pipettebot/.JPG %}
-		</div>
-		<div class="col-sm-6">
-			<h4>Step 5: Position rails perpendicular to one another</h4>
-			<p>text</p>
-
-			<p class="alert alert-success">...</p>
-			<p class="alert alert-info">...</p>
-			<p class="alert alert-warning">...</p>
-			<p class="alert alert-danger">...</p>
-		</div>
-	</div>
-	
-	<div class="container-fluid well">
-		<div class="col-sm-6">
-			{% thumbnail pipettebot/.JPG %}
-		</div>
-		<div class="col-sm-6">
-			<h4>Step 6: Connect motors to breadboard</h4>
-			<p>text</p>
-
-			<p class="alert alert-success">...</p>
-			<p class="alert alert-info">...</p>
-			<p class="alert alert-warning">...</p>
-			<p class="alert alert-danger">...</p>
-		</div>
-	</div>
-	
-	<div class="container-fluid well">
-		<div class="col-sm-6">
-			{% thumbnail pipettebot/.JPG %}
-		</div>
-		<div class="col-sm-6">
-			<h4>Step 7: Connect pipette to breadboard</h4>
-			<p>text</p>
-
-			<p class="alert alert-success">...</p>
-			<p class="alert alert-info">...</p>
-			<p class="alert alert-warning">...</p>
-			<p class="alert alert-danger">...</p>
-		</div>
-	</div>
-	
-	<div class="container-fluid well">
-		<div class="col-sm-6">
-			{% thumbnail pipettebot/.JPG %}
-		</div>
-		<div class="col-sm-6">
-			<h4>Step 8: Position well plate replacement components</h4>
-			<p>text</p>
-
-			<p class="alert alert-success">...</p>
-			<p class="alert alert-info">...</p>
-			<p class="alert alert-warning">...</p>
-			<p class="alert alert-danger">...</p>
 		</div>
 	</div>
 </div>
