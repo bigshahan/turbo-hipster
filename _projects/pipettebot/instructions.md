@@ -783,8 +783,8 @@ Instructions
 		<div class="col-sm-6">
 			<h4>Step 3: Assemble large breadboard</h4>
 			<p>
-				<li>The BLUE lines correspond to Z-AXIS components</li>	
-				<li>The GREEN lines correspond to Y-AXIS components</li>
+				<li>The BLUE lines correspond to Y-AXIS components</li>	
+				<li>The GREEN lines correspond to Z-AXIS components</li>
 				<li>The YELLOW lines correspond to X-AXIS components</li>
 				<li>RED/BLACK correspond to POSITIVE/NEGATIVE, with the exception of the connections for the stepper motors</li>
 				<li>The component with the lightning bolt corresponds to the ATX power supply. Use the 5V (????)pins</li>
@@ -1870,49 +1870,150 @@ Instructions
 	<div class="container-fluid well">
 		<div class="col-sm-6">
 			{% thumbnail pipettebot/assemblyZSensor1.JPG %}
-			{% thumbnail pipettebot/assemblyZStand1.JPG %}
-			{% thumbnail pipettebot/assemblyZSensor2.JPG %}
-			{% thumbnail pipettebot/assemblyZFinal.JPG %}
 		</div>
 		<div class="col-sm-6">
-			<h4>Step 1: Add stands to Z-axis rails</h4>
+			<h4>Step 1: Add first sensor to Z-axis rails</h4>
 			<p>
+				<li>For the following steps you will need: the Z-axis rail, 3D printed stands, one loose position sensor (one with shorter wire), and the position sensor connected to CD-drive</li>
+				<li>Remove everything from the Z-axis rail except the stepper motor assembly</li>
 				<li>Attach sensor assembly with short wires to Z-axis rail in orientation shown. Do not tighten </li>
-				<li>Attach one of the 3D printed stands to the Z-axis rail 45mm from the end on the side where the stepper motor is mounted</li>
-				<li>Slide the sensor so it touches the stand and tighten all bolts</li>
-				<li>Attach the acrylic well plate guide with the ramped opening facing the idler pulley side of the rail. Slide up against the stand and tighten bolts</li>
-				<li>Attach sensor assembly from the CD-drive. Do not tighten</li>
-				<li>Attach other 3D printed stand to the rail at the very end of the idler pulley side. Push the sensor flush against this stand and tighten bolts</li>
-				<li>You now have a fully assembled Z-axis rail!</li>
-				<li>Reattach any wiring to the breadboard that you may have disconnected</li>
 			</p>
 		</div>
 	</div>
 	
 	<div class="container-fluid well">
 		<div class="col-sm-6">
-			{% thumbnail pipettebot/assemblyYCarriage.JPG %}
-			{% thumbnail pipettebot/assemblyXRail.JPG %}
-			{% thumbnail pipettebot/assemblyYSensor.JPG %}
-			{% thumbnail pipettebot/assemblyYTipRemoval.JPG %}
-			{% thumbnail pipettebot/assemblyYFinal.JPG %}
-			{% thumbnail pipettebot/assemblyXSensor.JPG %}
-			{% thumbnail pipettebot/assemblyFinal.JPG %}
+			{% thumbnail pipettebot/assemblyZStand1.JPG %}
 		</div>
 		<div class="col-sm-6">
-			<h4>Step 2: Attach carriages to rails</h4>
+			<h4>Step 2: Add first stand to Z-axis rails</h4>
 			<p>
-				<li>NEEDED: 4 8mm M5 and 4 M5 insertion</li>
-				<li>Assemble the 4 8mm M5 bolts and insertion nuts as shown on the carriage of the Y-axis rail</li>
-				<li>Disassemble the X-axis rail</li>
-				<li>Attach the X-axis rail as shown in the image. The rail should be approximately centered and the slot in X-axis the rail should be nearest the stepper motor of the Y-axis rail</li>
-				<li>Slide the left acrylic stand stand onto the Y-axis rail. Bring it close to the edge of the stepper motor side. Tighten</li>
+				<li>Attach one of the 3D printed stands to the Z-axis rail 45mm from the end on the side where the stepper motor is mounted</li>
+				<li>Slide the sensor so it touches the stand and tighten all bolts</li>
+			</p>
+		</div>
+	</div>
+	
+	<div class="container-fluid well">
+		<div class="col-sm-6">
+			{% thumbnail pipettebot/assemblyZSensor2.JPG %}
+		</div>
+		<div class="col-sm-6">
+			<h4>Step 3: Add second sensor to Z-axis rails</h4>
+			<p>
+				<li>Attach the acrylic well plate guide with the ramped opening facing the idler pulley side of the rail. Slide up against the stand and tighten bolts</li>
+				<li>Attach sensor assembly from the CD-drive. Do not tighten</li>
+			</p>
+		</div>
+	</div>
+	
+	<div class="container-fluid well">
+		<div class="col-sm-6">
+			{% thumbnail pipettebot/assemblyZFinal.JPG %}
+		</div>
+		<div class="col-sm-6">
+			<h4>Step 4: Add second stand to Z-axis rails</h4>
+			<p>
+				<li>Attach other 3D printed stand to the rail at the very end of the idler pulley side. Push the sensor flush against this stand and tighten bolts</li>
+				<li>Reattach carriage, belt, and idler pulley assembly</li>
+				<li>Reattach any wiring to the breadboard that you may have disconnected</li>
+				<li>You now have a fully assembled Z-axis rail!</li>
+			</p>
+		</div>
+	</div>
+	
+	<div class="container-fluid well">
+		<div class="col-sm-6">
+			{% thumbnail pipettebot/assemblyXCarriage.JPG %}
+		</div>
+		<div class="col-sm-6">
+			<h4>Step 5: Prepare X-axis carriage</h4>
+			<p>
+				<li>For the following steps you will need: X-axis rail, Y-axis rail, 2 position sensors, pipette tip removal assembly, acrylic stands, 4 8mm M5 and 4 M5 insertion</li>
+				<li>Assemble the 4 8mm M5 bolts and insertion nuts as shown on the carriage of the X-axis rail</li>
+			</p>
+		</div>
+	</div>
+	
+	<div class="container-fluid well">
+		<div class="col-sm-6">
+			{% thumbnail pipettebot/assemblyYRail.JPG %}
+		</div>
+		<div class="col-sm-6">
+			<h4>Step 6: Attach Z-axis rail to carriage</h4>
+			<p>
+				<li>Disassemble the Y-axis rail</li>
+				<li>Attach the Y-axis rail as shown in the image. The rail should be approximately centered and the slot in Y-axis the rail should be nearest the stepper motor of the X-axis rail</li>
+				</p>
+		</div>
+	</div>
+	
+	<div class="container-fluid well">
+		<div class="col-sm-6">
+			{% thumbnail pipettebot/assemblyXSensor.JPG %}
+		</div>
+		<div class="col-sm-6">
+			<h4>Step 7: Attach first stand and sensor to X-axis rail</h4>
+			<p>
+				<li>Slide the left acrylic stand stand onto the X-axis rail. Bring it close to the edge of the stepper motor side. Tighten</li>
 				<li>Slide a sensor onto the rail about 60mm away from the end with the stepper motor. Tighten</li>
-				<li>Slide acrylic wedge onto Y-axis rail as shown about 60mm from the edge of the idler pulley side. Tighten</li>
+			</p>
+		</div>
+	</div>
+	
+	<div class="container-fluid well">
+		<div class="col-sm-6">
+			{% thumbnail pipettebot/assemblyXTipRemoval.JPG %}
+		</div>
+		<div class="col-sm-6">
+			<h4>Step 8: Attach tip removal component</h4>
+			<p>
+				<li>Slide acrylic wedge onto X-axis rail as shown about 60mm from the edge of the idler pulley side. Tighten</li>
 				<li>Slide right acrylic stand onto y-axis rail and make the edge flush with the idler pulley end. Tighten</li>
 				<li>Reassemble X-axis</li>
 				<li>Reconnect any disconnected wires</li>
 				<li>Attach sensor 40mm from top of z-axis rail, then reassemble X-axis motion components</li>
+			</p>
+		</div>
+	</div>
+	
+	<div class="container-fluid well">
+		<div class="col-sm-6">
+			{% thumbnail pipettebot/assemblyXFinal.JPG %}
+		</div>
+		<div class="col-sm-6">
+			<h4>Step 9: Attach second stand to X-axis</h4>
+			<p>
+				<li>Slide right acrylic stand onto y-axis rail and make the edge flush with the idler pulley end. Tighten</li>
+				<li>Reassemble Y-axis</li>
+				<li>Reconnect any disconnected wires</li>
+				<li>Attach sensor 40mm from top of z-axis rail, then reassemble X-axis motion components</li>
+			</p>
+		</div>
+	</div>
+	
+	<div class="container-fluid well">
+		<div class="col-sm-6">
+			{% thumbnail pipettebot/assemblyYSensor.JPG %}
+		</div>
+		<div class="col-sm-6">
+			<h4>Step 10: Attach sensor to Y-axis</h4>
+			<p>
+				<li>Attach sensor 40mm from top of Y-axis rail, then reassemble Y-axis motion components</li>
+				<li>Reconnect any disconnected wires</li>
+			</p>
+		</div>
+	</div>
+	
+	<div class="container-fluid well">
+		<div class="col-sm-6">
+			{% thumbnail pipettebot/assemblyFinal.JPG %}
+		</div>
+		<div class="col-sm-6">
+			<h4>Step 11: Position all components</h4>
+			<p>
+				<li>Collect all parts</li>
+				<li>Position the components roughly as shown in the image. Details on specific positioning will be included in the calibration section</li>
 			</p>
 		</div>
 	</div>
