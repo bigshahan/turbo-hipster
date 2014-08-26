@@ -102,7 +102,7 @@ Bill of Materials
 		<tr>
 			<td> M5 Hex nuts </td>
 			<td> Generic M5 hext nuts. Can be found anywhere 25284-02 </td>
-			<td> A lot </td>
+			<td> A lot (about 40) </td>
 			<td> $10.00/100 </td>
 			<td> <a href="https://www.inventables.com/">Inventables</a></td>
 		</tr>
@@ -112,7 +112,7 @@ Bill of Materials
 		<tr>
 			<td> M5 insertion nuts </td>
 			<td> Nuts to attach components to rail 25281-02 </td>
-			<td> 20 </td>
+			<td> 27 </td>
 			<td> $5.00/100 </td>
 			<td> <a href="https://www.inventables.com/">Inventables</a></td>
 		</tr>
@@ -130,9 +130,289 @@ Bill of Materials
 	
 	<tbody>
 		<tr>
-			<td> Carriage spacers... </td>
+			<td> 1/4" nylon spacers</td>
 			<td> ...</td>
-			<td> ... </td>
+			<td> 15 </td>
+			<td> ...</td>
+			<td> <a href="https://www.inventables.com/">Inventables</a></td>
+		</tr>
+	</tbody>
+	
+	<tbody>
+		<tr>
+			<td> Idler wheel</td>
+			<td> ...</td>
+			<td> 3x </td>
+			<td> ...</td>
+			<td> <a href="https://www.inventables.com/">Inventables</a></td>
+		</tr>
+	</tbody>
+	
+	<tbody>
+		<tr>
+			<td> Male header</td>
+			<td> ...</td>
+			<td> ? </td>
+			<td> ...</td>
+			<td> <a href="https://www.inventables.com/">Inventables</a></td>
+		</tr>
+	</tbody>
+	
+	<tbody>
+		<tr>
+			<td>Female header</td>
+			<td> ...</td>
+			<td> ? </td>
+			<td> ...</td>
+			<td> <a href="https://www.inventables.com/">Inventables</a></td>
+		</tr>
+	</tbody>
+	
+	<tbody>
+		<tr>
+			<td> 10mm M5 bolt</td>
+			<td> ...</td>
+			<td> 13 </td>
+			<td> ...</td>
+			<td> <a href="https://www.inventables.com/">Inventables</a></td>
+		</tr>
+	</tbody>
+	
+	<tbody>
+		<tr>
+			<td> 12 mm M5 bolt</td>
+			<td> ...</td>
+			<td> 10 </td>
+			<td> ...</td>
+			<td> <a href="https://www.inventables.com/">Inventables</a></td>
+		</tr>
+	</tbody>
+	
+	<tbody>
+		<tr>
+			<td> 14 mm M5 bolt</td>
+			<td> ...</td>
+			<td> 2 </td>
+			<td> ...</td>
+			<td> <a href="https://www.inventables.com/">Inventables</a></td>
+		</tr>
+	</tbody>
+	
+	<tbody>
+		<tr>
+			<td> 16 mm M5 bolt</td>
+			<td> ...</td>
+			<td> 8 </td>
+			<td> ...</td>
+			<td> <a href="https://www.inventables.com/">Inventables</a></td>
+		</tr>
+	</tbody>
+	
+	<tbody>
+		<tr>
+			<td> 25 mm M5 bolt</td>
+			<td> ...</td>
+			<td> 4 </td>
+			<td> ...</td>
+			<td> <a href="https://www.inventables.com/">Inventables</a></td>
+		</tr>
+	</tbody>
+	
+	<tbody>
+		<tr>
+			<td> 30 mm M5 bolt</td>
+			<td> ...</td>
+			<td> 9 </td>
+			<td> ...</td>
+			<td> <a href="https://www.inventables.com/">Inventables</a></td>
+		</tr>
+	</tbody>
+	
+	<tbody>
+		<tr>
+			<td> 35 mm M5 bolt</td>
+			<td> ...</td>
+			<td> 12 </td>
+			<td> ...</td>
+			<td> <a href="https://www.inventables.com/">Inventables</a></td>
+		</tr>
+	</tbody>
+	
+	<tbody>
+		<tr>
+			<td> M5 washer</td>
+			<td> ...</td>
+			<td> A lot </td>
+			<td> ...</td>
+			<td> <a href="https://www.inventables.com/">Inventables</a></td>
+		</tr>
+	</tbody>
+	
+	<tbody>
+		<tr>
+			<td> Limit switch</td>
+			<td> ...</td>
+			<td> 4x </td>
+			<td> ...</td>
+			<td> <a href="https://www.inventables.com/">Inventables</a></td>
+		</tr>
+	</tbody>
+	
+	<tbody>
+		<tr>
+			<td> Large Breadboard</td>
+			<td> ...</td>
+			<td> 1 </td>
+			<td> ...</td>
+			<td> <a href="https://www.inventables.com/">Inventables</a></td>
+		</tr>
+	</tbody>
+	
+	<tbody>
+		<tr>
+			<td> Small breadboard</td>
+			<td> ...</td>
+			<td> 1 </td>
+			<td> ...</td>
+			<td> <a href="https://www.inventables.com/">Inventables</a></td>
+		</tr>
+	</tbody>
+	
+	<tbody>
+		<tr>
+			<td> Perfboard</td>
+			<td> ...</td>
+			<td> 1 </td>
+			<td> ...</td>
+			<td> <a href="https://www.inventables.com/">Inventables</a></td>
+		</tr>
+	</tbody>
+	
+	<tbody>
+		<tr>
+			<td> Arduino Uno</td>
+			<td> ...</td>
+			<td> 1 </td>
+			<td> ...</td>
+			<td> <a href="https://www.inventables.com/">Inventables</a></td>
+		</tr>
+	</tbody>
+	
+	<tbody>
+		<tr>
+			<td> DRV8825 stepper driver</td>
+			<td> ...</td>
+			<td> 3x </td>
+			<td> ...</td>
+			<td> <a href="https://www.inventables.com/">Inventables</a></td>
+		</tr>
+	</tbody>
+	
+	<tbody>
+		<tr>
+			<td> PNP transistor</td>
+			<td> ...</td>
+			<td> 5 </td>
+			<td> ...</td>
+			<td> <a href="https://www.inventables.com/">Inventables</a></td>
+		</tr>
+	</tbody>
+	
+	<tbody>
+		<tr>
+			<td> 1kOhm resistor</td>
+			<td> ...</td>
+			<td> 8 </td>
+			<td> ...</td>
+			<td> <a href="https://www.inventables.com/">Inventables</a></td>
+		</tr>
+	</tbody>
+	
+	<tbody>
+		<tr>
+			<td> 1uF capacitor</td>
+			<td> ...</td>
+			<td> 3 </td>
+			<td> ...</td>
+			<td> <a href="https://www.inventables.com/">Inventables</a></td>
+		</tr>
+	</tbody>
+	
+	<tbody>
+		<tr>
+			<td> ATX Power supply</td>
+			<td> ...</td>
+			<td> 1 </td>
+			<td> ...</td>
+			<td> <a href="https://www.inventables.com/">Inventables</a></td>
+		</tr>
+	</tbody>
+	
+	<tbody>
+		<tr>
+			<td> On/Off switch</td>
+			<td> ...</td>
+			<td> 1 </td>
+			<td> ...</td>
+			<td> <a href="https://www.inventables.com/">Inventables</a></td>
+		</tr>
+	</tbody>
+	
+	<tbody>
+		<tr>
+			<td> Small computer fan</td>
+			<td> ...</td>
+			<td> 1 </td>
+			<td> ...</td>
+			<td> <a href="https://www.inventables.com/">Inventables</a></td>
+		</tr>
+	</tbody>
+	
+	<tbody>
+		<tr>
+			<td> Bracket</td>
+			<td> ...</td>
+			<td> 6 </td>
+			<td> ...</td>
+			<td> <a href="https://www.inventables.com/">Inventables</a></td>
+		</tr>
+	</tbody>
+	
+	<tbody>
+		<tr>
+			<td> CD Drive</td>
+			<td> ...</td>
+			<td> 1 </td>
+			<td> ...</td>
+			<td> <a href="https://www.inventables.com/">Inventables</a></td>
+		</tr>
+	</tbody>
+	
+	<tbody>
+		<tr>
+			<td> 1/4" acrylic sheet</td>
+			<td> ...</td>
+			<td> 10 </td>
+			<td> ...</td>
+			<td> <a href="https://www.inventables.com/">Inventables</a></td>
+		</tr>
+	</tbody>
+	
+	<tbody>
+		<tr>
+			<td> 1/8" acrylic sheet</td>
+			<td> ...</td>
+			<td> 10 </td>
+			<td> ...</td>
+			<td> <a href="https://www.inventables.com/">Inventables</a></td>
+		</tr>
+	</tbody>
+	
+	<tbody>
+		<tr>
+			<td> Thin gauge sheet metal</td>
+			<td> ...</td>
+			<td> 10 </td>
 			<td> ...</td>
 			<td> <a href="https://www.inventables.com/">Inventables</a></td>
 		</tr>
