@@ -759,13 +759,14 @@ Instructions
 	
 	<div class="container-fluid well">
 		<div class="col-sm-6">
-			{% thumbnail pipettebot/.jpg %}
+			{% thumbnail pipettebot/atx1.jpg %}
+			{% thumbnail pipettebot/atx2.jpg %}
 		</div>
 		<div class="col-sm-6">
 			<h4>Step 2: Prepare ATX power supply</h4>
 			<p>
 				<li>Unplug ATX power supply and make sure it is fully discharged before working with it</li>
-				<li>Locate the pins to turn on and off the ATX power supply(GUIDE???)</li>
+				<li>Locate the pins to turn on and off the ATX power supply(http://www.instructables.com/id/How-to-power-up-an-ATX-Power-Supply-without-a-PC/)</li>
 				<li>Insert a short piece of wire into each pin, folding the ends if needed to ensure tight fit</li>
 				<li>Solder ends of wires onto on/off switch</li>
 				<li>Plug in ATX power supply</li>
@@ -831,24 +832,27 @@ Instructions
 	
 	<div class="container-fluid well">
 		<div class="col-sm-6">
-			{% thumbnail pipettebot/.jpg %}
+			{% thumbnail pipettebot/fanPosition.jpg %}
+			{% thumbnail pipettebot/fanWires.jpg %}
 		</div>
 		<div class="col-sm-6">
 			<h4>Step 5: Prepare fan</h4>
 			<p>
-				<li>Connect to power supply(???)</li>
+				<li>Position fan so it blows over electronic</li>
+				<li>Make sure the ATX power supply is off, then connect to power supply as shown</li>
+				<li>The fan should now turn on whenever the power supply is turned on!</li>
 			</p>
 		</div>
 	</div>
 	
 	<div class="container-fluid well">
 		<div class="col-sm-6">
-			{% thumbnail pipettebot/.jpg %}
+			{% thumbnail pipettebot/cdPower.jpg %}
 		</div>
 		<div class="col-sm-6">
 			<h4>Step 6: Power to CD drive</h4>
 			<p>
-				<li>There should be a wire coming out of the power supply that connects directly into the power supply</li>
+				<li>There should be a wire coming out of the power supply that connects directly into the CD-drive</li>
 			</p>
 		</div>
 	</div>
