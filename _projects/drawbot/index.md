@@ -1,7 +1,7 @@
 ---
 layout: project
 title: Drawbot
-description: awesome description of project
+description: An ultra-low cost, large, joystick controlled drawing robot
 project: drawbot
 home: true
 ---

@@ -7,9 +7,3 @@ project: pipettebot
 Changelog
 ==========
 
-# test 2
-
-sadfsdf
-sd
-fsd
-fsd

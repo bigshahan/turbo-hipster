@@ -7,4 +7,3 @@ project: drawbot
 Instructions
 ==========
 
-cool

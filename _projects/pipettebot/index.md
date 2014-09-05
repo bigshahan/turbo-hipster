@@ -1,7 +1,7 @@
 ---
 layout: project
 title: PipetteBot
-description: awesome description of project
+description: Motion control hardware, electronics, and software for converting an electronic 8-channel pipette into an automated platform capable of programmed filling of multiple 96 well plates
 project: pipettebot
 home: true
 ---

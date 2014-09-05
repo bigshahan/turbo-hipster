@@ -1,7 +1,7 @@
 ---
 layout: project
 title: Multichannel Amplifier
-description: awesome description of project
+description: Printed circuit boards and build instructions for a 16 channel, high gain current-to-voltage converting amplifier
 project: multichannel-amp
 home: true
 ---
