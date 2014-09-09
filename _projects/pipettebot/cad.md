@@ -17,10 +17,10 @@ CAD and Drawings
 	</thead>
 	<tbody>
 		<tr>
-			<td>Support</td>
-			<td>Component of Stand</td>
+			<td>Complete CAD</td>
+			<td>RAR of CAD folders</td>
 			<td>
-				<a target="_blank" href="/downloads/pipettebot/support.SLDPRT">Solidworks</a>
+				<a target="_blank" href="/downloads/pipettebot/PipettebotCAD.rar">link</a>
 			</td>
 		</tr>
 	</tbody>

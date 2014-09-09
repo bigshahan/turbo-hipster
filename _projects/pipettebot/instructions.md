@@ -968,11 +968,21 @@ Instructions
 	</div>
 	
 	<div class="container-fluid well">
+		<div class="col-sm-12">
+			<h4>Step 6: Test circuit</h4>
+			<p>
+				<li>At this point temporarily reinstall the battery and connect the pipette to power</li>
+				<li>Using any conductive component, short together the pins on the perf board. The buttons should be properly functioning this way</li>
+			</p>
+		</div>
+	</div>
+	
+	<div class="container-fluid well">
 		<div class="col-sm-6">
 			{% thumbnail pipettebot/hackPipetteDrill.JPG %}
 		</div>
 		<div class="col-sm-6">
-			<h4>Step 6: Drill hole into battery cover</h4>
+			<h4>Step 7: Drill hole into battery cover</h4>
 			<p>
 				<li>Use a drill to make a small hole on the left side of the battery cover. This hole should be large enough to let through some wires</li>
 			</p>
@@ -985,7 +995,7 @@ Instructions
 			{% thumbnail pipettebot/hackPipetteGround.JPG %}
 		</div>
 		<div class="col-sm-6">
-			<h4>Step 7: Connect wire to battery ground</h4>
+			<h4>Step 8: Connect wire to battery ground</h4>
 			<p>
 				<li>Cut the black wire coming out of the battery pack</li>
 				<li>Cut and prep a 6 inch length normal gauge wire</li>
@@ -1003,7 +1013,7 @@ Instructions
 			{% thumbnail pipettebot/hackPipetteTape.JPG %}
 		</div>
 		<div class="col-sm-6">
-			<h4>Step 8: Wrap pipette with tape</h4>
+			<h4>Step 9: Wrap pipette with tape</h4>
 			<p>
 				<li>Wrap the pipette body with tape as shown in the image</li>
 			</p>
@@ -1013,34 +1023,22 @@ Instructions
 	</div>
 	
 	<div class="container-fluid well">
-		<div class="col-sm-6">
-			{% thumbnail pipettebot/.JPG %}
-		</div>
-		<div class="col-sm-6">
-			<h4>Step 9: Connect pipette to Arduino</h4>
+		<div class="col-sm-12">
+			<h4>Step 10: Connect pipette to Arduino and test</h4>
 			<p>
-				<li></li>
+				<li>Refer to electronics sections for connecting pipette to Arduino</li>
+				<li>Make sure pipette is powered</li>
+				<li>Make sure all other robot components are either unpowered or disconnected</li>
+				<li>Connect Arduino to computer via usb</li>
+				<li>Upload Pipettebot code</li>
+				<li>Open serial monitor</li>
+				<li>Run case "P". This should power on the pipette if it is not already on</li>
+				<li>Run case "w". This should activate the dispense button</li>
+				<li>Run case "H". This should increase the volume by a set amount</li>
+				<li>Run case "h". This should decrease the volume by a set amount</li>
+				<li>Run case "M". This should open the menu option</li>
+				<li>If any of these cases do not work, check the wiring and the circuitry</li>
 			</p>
-
-			<p class="alert alert-success">...</p>
-			<p class="alert alert-info">...</p>
-			<p class="alert alert-warning">...</p>
-			<p class="alert alert-danger">...</p>
-		</div>
-	</div>
-	
-	<div class="container-fluid well">
-		<div class="col-sm-6">
-			{% thumbnail pipettebot/.JPG %}
-		</div>
-		<div class="col-sm-6">
-			<h4>Step 10: Test again</h4>
-			<p>text</p>
-
-			<p class="alert alert-success">...</p>
-			<p class="alert alert-info">...</p>
-			<p class="alert alert-warning">...</p>
-			<p class="alert alert-danger">...</p>
 		</div>
 	</div>
 </div>
