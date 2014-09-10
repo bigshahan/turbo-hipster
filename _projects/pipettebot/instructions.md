@@ -216,7 +216,7 @@ Instructions
 			<p>
 				<li> Get both 1m Makerslide rails. </li>
 				<li> Using a bandsaw or hacksaw, cut one rail in half, and the other into a 65mm and 35mm piece. </li>
-				<li> You will use one 65mm piece, one 50mm piece, and one 35mm piece. </li>
+				<li> You will use one 650mm piece, one 500mm piece, and one 350mm piece. </li>
 			</p>
 			
 			<p class="alert alert-success">You will use three of the rails. One 50mm piece will not be used. </p>

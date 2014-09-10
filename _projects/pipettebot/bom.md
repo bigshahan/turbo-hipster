@@ -17,6 +17,16 @@ Bill of Materials
 			<th> Link </th>
 		</tr>
 	</thead>
+
+	<tbody>
+		<tr>
+			<td> 8-channel electronic pipette </td>
+			<td> We used the Transferpette-8 Channel Pipette (volume range can be chosen to suit need). Can be obtained used from eBay for cheap. Other models may work as well </td>
+			<td> 1 </td>
+			<td> Less than $100.00 used </td>
+			<td> <a href="https://www.ebay.com">eBay</a></td>
+		</tr>
+	</tbody>
 	
 	<tbody>
 		<tr>
@@ -52,7 +62,7 @@ Bill of Materials
 		<tr>
 			<td> MXL Belt </td>
 			<td> 1 foot length 25205-01 </td>
-			<td> ... </td>
+			<td> 12 feet </td>
 			<td> $1.99/foot </td>
 			<td> <a href="https://www.inventables.com/">Inventables</a></td>
 		</tr>
@@ -131,9 +141,9 @@ Bill of Materials
 	<tbody>
 		<tr>
 			<td> 1/4" nylon spacers</td>
-			<td> ...</td>
+			<td> 25206-01</td>
 			<td> 15 </td>
-			<td> ...</td>
+			<td> $2.00/10</td>
 			<td> <a href="https://www.inventables.com/">Inventables</a></td>
 		</tr>
 	</tbody>
@@ -141,9 +151,9 @@ Bill of Materials
 	<tbody>
 		<tr>
 			<td> Idler wheel</td>
-			<td> ...</td>
-			<td> 3x </td>
-			<td> ...</td>
+			<td> Free pulley that supports belt on opposite end of stepper motor 25197-02</td>
+			<td> 3 </td>
+			<td> $5.75</td>
 			<td> <a href="https://www.inventables.com/">Inventables</a></td>
 		</tr>
 	</tbody>
@@ -151,29 +161,29 @@ Bill of Materials
 	<tbody>
 		<tr>
 			<td> Male header</td>
-			<td> ...</td>
-			<td> ? </td>
-			<td> ...</td>
-			<td> <a href="https://www.inventables.com/">Inventables</a></td>
+			<td> Generic breakaway headers PRT-00116</td>
+			<td> 3 </td>
+			<td> $1.50</td>
+			<td> <a href="https://www.sparkfun.com">Sparkfun</a></td>
 		</tr>
 	</tbody>
 	
 	<tbody>
 		<tr>
-			<td>Female header</td>
-			<td> ...</td>
-			<td> ? </td>
-			<td> ...</td>
-			<td> <a href="https://www.inventables.com/">Inventables</a></td>
+			<td> Female header</td>
+			<td> Generic female header PRT-00115</td>
+			<td> 1 </td>
+			<td> $1.50</td>
+			<td> <a href="https://www.sparkfun.com">Sparkfun</a></td>
 		</tr>
 	</tbody>
 	
 	<tbody>
 		<tr>
 			<td> 10mm M5 bolt</td>
-			<td> ...</td>
+			<td> Generic bolt. Can be found anywhere 25285-01</td>
 			<td> 13 </td>
-			<td> ...</td>
+			<td> $3.52/10</td>
 			<td> <a href="https://www.inventables.com/">Inventables</a></td>
 		</tr>
 	</tbody>
@@ -181,9 +191,9 @@ Bill of Materials
 	<tbody>
 		<tr>
 			<td> 12 mm M5 bolt</td>
-			<td> ...</td>
+			<td> Generic bolt. Can be found anywhere 25285-02</td>
 			<td> 10 </td>
-			<td> ...</td>
+			<td> $3.59/10</td>
 			<td> <a href="https://www.inventables.com/">Inventables</a></td>
 		</tr>
 	</tbody>
@@ -191,19 +201,19 @@ Bill of Materials
 	<tbody>
 		<tr>
 			<td> 14 mm M5 bolt</td>
-			<td> ...</td>
+			<td> Generic bolt. Can be found anywhere 95263A360</td>
 			<td> 2 </td>
-			<td> ...</td>
-			<td> <a href="https://www.inventables.com/">Inventables</a></td>
+			<td> $5.07/25</td>
+			<td> <a href="https://www.mcmaster.com/">McMaster</a></td>
 		</tr>
 	</tbody>
 	
 	<tbody>
 		<tr>
 			<td> 16 mm M5 bolt</td>
-			<td> ...</td>
+			<td> Generic bolt. Can be found anywhere 25285-03</td>
 			<td> 8 </td>
-			<td> ...</td>
+			<td> $3.63/10</td>
 			<td> <a href="https://www.inventables.com/">Inventables</a></td>
 		</tr>
 	</tbody>
@@ -211,9 +221,9 @@ Bill of Materials
 	<tbody>
 		<tr>
 			<td> 25 mm M5 bolt</td>
-			<td> ...</td>
+			<td> Generic bolt. Can be found anywhere 25285-04</td>
 			<td> 4 </td>
-			<td> ...</td>
+			<td> $3.87</td>
 			<td> <a href="https://www.inventables.com/">Inventables</a></td>
 		</tr>
 	</tbody>
@@ -221,9 +231,9 @@ Bill of Materials
 	<tbody>
 		<tr>
 			<td> 30 mm M5 bolt</td>
-			<td> ...</td>
+			<td> Generic bolt. Can be found anywhere 25285-05</td>
 			<td> 9 </td>
-			<td> ...</td>
+			<td> $3.95/10</td>
 			<td> <a href="https://www.inventables.com/">Inventables</a></td>
 		</tr>
 	</tbody>
@@ -231,19 +241,19 @@ Bill of Materials
 	<tbody>
 		<tr>
 			<td> 35 mm M5 bolt</td>
-			<td> ...</td>
+			<td> Generic bolt. Can be found anywhere 91290A256</td>
 			<td> 12 </td>
-			<td> ...</td>
-			<td> <a href="https://www.inventables.com/">Inventables</a></td>
+			<td> $9.67/50</td>
+			<td> <a href="https://www.mcmaster.com/">McMaster</a></td>
 		</tr>
 	</tbody>
 	
 	<tbody>
 		<tr>
 			<td> M5 washer</td>
-			<td> ...</td>
+			<td> Generic washer. Can be found anywhere 25287-02</td>
 			<td> A lot </td>
-			<td> ...</td>
+			<td> $10.00/100</td>
 			<td> <a href="https://www.inventables.com/">Inventables</a></td>
 		</tr>
 	</tbody>
@@ -251,9 +261,9 @@ Bill of Materials
 	<tbody>
 		<tr>
 			<td> Limit switch</td>
-			<td> ...</td>
-			<td> 4x </td>
-			<td> ...</td>
+			<td> Type B subminiature snap-acting switch (SSPST-NO) 7658K12</td>
+			<td> 4 </td>
+			<td> $3.52</td>
 			<td> <a href="https://www.inventables.com/">Inventables</a></td>
 		</tr>
 	</tbody>
@@ -261,9 +271,9 @@ Bill of Materials
 	<tbody>
 		<tr>
 			<td> Large Breadboard</td>
-			<td> ...</td>
+			<td> Generic breadboard. Can be found anywhere 25055-01</td>
 			<td> 1 </td>
-			<td> ...</td>
+			<td> $5.95</td>
 			<td> <a href="https://www.inventables.com/">Inventables</a></td>
 		</tr>
 	</tbody>
@@ -271,29 +281,29 @@ Bill of Materials
 	<tbody>
 		<tr>
 			<td> Small breadboard</td>
-			<td> ...</td>
+			<td> Generic breadboard. Can be found anywhere PRT-12046</td>
 			<td> 1 </td>
-			<td> ...</td>
-			<td> <a href="https://www.inventables.com/">Inventables</a></td>
+			<td> $3.95</td>
+			<td> <a href="https://www.sparkfun.com">Sparkfun</a></td>
 		</tr>
 	</tbody>
 	
 	<tbody>
 		<tr>
 			<td> Perfboard</td>
-			<td> ...</td>
+			<td> Any small board will do PRT-08808</td>
 			<td> 1 </td>
-			<td> ...</td>
-			<td> <a href="https://www.inventables.com/">Inventables</a></td>
+			<td> $1.50</td>
+			<td> <a href="https://www.sparkfun.com">Sparkfun</a></td>
 		</tr>
 	</tbody>
 	
 	<tbody>
 		<tr>
 			<td> Arduino Uno</td>
-			<td> ...</td>
+			<td> Popular low cost microcontroller 25063-01</td>
 			<td> 1 </td>
-			<td> ...</td>
+			<td> $29.50</td>
 			<td> <a href="https://www.inventables.com/">Inventables</a></td>
 		</tr>
 	</tbody>
@@ -301,9 +311,9 @@ Bill of Materials
 	<tbody>
 		<tr>
 			<td> DRV8825 stepper driver</td>
-			<td> ...</td>
-			<td> 3x </td>
-			<td> ...</td>
+			<td> Stepper motor driver carrier 26034-01</td>
+			<td> 3 </td>
+			<td> $14.95</td>
 			<td> <a href="https://www.inventables.com/">Inventables</a></td>
 		</tr>
 	</tbody>
@@ -311,69 +321,69 @@ Bill of Materials
 	<tbody>
 		<tr>
 			<td> PNP transistor</td>
-			<td> ...</td>
+			<td> Generic transistor. Can be found anywhere COM-00522</td>
 			<td> 5 </td>
-			<td> ...</td>
-			<td> <a href="https://www.inventables.com/">Inventables</a></td>
+			<td> $0.50</td>
+			<td> <a href="https://www.sparkfun.com">Sparkfun</a></td>
 		</tr>
 	</tbody>
 	
 	<tbody>
 		<tr>
 			<td> 1kOhm resistor</td>
-			<td> ...</td>
+			<td> Generic resistor COM-08980</td>
 			<td> 8 </td>
-			<td> ...</td>
-			<td> <a href="https://www.inventables.com/">Inventables</a></td>
+			<td> $0.25</td>
+			<td> <a href="https://www.sparkfun.com">Sparkfun</a></td>
 		</tr>
 	</tbody>
 	
 	<tbody>
 		<tr>
 			<td> 1uF capacitor</td>
-			<td> ...</td>
+			<td> Generic capacitor COM-00523</td>
 			<td> 3 </td>
-			<td> ...</td>
-			<td> <a href="https://www.inventables.com/">Inventables</a></td>
+			<td> $0.45</td>
+			<td> <a href="https://www.sparkfun.com">Sparkfun</a></td>
 		</tr>
 	</tbody>
 	
 	<tbody>
 		<tr>
 			<td> ATX Power supply</td>
-			<td> ...</td>
+			<td> Scavenge from an old computer!</td>
 			<td> 1 </td>
-			<td> ...</td>
-			<td> <a href="https://www.inventables.com/">Inventables</a></td>
+			<td> Free</td>
+			<td> N/A</td>
 		</tr>
 	</tbody>
 	
 	<tbody>
 		<tr>
 			<td> On/Off switch</td>
-			<td> ...</td>
+			<td> Any switch will work COM-10727</td>
 			<td> 1 </td>
-			<td> ...</td>
-			<td> <a href="https://www.inventables.com/">Inventables</a></td>
+			<td> $0.50</td>
+			<td> <a href="https://www.sparkfun.com">Sparkfun</a></td>
 		</tr>
 	</tbody>
 	
 	<tbody>
 		<tr>
 			<td> Small computer fan</td>
-			<td> ...</td>
+			<td> Scavenge from an old computer!</td>
 			<td> 1 </td>
-			<td> ...</td>
-			<td> <a href="https://www.inventables.com/">Inventables</a></td>
+			<td> Free</td>
+			<td> N/A</td>
 		</tr>
 	</tbody>
 	
 	<tbody>
 		<tr>
 			<td> Bracket</td>
-			<td> ...</td>
+			<td> Extrusion bracket (double slot) 25293-01</td>
 			<td> 6 </td>
-			<td> ...</td>
+			<td> $3.00</td>
 			<td> <a href="https://www.inventables.com/">Inventables</a></td>
 		</tr>
 	</tbody>
@@ -381,40 +391,40 @@ Bill of Materials
 	<tbody>
 		<tr>
 			<td> CD Drive</td>
-			<td> ...</td>
+			<td> Scavenge from and old computer!</td>
 			<td> 1 </td>
-			<td> ...</td>
-			<td> <a href="https://www.inventables.com/">Inventables</a></td>
+			<td> Free</td>
+			<td> N/A</td>
 		</tr>
 	</tbody>
 	
 	<tbody>
 		<tr>
 			<td> 1/4" acrylic sheet</td>
-			<td> ...</td>
-			<td> 10 </td>
-			<td> ...</td>
-			<td> <a href="https://www.inventables.com/">Inventables</a></td>
+			<td> 6"x12" sheets 8560K359. Sheets must fit in laser cutter. Larger sheets can be purchased and cut to save costs</td>
+			<td> 20 </td>
+			<td> $10.99</td>
+			<td> <a href="https://www.mcmaster.com/">McMaster</a></td>
 		</tr>
 	</tbody>
 	
 	<tbody>
 		<tr>
 			<td> 1/8" acrylic sheet</td>
-			<td> ...</td>
-			<td> 10 </td>
-			<td> ...</td>
-			<td> <a href="https://www.inventables.com/">Inventables</a></td>
+			<td> 6"x12" sheet 8560K275</td>
+			<td> 1 </td>
+			<td> $5.07</td>
+			<td> <a href="https://www.mcmaster.com/">McMaster</a></td>
 		</tr>
 	</tbody>
 	
 	<tbody>
 		<tr>
 			<td> Thin gauge sheet metal</td>
-			<td> ...</td>
-			<td> 10 </td>
-			<td> ...</td>
-			<td> <a href="https://www.inventables.com/">Inventables</a></td>
+			<td> Approximately 6"x6" sheet needed. Anything easily bent will work. Aluminum is preferable. Find some lying around!</td>
+			<td> 1 </td>
+			<td> N/A</td>
+			<td> N/A</td>
 		</tr>
 	</tbody>
 </table>
