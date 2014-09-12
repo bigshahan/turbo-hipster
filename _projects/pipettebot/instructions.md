@@ -2035,10 +2035,6 @@ Instructions
 				<li>It is a good idea to slow down the movement of the robot by wiring the stepper driver to take the smallest microsteps possible, or by adjusting the code</li>
 			</p>
 
-			<p class="alert alert-success">...</p>
-			<p class="alert alert-info">...</p>
-			<p class="alert alert-warning">...</p>
-			<p class="alert alert-danger">...</p>
 		</div>
 	</div>
 	
@@ -2048,16 +2044,13 @@ Instructions
 			<p>
 				<li>Move Z-axis rail, reservoir, and tip box out of the way</li>
 				<li>Manually place pipette tips onto pipette</li>
-				<li>Run the "tip replacement/removal" program to calibrate the position of the pipette tip wedge</li>
-				<li>If the Y-axis distances are off, first adjust the code. If this is not possible resort to other two options</li>
+				<li>Run the "tips_remove" program (input case '0' into serial monitor) to calibrate the position of the pipette tip wedge</li>
+				<li>If the Y-axis distances are off, first adjust the code in "tips_remove". If this is not possible resort to other two options</li>
 				<li>If the Z-axis distances are off, first adjust the mounting point of the Z-axis rail on the Y-axis carriage</li>
 				<li>When properly calibrated, the tips should be consistently removed and no motor grinding/impacts should be present</li>
 			</p>
 
-			<p class="alert alert-success">...</p>
-			<p class="alert alert-info">...</p>
 			<p class="alert alert-warning">When adjusting the mounting point of the Z-axis rail, make sure to not adjust it so low the pipette hits the Z-axis components, or so high the robot becomes top heavy!</p>
-			<p class="alert alert-danger">...</p>
 		</div>
 	</div>
 	
@@ -2065,19 +2058,16 @@ Instructions
 		<div class="col-sm-12">
 			<h4>Step 3: Tip replacement</h4>
 			<p>
-				<li>Run the "tip replacement/removal" again</li>
+				<li>Run "tips(int tips)" (case "Q") </li>
 				<li>Position the box underneath the pipette in the location where it attempts to pick up new tips</li>
 				<li>Align the left-most row of tips with the pipette</li>
 				<li>If the X-axis distances are off, move the tip box</li>
 				<li>Once the ideal positioning of the tip box is found, temporarily attach the box to the work surface with tape</li>
-				<li>If Y-axis distances are off (i.e. the tips are not put on firmly, or the force of putting on tips lifts the whole rail), adjust the code</li>
+				<li>If Y-axis distances are off (i.e. the tips are not put on firmly, or the force of putting on tips lifts the whole rail), adjust the code in "tips(int tips)"</li>
 				<li>At this point, the robot should be able to put on new tips, and dispose of old ones</li>
 			</p>
 
-			<p class="alert alert-success">...</p>
-			<p class="alert alert-info">...</p>
 			<p class="alert alert-warning">When adjusting the mounting point of the Z-axis rail, make sure to not adjust it so low the pipette hits the Z-axis components, or so high the robot becomes top heavy!</p>
-			<p class="alert alert-danger">...</p>
 		</div>
 	</div>
 	
@@ -2086,19 +2076,14 @@ Instructions
 			<h4>Step 4: Position Z-axis rail</h4>
 			<p>
 				<li>Remove pipette tips, and place a 96 well plate in the Z-rail carriage</li>
-				<li>Run the "fill well plates" function and observe the clearance between the pipette and Z-axis</li>
-				<li>If the clearance seems okay, add pipette tips and run "fill well plate" again. Otherwise first adjust the code for the Y-axis</li>
+				<li>Run the "fill_constant(int, int)" function (case "G") and observe the clearance between the pipette and Z-axis</li>
+				<li>If the clearance seems okay, add pipette tips and run "fill_constant(int, int)" again. Otherwise first adjust the code for the Y-axis</li>
 				<li>The Z-axis should automatically position the well plate along the rail</li>
 				<li>Position the Z-axis underneath the X-axis rail such that the tips align with the wells at every position of the well plate as the function runs</li>
 				<li>The distance between the Z-axis rail and the tip box should be minimal</li>
 				<li>When everything is set, use tape to the attach rail to the work surface</li>
 				<li>At this point, the robot should be able to move between every single row of the well plate and accurately position the pipette tips</li>
 			</p>
-
-			<p class="alert alert-success">...</p>
-			<p class="alert alert-info">...</p>
-			<p class="alert alert-warning">...</p>
-			<p class="alert alert-danger">...</p>
 		</div>
 	</div>
 	
@@ -2106,7 +2091,7 @@ Instructions
 		<div class="col-sm-12">
 			<h4>Step 5: Position reservoir</h4>
 			<p>
-				<li>Remove tips, and run "full test"</li>
+				<li>Remove tips, and run "all(int)" (case "1"). This will run a fully automated filling of the 96 well plate with one solution</li>
 				<li>Position reservoir underneath the pipette at the position where it stops to pick up more solution</li>
 				<li>If the Y-axis height seems adequate, add pipette tips and test again. If not, first adjust Y-axis code</li>
 				<li>Calibrate code such that the tips are just above the bottom of the reservoir when picking up new solution</li>
@@ -2114,11 +2099,6 @@ Instructions
 				<li>At this point, the robot should be able to pick up tips, aspirate and dispense solution into every well, and then dispose of the tips</li>
 				<li>Add some water to the reservoir and run "full test". Make sure the robot is properly aspirating and dispensing solution</li>
 			</p>
-
-			<p class="alert alert-success">...</p>
-			<p class="alert alert-info">...</p>
-			<p class="alert alert-warning">...</p>
-			<p class="alert alert-danger">...</p>
 		</div>
 	</div>
 	
@@ -2126,22 +2106,17 @@ Instructions
 		<div class="col-sm-12">
 			<h4>Step 6: Calibrate Z-axis rail</h4>
 			<p>
-				<li>When running "full test", at one point the Z-axis should move the carriage to the opposite end of the rail and hit the sensor connected to the CD-drive</li>
+				<li>When running "all(int)", at one point the Z-axis should move the carriage to the opposite end of the rail and hit the sensor connected to the CD-drive</li>
 				<li>Adjust the code so that the carriage stops just past the limit switch. It should trigger the switch when moving to the end, and then trigger the switch again when returning</li>
 			</p>
-
-			<p class="alert alert-success">...</p>
-			<p class="alert alert-info">...</p>
-			<p class="alert alert-warning">...</p>
-			<p class="alert alert-danger">...</p>
 		</div>
 	</div>
 	
-	<div class="container-fluid well">>
+	<div class="container-fluid well">
 		<div class="col-sm-12">
 			<h4>Step 7: Position well plate tower, off ramp, and CD-drive</h4>
 			<p>
-				<li>Run "full test"</li>
+				<li>Run "all(int)"</li>
 				<li>Carefully align the well plate tower with the carriage when it stops on the CD-drive sensor side</li>
 				<li>The well-plate carriage and the plate tower should be almost touching</li>
 				<li>DO NOT fix the plate tower to the work surface yet</li>
@@ -2151,11 +2126,6 @@ Instructions
 				<li>Adjust positioning as needed</li>
 				<li>Once everything is working smoothly, fix the tower and CD-drive into position with tape</li>
 			</p>
-
-			<p class="alert alert-success">...</p>
-			<p class="alert alert-info">...</p>
-			<p class="alert alert-warning">...</p>
-			<p class="alert alert-danger">...</p>
 		</div>
 	</div>
 	
@@ -2164,15 +2134,11 @@ Instructions
 			<h4>Step 8: Final test</h4>
 			<p>
 				<li>Remove pipette tips, add solution to reservoirs, fill pipette tip box with tips, and add well plates to well plate tower</li>
-				<li>Run "full test" several times</li>
+				<li>Run "all(int)" several times</li>
+				<li>If satisfactory, run "all2(int)" (case "5"). This program will now fill the well plate with two different solutions</li>
 				<li>If the robot is working consistently, remove tape and hot glue gun everything into position</li>
 				<li>Yay! You're done!</li>
 			</p>
-
-			<p class="alert alert-success">...</p>
-			<p class="alert alert-info">...</p>
-			<p class="alert alert-warning">...</p>
-			<p class="alert alert-danger">...</p>
 		</div>
 	</div>
 </div>
