@@ -7,4 +7,6 @@ home: true
 ---
 
 <h2>Pipettebot</h2>
-<p> The Pipettebot is a low-cost, open-source, automated pipetting robot developed by students at UCLA. </p>
+<p> The Pipettebot is a low-cost, open-source, automated pipetting robot developed by students at UCLA!</p>
+<p> We developed the Pipettebot with the hope that it will increase the accessibility of research, and provide a modular platform for performing repetitive laboratory tasks.</p>
+<p> If you have any questions or comments please leave them below! You can also contact me by email at honestykim [at] gmail [dot] com.</p>

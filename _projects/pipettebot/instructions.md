@@ -58,6 +58,7 @@ Instructions
 			<p>
 				<li>Unless otherwise noted, all of these pieces are to be cut from 1/4" acrylic</li>
 				<li>The lasercutting section will be organized according to major components, similar to the way the instructions are sectioned </li>
+				<li>The directory location within the PipettebotCAD file are provided</li>
 				<li>PDF files and Solidworks drawings of the 2D pattern to cut are provided</li>
 				<li>You can either laser cut all the components at once, or do them right before working on that particular assembly</li>
 				<li>Any thin, flat pieces of scrap acrylic are useful for use as buttressing to provide additional structural support</li>
@@ -76,6 +77,7 @@ Instructions
 			<h4>Step 2: Lasercut motion components</h4>
 			<p>
 				<li>Cut three copies </li>
+				<li>PipettebotCAD\WEBSITE\Motion Components</li>
 			</p>
 		</div>
 	</div>
@@ -88,6 +90,7 @@ Instructions
 			<h4>Step 3: Lasercut frame components</h4>
 			<p>
 				<li>Cut two copies </li>
+				<li>PipettebotCAD\WEBSITE\Frame Components\Lasercut</li>
 			</p>
 		</div>
 	</div>
@@ -100,6 +103,7 @@ Instructions
 			<h4>Step 4: Lasercut sensor components</h4>
 			<p>
 				<li>Cut four copies </li>
+				<li>PipettebotCAD\WEBSITE\Sensor Components</li>
 			</p>
 		</div>
 	</div>
@@ -117,6 +121,7 @@ Instructions
 				<li>The first contains patterns for the CD drive holder, and the CD drive push rod </li>
 				<li>The second contains patterns for the well plate guide and the off ramp </li>
 				<li>The last contains patterns for the well plate tower </li>
+				<li>PipettebotCAD\WEBSITE\Well Plate Replacement Components</li>
 			</p>
 		</div>
 	</div>
@@ -129,6 +134,7 @@ Instructions
 			<h4>Step 6: Lasercut pipette tip removal components</h4>
 			<p>
 				<li>Cut one copy</li>
+				<li>PipettebotCAD\WEBSITE\Pipette Tip Removal Components</li>
 			</p>
 			
 			</div>
@@ -142,6 +148,7 @@ Instructions
 			<h4>Step 7: Lasercut pipette mount components</h4>
 			<p>
 				<li>Cut one copy</li>
+				<li>PipettebotCAD\WEBSITE\Pipette Mount Components</li>
 			</p>
 			
 			</div>
@@ -149,11 +156,11 @@ Instructions
 	
 	<div class="container-fluid well">
 		<div class="col-sm-12">
-			<h4>Step 7: 3D printed parts: Overview</h4>
+			<h4>Step 8: 3D printed parts: Overview</h4>
 			<p>
 				<li>Like the lasercutter section, the 3D printer section is organized according to subcomponents </li>
-				<li>The 3D printed parts are provided as both DXF and STL files </li>
-				<li>The 3D printed parts can be printed from any ABS or PLA. It is recommended to use ABS for the pipette mount components as they take larger loads </li>
+				<li>The 3D printed parts are provided as both DXF and STL files. Print all of the STLfiles within the provided directory</li>
+				<li>The 3D printed parts can be printed from any ABS or PLA. It is recommended to use ABS for the pipette mount components because it is a stronger material </li>
 			</p>
 			
 		</div>
@@ -164,9 +171,10 @@ Instructions
 			{% thumbnail pipettebot/3DPStand.JPG %}
 		</div>
 		<div class="col-sm-6">
-			<h4>Step 8: 3D print frame components</h4>
+			<h4>Step 9: 3D print frame components</h4>
 			<p>
 				<li> Print 2 copies </li>
+ 				<li>PipettebotCAD\WEBSITE\Frame Components\3DPrint</li>
 			</p>
 			
 		</div>
@@ -177,9 +185,10 @@ Instructions
 			{% thumbnail pipettebot/3DPPipetteMounts.JPG %}
 		</div>
 		<div class="col-sm-6">
-			<h4>Step 9: 3D print electronic pipette mount components</h4>
+			<h4>Step 10: 3D print electronic pipette mount components</h4>
 			<p>
 				<li> Print one copy </li>
+ 				<li>PipettebotCAD\WEBSITE\Pipette Mount Components\PipetteMounts</li>
 			</p>
 			
 			<p class="alert alert-info">Print out of ABS if possible</p>
@@ -192,9 +201,10 @@ Instructions
 			{% thumbnail pipettebot/3DPWellPlateHolder.JPG %}
 		</div>
 		<div class="col-sm-6">
-			<h4>Step 10: 3D print well plate replacement components</h4>
+			<h4>Step 11: 3D print well plate replacement components</h4>
 			<p>
 				<li> Print one component </li>
+ 				<li>PipettebotCAD\WEBSITE\Well Plate Replacement Components\WellPlateHolder</li>
 			</p>
 			
 			<p class="alert alert-info">Large flat pieces are prone to warping. A heated bed may be required</p>
@@ -240,7 +250,7 @@ Instructions
 				<li> M5 insertion nuts 3x </li>
 			</p>
 			
-			<p class="alert alert-info"> The screws shown in the image come from the stepper motor, and can be removed. (Is this safe????) </p>
+			<p class="alert alert-info"> The screws shown in the image come from the stepper motor, and can be removed. This hasn't caused us any problems so far, but may not be the best solution... </p>
 			<p class="alert alert-info"> The image shows the male headers already soldered onto the stepper motor. </p>
 		</div>
 	</div>
@@ -259,7 +269,7 @@ Instructions
 				<li> Repeat for two other motors </li>
 			</p>
 			
-			<p class="alert alert-warning"> Make sure the wires are long enough (GIVE MINIMUM LENGTH OF WIRE) </p>
+			<p class="alert alert-warning"> Try to keep the wires as long as you can, as some of the motors will move pretty far away from the circuitry. </p>
 		</div>
 	</div>
 
@@ -294,7 +304,7 @@ Instructions
 				<li> Repeat for two other motors </li>
 			</p>
 			
-			<p class="alert alert-success"> This is the basic stepper motor assembly! (WHAT IS THE ORIENTATION NEEDED FOR EACH NUT/INSERTION NUT) </p>
+			<p class="alert alert-success"> This is the basic stepper motor assembly! </p>
 			<p class="alert alert-info"> The image shows the screws for the mount not fully threaded in for illustrative purposes. Fully tighten these screws! </p>
 		</div>
 	</div>
@@ -346,7 +356,7 @@ Instructions
 				<li> Repeat for other two idler pulleys </li>
 			</p>
 				
-			<p class="alert alert-success"> This is the basic idler pulley assembly! (WHAT IS THE ORIENTATION NEEDED FOR EACH NUT/INSERTION NUT) </p>
+			<p class="alert alert-success"> This is the basic idler pulley assembly! </p>
 		</div>
 	</div>
 
@@ -423,7 +433,7 @@ Instructions
 				<li> Tighten with M5 bolts </li>
 			</p>
 			
-			<p class="alert alert-info"> These bolts are to attach to the belt (Orientation???) </p>
+			<p class="alert alert-info"> These bolts are to attach to the belt.</p>
 		</div>
 	</div>
 
@@ -494,7 +504,6 @@ Instructions
 			
 			<p class="alert alert-success"> This is the complete motion component assembly. </p>
 			<p class="alert alert-info"> The assembly will need to be partially disassembled and reassembled at later steps. Be familiar with the assembly! </p>
-			<p class="alert alert-info"> (Orientation????) </p>
 		</div>
 	</div>
 </div>
@@ -517,7 +526,7 @@ Instructions
 				<li> Acrylic edge buttress [file name] 6x </li>
 				<li> 3D printed well plate motion stands [file name] 2x </li>
 				<li> M5 insertion nut 8x </li>
-				<li> M5 bolts SIZES???? </li>
+				<li> 12mm M5 bolts 8x</li>
 			</p>
 
 			<p class="alert alert-info">See "Lasercut and 3D printed parts" section for further details on fabrication of these parts.</p>
@@ -600,7 +609,7 @@ Instructions
 		<div class="col-sm-6">
 			<h4>Step 4: Add hardware to stands</h4>
 			<p>
-				<li>Collect 4x M5 bolts (SIZE???) and 4x M5 insertion nuts</li>
+				<li>Collect 4x 12mm M5 bolts and 4x M5 insertion nuts</li>
 				<li>Assemble as shown in image</li>
 			</p>
 
@@ -615,7 +624,7 @@ Instructions
 			<h4>Step 5: Add hardware to well plate motion stand</h4>
 			<p>
 				<li>Collect 3D printed stands</li>
-				<li>Collect 4x M5 bolts (SIZE???) and 4x M5 insertion nuts</li>
+				<li>Collect 4x 12mm M5 bolts and 4x M5 insertion nuts</li>
 				<li>Assemble as shown in image</li>
 			</p>
 		</div>
@@ -634,9 +643,9 @@ Instructions
 			<p>
 				<li>Limit switches (Mcmaster 7658K14) 4x</li>
 				<li>12mm (longer sizes can be used, but will require washers for spacers) M5 bolts 4x</li>
-				<li>1/4" acrylic spacers with M5 holes (part?) 4x</li>
+				<li>1/4" acrylic spacers with M5 holes 4x</li>
 				<li>M5 insertion nuts 4x</li>
-				<li>Thin, bendable sheet metal (gauge?)</li>
+				<li>Thin, bendable sheet metal </li>
 				<li>M5 washers (if using longer bolts) </li>
 				<li>Wire </li>
 				<li>Hot glue gun </li>
@@ -655,7 +664,7 @@ Instructions
 			<h4>Step 2: Prep sheet metal tabs </h4>
 			<p>
 				<li>Cut out rectangle as shown with shears</li>
-				<li>Drill hole using (SIZE???) drill</li>
+				<li>Drill hole using drill that matches M5 bolts</li>
 				<li>Bend 90 degrees along dotted lines</li>
 				<li>Repeat 4x</li>
 			</p>
@@ -700,7 +709,7 @@ Instructions
 		<div class="col-sm-6">
 			<h4>Step 5: Assemble bolt and spacers </h4>
 			<p>
-				<li>Thread the 12mm(?) M5 bolts through washers, the metal tab, and then the acrylic spacer as shown</li>
+				<li>Thread the 12mm M5 bolts through washers, the metal tab, and then the acrylic spacer as shown</li>
 				<li>Use as many washers as needed to allow the attachment of the switch to the rails without interference</li>
 			</p>
 
@@ -742,13 +751,13 @@ Instructions
 				<li>Small perfboard 1x</li>
 				<li>Arduino Uno Rev3 </li>
 				<li>Pololu Stepper Driver DRV8825 3x </li>
-				<li>PNP transistors (specifics????) 5x </li>
+				<li>PNP transistors 5x </li>
 				<li>1kOhm resistors 8x </li>
 				<li>100uF capacitor 3x </li>
 				<li>ATX power supply 1x </li>
 				<li>On/off switch 1x</li>
 				<li>Small computer fan 1x </li>
-				<li>Male headers with three pins 5x</li>
+				<li>Female headers with three pins 5x</li>
 			</p>
 
 			<p class="alert alert-info">Any Arduino will work as long as it has enough input/outputs. This guide is specifically written for the Rev3. If using another model, keep track of the pins and modify the wiring or code as needed.</p>
@@ -788,7 +797,7 @@ Instructions
 				<li>The GREEN lines correspond to Z-AXIS components</li>
 				<li>The YELLOW lines correspond to X-AXIS components</li>
 				<li>RED/BLACK correspond to POSITIVE/NEGATIVE, with the exception of the connections for the stepper motors</li>
-				<li>The component with the lightning bolt corresponds to the ATX power supply. Use the 5V (????)pins</li>
+				<li>The component with the lightning bolt corresponds to the ATX power supply. Use the 12V pins</li>
 				<li>Install the stepper driver in the orientation shown with the current adjustment facing up</li>
 				<li>Although this step cannot be completed now, if the steppers are overheating, turn down the current by turning screw counter-clockwise. If the steppers seem underpowered, turn up the current by turning screw clockwise</li>
 				<li>The wires just need to be long enough to connect the Arduino to the breadboard</li>
@@ -817,13 +826,11 @@ Instructions
 				<li>The wires connecting the breadboard to the perfboard should be about two feet long. The perfboard will be positioned near the pipette</li>
 				<li>Preparing perfboard
 					<ul>
-					<li>Remove the center pin from the five male header triplets</li>
-					<li>Hot glue the headers into the perfboard in the positions corresponding to the connections of the circuit diagram</li>
-					<li>Solder the wire ends coming from the small breadboard onto the headers on the side going through the perfboard</li>
-					<li>This should leave pins exposed on one side for quickly connecting/disconnecting from the pipette</li>
+					<li>The actual preparation of the perfboard will be covered in the next section</li>
+					<li>Connect each wire pair (the wires shown coming out of the breadboard and into the perfboard) to the outer pin of the female headers. The center pin should remain empty</li>
+>					<li>Label these wires by their polarity and corresponding buttons</li>
 					</ul>
 				</li>
-				<li>Be careful to keep track of the positive/negative wires connected to the transistors. Its a good idea to somehow mark the positive wires</li>
 				
 			</p>
 
@@ -872,6 +879,7 @@ Instructions
 				<li>Transferpette electronic 8-channel pipette </li>
 				<li>Perfboard </li>
 				<li>Thin gauge wire </li>
+				<li>Male headers in triplets 5x</li>
 			</p>
 
 			<p class="alert alert-info">Shown is Transferpette, with thin gauge wire coming out of its interface into a perfboard.</p>
@@ -955,15 +963,10 @@ Instructions
 			<h4>Step 5: Solder wires to perfboard</h4>
 			<p>
 				<li>Break up male headers into threes, and remove center pin. Repeat until you have five of these</li>
-				<li>Repeat with female headers</li>
 				<li>Solder corresponding pairs of wires onto each male header</li>
-				<li>Solder other end of header into the perfboard</li>
-				<li>Cut and strip 10 normal gauge wire in 2 foot lengths</li>
-				<li>Solder onto the female headers in pairs</li>
-				<li>Connect to the pins on perfboard</li>
+				<li>Solder other end of header into the perfboard, referring to the circuit illustration for reference</li>
+				<li>These male pins should each have corresponding female pins coming from the breadboard. Leave disconnected for now</li>
 			</p>
-
-			<p class="alert alert-info">The purpose of the male female pins is to allow the pipette to be disconnected if needed from the circuitry. In the prototype this was not done so the images do not properly correspond.</p>
 		</div>
 	</div>
 	
@@ -1065,10 +1068,10 @@ Instructions
 		<div class="col-sm-6">
 			<h4>Step 2: Collect parts for bottom mount and guide</h4>
 			<p>
-				<li>3D printed bottom pipette mount base (CAD PRT?)</li>
-				<li>3D printed bottom pipette mount clamp (CAD PRT?)</li>
-				<li>Lasercut pipette guide (PART?)</li>
-				<li>Lasercut pipette guide spacer 2x (PART???)</li>
+				<li>3D printed bottom pipette mount base </li>
+				<li>3D printed bottom pipette mount clamp </li>
+				<li>Lasercut pipette guide </li>
+				<li>Lasercut pipette guide spacer 2x </li>
 				<li>30mm M5 bolts 4x</li>
 				<li>25mm M5 bolts 2x</li>
 				<li>15mm M5 bolt 1x</li>
@@ -1191,7 +1194,7 @@ Instructions
 		<div class="col-sm-6">
 			<h4>Step 10: Collect parts for pipette mounting arm</h4>
 			<p>
-				<li>3D printed pipette mounting arm (CAD PART)</li>
+				<li>3D printed pipette mounting arm </li>
 				<li>30mm M5 bolts 2x</li>
 				<li>M5 nut 2x</li>
 			</p>
@@ -1420,11 +1423,9 @@ Instructions
 				<li> Glue together all the parts of the plate tower with acrylic glue </li>
 				<li> Use thin scrap pieces of 1/4" acrylic to buttress the joints of the legs </li>
 				<li> Glue short scrap pieces of 1/4" acrylic to along the sides of the slot as shown in the image. Make sure the pieces do not fully extend to the bottom of the slot </li>
-				<li> Reference [CAD file name here] </li>
 			</p>
 
 			<p class="alert alert-info"> Shown is a view from the rear. </p>
-			<p class="alert alert-info"> Need to modify CAD files to create flattened edge!!! </p>
 		</div>
 	</div>
 
@@ -1438,10 +1439,8 @@ Instructions
 				<li> Acrylic (1/4") top ramp surface </li>
 				<li> Acrylic (1/4") ramp sides 2x </li>
 				<li> Glue parts together using acrylic glue </li>
-				<li> Reference [CAD file name here] </li>
 			</p>
 
-			<p class="alert alert-info"> Need to modify CAD file to avoid grinding step!!! </p>
 		</div>
 	</div>
 
@@ -1452,7 +1451,7 @@ Instructions
 		<div class="col-sm-6">
 			<h4>Step 9: Collect parts for plate alignment part </h4>
 			<p>
-				<li> List of parts with CAD names... </li>
+				<li>Collect the parts shown</li>
 			</p>
 
 			<p class="alert alert-info"> Shown is assembled part. </p>
@@ -1470,7 +1469,6 @@ Instructions
 				<li> To determine spacing of vertical side pieces, slide plate holder assembly onto the Makerslide. Then attach bottom supports of alignment part to the rail, and position vertical side pieces off of the plate holder </li>
 				<li> When glueing on angled guides for the well plates, none of the edges interfere with the entrance </li>
 				<li> Use scrap pieces of 1/4" acrylic to buttress the edges of the side </li>
-				<li> Reference [CAD file name] </li>
 			</p>
 
 			<p class="alert alert-info"> Shown is one of the angled guides. </p>
@@ -1515,14 +1513,14 @@ Instructions
 			<p>
 				<li> CD-drive 1x </li>
 				<li> Fabricated position sensor assembly 1x </li>
-				<li> Acrylic (1/4") spacers [CAD file name] 2x </li>
-				<li> Acrylic (1/8") push [CAD file name] 1x </li>
+				<li> Acrylic (1/4") spacers 2x </li>
+				<li> Acrylic (1/8") push plate 1x </li>
 				<li> Extrusion bracket 1x </li>
 				<li> 25mm M5 bolt 2x </li>
 				<li> 16mm M5 bolt 1x </li>
 				<li> 10mm M5 bolt 1x </li>
 				<li> M5 nuts 3x </li>
-				<li> Wire 1.5'(???) 2x </li>
+				<li> Wire 1.5' 2x </li>
 			</p>
 
 			<p class="alert alert-info"> Image shows wires sensors already attached to CD-drive. This will not be the case. </p>
@@ -1658,12 +1656,11 @@ Instructions
 		<div class="col-sm-6">
 			<h4>Step 20: Collect parts for and assemble CD-drive stand</h4>
 			<p>
-				<li> Acrylic (1/4") long side stand [CAD file name] 2x </li>
-				<li> Acrylic (1/4") short side stand [CAD file name] 2x </li>
-				<li> Acrylic (1/4") support plates [CAD file name] 2x </li>
+				<li> Acrylic (1/4") long side stand 2x </li>
+				<li> Acrylic (1/4") short side stand 2x </li>
+				<li> Acrylic (1/4") support plates  2x </li>
 				<li> Use acrylic glue to assemble </li>
 				<li> Use scrap 1/4" acrylic to buttress edges </li>
-				<li> Reference [CAD file name] </li>
 			</p>
 			
 			<p class="alert alert-info"> Image shows completed assembly. </p>
@@ -1796,6 +1793,9 @@ Instructions
 <div id="content10" class="sidebar-content col-sm-8">
 	<h3>Code Guide </h3>
 
+		<li> Coming soon! </li>
+	
+<!--
 	<div class="container-fluid well">
 		<div class="col-sm-6">
 			{% thumbnail pipettebot/.JPG %}
@@ -1863,6 +1863,7 @@ Instructions
 
 		</div>
 	</div>
+>-->
 	
 </div>
 
@@ -2016,6 +2017,7 @@ Instructions
 			<p>
 				<li>Collect all parts</li>
 				<li>Position the components roughly as shown in the image. Details on specific positioning will be included in the calibration section</li>
+				<li>In the image the acrylic box to the left is a reservoir. The instructions/parts were not included in this write-up. You can use whatever size container you want, just adjust the Arduino code to match!</li>
 			</p>
 		</div>
 	</div>

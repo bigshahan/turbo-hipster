@@ -7,4 +7,4 @@ project: pipettebot
 Frequenty Asked Questions (FAQ)
 ==========
 
-FAQ page
+Ask questions below!
